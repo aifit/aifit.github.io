@@ -7,6 +7,7 @@ const { src, dest, series, watch, task, parallel } = require('gulp'),
   plumber     = require('gulp-plumber'),
   uglify      = require('gulp-uglify'),
   concat      = require('gulp-concat'),
+  babel       = require('gulp-babel'),
   jekyll      = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
 function jekyll_build() {
@@ -21,11 +22,23 @@ function browserSyncReload(done) {
 }
 
 function jekyll_js() {
-  return src('_javascript/*')
+  return src([
+    '_javascript/*.js'
+    ])
     .pipe(concat('script.js'))
     .pipe(uglify())
+    .pipe(babel({
+      presets: ['es2015']
+    }))
     .pipe(dest('javascript'))
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
+}
+
+function jekyll_jquery() {
+  return src([
+    '_javascript/vendor/jquery/dist/jquery.min.js'
+    ])
+    .pipe(dest('javascript'))
 }
 
 function jekyll_scss() {
@@ -49,12 +62,14 @@ function browser_sync() {
     }
   });
   watch(['_scss/*.scss', '_scss/**/*.scss'], series(jekyll_scss, jekyll_build));
-  watch('_javascript/*', series(jekyll_js, jekyll_build));
+  watch(['_javascript/*.js', '_javascript/**/*.js'], series(jekyll_js, jekyll_build, browserSyncReload));
+  watch(['_javascript/vendor/jquery/dist/jquery.min.js'], series(jekyll_jquery, jekyll_build, browserSyncReload));
   watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*'], series(jekyll_build, browserSyncReload));
 }
 
 task('browser_sync', browser_sync);
 task('jekyll_scss', jekyll_scss);
 task('jekyll_js', jekyll_js);
+task('jekyll_jquery', jekyll_jquery);
 task('jekyll_build', jekyll_build);
 task('default', parallel(browser_sync));

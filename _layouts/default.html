@@ -2,12 +2,50 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <div class="site">
-      <div class="header">
-        <h1 class="title"><a href="{{ site.url }}">{{ site.name }}</a></h1>
-        <a class="extra" href="{{ site.url }}">home</a>
+    <div class="c-wrapper" id="wrapper">
+      <div class="c-header js-header">
+        <div class="c-header__body">
+          <div class="c-header__left">
+            <div class="c-header__logo"><a href="index.html" style="background-image: url('//placehold.it/200x100');"></a></div>
+          </div>
+          <div class="c-header__right">
+            <div class="c-hamburger">
+              <div class="hamburger hamburger--squeeze js-drawer-trigger js-hamburger">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+              </div>
+            </div>
+            <ul class="c-blocklink c-blocklink--for-mainmenu">
+              <li class="c-blocklink__item is-active"><a class="c-blocklink__link" href="#">/home</a></li>
+              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/about</a></li>
+              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/project</a></li>
+              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/old</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      {{ content }}
+      <div class="c-drawer js-drawer-menu">
+        <div class="c-drawer__content js-drawer-content">
+          <div class="c-drawer__body">
+            <div class="c-blocklink c-blocklink--for-drawer">
+              <li class="c-blocklink__item is-active"><a class="c-blocklink__link" href="#">/home</a></li>
+              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/about</a></li>
+              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/project</a></li>
+              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/old</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="o-container o-container--fluid o-container--bleed js-content">
+        <div class="c-content">
+          <div class="o-container">
+            <div class="c-post">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
     {% include footer.html %}
   </body>
 </html>
