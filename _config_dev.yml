@@ -1,6 +1,6 @@
 name: Your New Jekyll Site
-baseurl: /
-url: http://localhost:3000
+baseurl: "/"
+url: "http://localhost:3000"
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
