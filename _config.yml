@@ -1,5 +1,5 @@
 name: Your New Jekyll Site
-baseurl: "/yjame"
+# baseurl: "/yjame"
 url: "https://aifit.github.io/yjame"
 markdown: redcarpet
 highlighter: pygments # or rouge or null

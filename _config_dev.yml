@@ -1,5 +1,5 @@
 name: Your New Jekyll Site
-baseurl: "/"
+# baseurl: "/"
 url: "http://localhost:3000"
 markdown: redcarpet
 highlighter: pygments # or rouge or null
