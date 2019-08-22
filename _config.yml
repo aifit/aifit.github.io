@@ -1,6 +1,6 @@
 name: Your New Jekyll Site
 baseurl: "/"
-url: https://aifit.github.io/yjame
+url: "https://aifit.github.io/yjame"
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
