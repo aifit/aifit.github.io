@@ -1,0 +1,47 @@
+// AVATAR
+// ================
+
+.c-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  @include breakpoint(tablet-up) {
+    width: 80px;
+    height: 80px;
+  }
+
+  &__img {
+    max-width: initial;
+    width: 100%;
+  }
+}
+
+// LARGE
+// ================
+@if ($mod-avatar-large == true) {
+  .c-avatar--large {
+    width: 70px;
+    height: 70px;
+
+    @include breakpoint(tablet-up) {
+      width: 113px;
+      height: 113px;
+    }
+  }
+}
+
+// SMALL
+// ================
+@if ($mod-avatar-small == true) {
+  .c-avatar--small {
+    width: 18px;
+    height: 18px;
+
+    @include breakpoint(tablet-up) {
+      width: 36px;
+      height: 36px;
+    }
+  }
+}

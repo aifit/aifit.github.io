@@ -1,0 +1,27 @@
+// OBJECT GRID
+// ================
+
+.o-grid {
+  max-width: $global-container-default;
+  margin-left: -18px;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    @include padding(0 0 0 3);
+    @include margin(1 0 1);
+
+    @include breakpoint(tablet-up) {
+      @include padding(0 0 0 3);
+      @include margin(1.5 0 1.5);
+    }
+  }
+}
+
+// GRID CENTER
+// ================
+@if ($mod-grid-center == true) {
+  .o-grid--center {
+    justify-content: center;
+  }
+}

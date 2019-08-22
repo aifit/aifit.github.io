@@ -1,0 +1,198 @@
+// UTILITIES TEXT
+// ================
+
+
+.#{$global-utility-namespace} {
+
+  &txt--hero {
+    @include txt-size("hero");
+  }
+
+  &txt--xxlarge {
+    @include txt-size("xxlarge");
+  }
+
+  &txt--xlarge {
+    @include txt-size("xlarge");
+  }
+
+  &txt--large {
+    @include txt-size("large");
+  }
+
+  &txt--medium {
+    @include txt-size("medium");
+  }
+
+  &txt--fair {
+    @include txt-size("fair");
+  }
+
+  &txt--base {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+  }
+
+  &txt--normal {
+    font-weight: normal !important;
+  }
+
+  &txt--underline {
+    text-decoration: underline !important;
+  }
+
+  &txt--no-decoration {
+    text-decoration: none !important;
+
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+
+  &txt--strikethrough {
+    text-decoration: line-through !important;
+  }
+
+  // equal to strong element, use this where using strong element is improper
+  &txt--strong,
+  &txt--bold {
+    font-weight: bold !important;
+  }
+
+  &txt--semibold {
+    font-weight: 500 !important;
+  }
+
+  // equal to em element, use this where using em element is improper
+  &txt--italic {
+    font-style: italic !important;
+  }
+  //scss-lint:enable ImportantRule
+
+  &txt--capitalize {
+    text-transform: capitalize !important;
+  }
+
+  &txt--upcase {
+    text-transform: uppercase !important;
+  }
+
+  &txt--downcase {
+    text-transform: lowercase !important;
+  }
+
+  &txt--double-quoted {
+    &::before,
+    &::after {
+      content: '\"';
+    }
+  }
+
+  &txt--small {
+    @include txt-size("small");
+  }
+
+  &txt--tiny {
+    @include txt-size("tiny");
+  }
+
+  &txt--nowrap {
+    white-space: nowrap;
+  }
+
+  &txt--wrap {
+    white-space: normal !important;
+  }
+
+  &txt--preline {
+    white-space: pre-line;
+  }
+
+  &txt--break-word {
+    word-break: break-word !important;
+  }
+
+  &txt--break-normal {
+    word-break: normal !important;
+  }
+
+  &txt--break-all {
+    word-break: break-all;
+  }
+
+  &txt--normal-white-space {
+    white-space: normal;
+  }
+
+  &txt--text-transform-none {
+    text-transform: none !important;
+  }
+
+  &txt--ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    white-space: nowrap;
+
+    // white-space: nowrap cause overflow inside table
+    // need hack to set width
+    &--inside-table {
+      width: 0;
+      min-width: 100%;
+    }
+
+    &--in-table {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  // To add ellipsis if the text is inside a table cell
+  // Reference: http://jsfiddle.net/maruxa1j/
+  &txt--ellipsis--in-table-cell {
+    position: relative;
+
+    &:before {
+      content: "&nbsp;";
+      visibility: hidden;
+    }
+
+    span {
+      position: absolute;
+      left: 0;
+      right: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  @for $idx from 1 through 5 {
+    &txt--ellipsis-#{$idx} {
+      @if ($idx > 1) {
+        display: -webkit-box !important;
+
+        white-space: normal;
+        word-break: normal;
+      }
+
+      -webkit-line-clamp: $idx;
+      height: rem-calc($global-line-height * $idx); // Fallback for non-webkit
+    }
+  }
+
+  @for $idx from 1 through 6 {
+    &txt-maxline--#{$idx} {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: $idx;
+      -webkit-box-orient: vertical;
+    }
+  }
+}

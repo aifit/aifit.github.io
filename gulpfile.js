@@ -48,13 +48,13 @@ function browser_sync() {
       baseDir: '_site'
     }
   });
-  watch('_scss/*.scss', series(jekyll_scss, jekyll_build));
+  watch(['_scss/*.scss', '_scss/**/*.scss'], series(jekyll_scss, jekyll_build));
   watch('_javascript/*', series(jekyll_js, jekyll_build));
   watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*'], series(jekyll_build, browserSyncReload));
 }
 
-task("browser_sync", browser_sync);
-task("jekyll_scss", jekyll_scss);
-task("jekyll_js", jekyll_js);
-task("jekyll_build", jekyll_build);
-task("default", parallel(browser_sync));
+task('browser_sync', browser_sync);
+task('jekyll_scss', jekyll_scss);
+task('jekyll_js', jekyll_js);
+task('jekyll_build', jekyll_build);
+task('default', parallel(browser_sync));

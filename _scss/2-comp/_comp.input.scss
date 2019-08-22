@@ -1,0 +1,99 @@
+// INPUT
+// ================
+
+.c-input {
+
+  &.if-error {
+    .c-input__field {
+      textarea,
+      input {
+        border-color: $global-color-brand;
+        background: $global-color-pink;
+      }
+    }
+
+    .c-input__error {
+      display: block;
+    }
+  }
+
+  &__item {
+    @include padding(3, "bottom");
+
+    &:last-child {
+      @include padding(0, "bottom");
+    }
+  }
+
+  &__label {
+    @include txt-size("base");
+    @include padding(1, "bottom");
+  }
+
+  &__field {
+    width: 100%;
+  }
+
+  &__error {
+    @include txt-size("tiny");
+    @include margin(.5, "top");
+    color: $global-color-brand;
+  }
+
+  &__cta {
+    text-align: left;
+
+    @include breakpoint(tablet-up) {
+      text-align: right;
+    }
+  }
+
+  &__icon {
+    display: none;
+  }
+
+}
+
+// WITH ICON
+// ================
+@if ($mod-with-icon == true) {
+  .c-input--with-icon {
+
+    .c-input__field {
+      position: relative;
+      // border: 1px solid $global-color-grey;
+      // border-radius: $global-border-radius;
+      height: 46px;
+
+      input {
+        @include txt-size("fair");
+        @include padding(7, "left")
+      }
+    }
+
+    .c-input__icon {
+      position: absolute;
+      top: 50%;
+      width: 43px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(-55%);
+      pointer-events: none;
+
+      @include breakpoint(tablet-up) {
+        transform: translateY(-50%);
+      }
+
+      .dashicons {
+        width: 30px;
+        height: 28px;
+        font-size: 25px !important;
+        line-height: 0;
+        color: $global-color-light-purple;
+      }
+    }
+
+  }
+}

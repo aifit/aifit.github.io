@@ -1,0 +1,92 @@
+// ELLIPSIS
+// ================
+
+$enable-ellipsis-line:        2 !default;
+
+$font-size:                 map-get($global-available-font-size, "fair");
+$font-size--small:          map-get($global-available-font-size, "small");
+$font-size--large:          map-get($global-available-font-size, "large");
+
+$text-line-height:          round($font-size * 1.5);
+$text-line-height--small:   round($font-size--small * 1.5);
+$text-line-height--large:   round($font-size--large * 1.5);
+
+
+.c-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  position: relative;
+  height: auto;
+  line-height: $text-line-height;
+  max-height: rem-calc($text-line-height) !important;
+
+  &:after {
+    background: linear-gradient(to right, rgba($global-color-white, 0), $global-color-white 95%);
+    position: absolute;
+    z-index: initial;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    width: 25%;
+    height: rem-calc($text-line-height);
+    content: "";
+  }
+
+}
+
+
+// LINE COUNT
+// ================
+@if ($mod-ellipsis-line-count-2 == true) {
+  .c-ellipsis--2 {
+    max-height: rem-calc($text-line-height * 2) !important;
+  }
+}
+
+
+// COLOR ALABASTER
+// ================
+@if ($mod-ellipsis-color-alabaster == true) {
+  .c-ellipsis--alabaster {
+    &:after {
+      background: linear-gradient(to right, rgba($global-color-alabaster, 0), $global-color-alabaster 95%);
+    }
+  }
+}
+
+// LINE HEIGHT SMALL
+// ================
+@if ($mod-ellipsis-line-height-small == true) {
+  .c-ellipsis--small {
+    line-height: $text-line-height--small;
+    max-height: rem-calc($text-line-height--small) !important;
+
+    &:after {
+      height: rem-calc($text-line-height--small) !important;
+    }
+
+    &.c-ellipsis--2 {
+      max-height: rem-calc($text-line-height--small * 2) !important;
+    }
+
+  }
+}
+
+// LINE HEIGHT LARGE
+// ================
+@if ($mod-ellipsis-line-height-large == true) {
+  .c-ellipsis--large {
+    line-height: $text-line-height--large;
+    max-height: rem-calc($text-line-height--large) !important;
+
+    &:after {
+      height: rem-calc($text-line-height--large) !important;
+    }
+
+    &.c-ellipsis--2 {
+      max-height: rem-calc($text-line-height--large * 2) !important;
+    }
+
+  }
+}

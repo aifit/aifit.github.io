@@ -1,0 +1,67 @@
+// MODAL
+// ================
+
+.c-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, .6);
+  padding: 100px 0 10px;
+  cursor: pointer;
+  z-index: 9999;
+
+  &.active {
+    display: block;
+  }
+
+  &__content {
+    max-width: initial;
+    width: 90%;
+    border-radius: $global-border-radius;
+    margin: auto;
+    overflow: hidden;
+
+    @include breakpoint(tablet-up) {
+      max-width: $global-container-default / 2;
+    }
+  }
+
+  &__head {
+    @include padding(2.3);
+    @include txt-size("base");
+    background: $global-color-light-purple;
+    position: relative;
+    font-weight: bold;
+    color: $global-color-dark-purple;
+  }
+
+
+  &__close {
+    @include margin(2.3, "right");
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-weight: normal;
+    text-indent: -9999px;
+    background: url("../img/icon/icon-close-purple.png") no-repeat center center;
+    background-size: 13px auto;
+    transition: $global-transition;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+
+  &__body {
+    @include padding(2.3);
+    @include txt-size("base");
+    background: $global-color-white;
+  }
+}

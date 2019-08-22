@@ -1,0 +1,36 @@
+// DRAWER MENU
+// ================
+
+.c-drawer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 9997;
+  box-shadow: $global-shadow;
+
+  &.is-active {
+    width: 100%;
+    display: block;
+  }
+
+  &__content {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: $global-color-white;
+  }
+
+  &__body {
+    @include padding(3);
+    padding-bottom: 150px;
+    height: 100%;
+    overflow-y: auto;
+  }
+
+}

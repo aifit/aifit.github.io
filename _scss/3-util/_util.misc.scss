@@ -1,0 +1,43 @@
+// UTILITIES MISC
+// ================
+
+.u-overflow-hidden {
+  overflow-y: hidden;
+}
+
+.u-overflow-touch {
+  -webkit-overflow-scrolling: touch;
+}
+
+.u-display-block {
+  display: block !important;
+}
+
+.u-display-none {
+  display: none !important;
+}
+
+.u-display-inherit {
+  display: inherit !important;
+}
+
+.u-blur {
+  filter: blur(2px);
+}
+
+.u-table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+// Google Recaptcha
+
+#rc-imageselect,
+.g-recaptcha {
+  @include breakpoint(phone-only) {
+    transform: scale(.8);
+    transform-origin: 0 0;
+  }
+}

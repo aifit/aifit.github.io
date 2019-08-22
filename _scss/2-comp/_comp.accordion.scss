@@ -1,0 +1,228 @@
+// ACCORDION
+// ================
+
+.c-accordion {
+  width: 100%;
+
+  @include breakpoint(tablet-up) {
+    max-width: 615px;
+    margin: auto;
+  }
+
+  &.is-active {
+    background: $global-color-white;
+    border-radius: $global-border-radius;
+    box-shadow: $global-shadow;
+    overflow: hidden;
+  }
+
+  &__head {
+    @include padding(4);
+    cursor: pointer;
+    transition: $global-transition;
+    position: relative;
+    background: $global-color-white;
+    border-radius: $global-border-radius;
+    box-shadow: $global-shadow;
+
+    &:hover {
+      &:before {
+        background-color: $global-color-dark-grey;
+      }
+    }
+
+    &.is-active {
+      box-shadow: none;
+      background: transparent;
+      border-radius: 0;
+
+      &:before {
+        background-color: $global-color-brand;
+      }
+
+      &:after {
+        transform: translateY(-50%) rotate(-180deg);
+      }
+    }
+
+    &:before {
+      position: absolute;
+      content: "";
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: $global-color-light-grey;
+      top: 50%;
+      left: 24px;
+      transform: translateY(-50%);
+      transition: $global-transition;
+    }
+
+    &:after {
+      position: absolute;
+      content: "";
+      width: 15px;
+      height: 15px;
+      background: url("../img/icon/icon-chevron-down.png") no-repeat center center;
+      background-size: 15px;
+      top: 50%;
+      right: 24px;
+      transform: translateY(-50%);
+      transition: $global-transition;
+    }
+  }
+
+  &__title {
+    @include padding(5, "left");
+    @include padding(5, "right");
+    position: relative;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  &__body {
+    @include padding(0 4 4 4);
+    display: none;
+    border-bottom-right-radius: $global-border-radius;
+    border-bottom-left-radius: $global-border-radius;
+  }
+
+  &__content {
+    @include txt-size("fair");
+
+    p {
+      @include clearfix();
+    }
+  }
+
+  &__image {
+    width: initial !important;
+    max-width: 100% !important;
+  }
+}
+
+
+// ACCORDION LINE
+// ================
+@if ($mod-accordion-line == true) {
+  .c-accordion--line {
+
+    &.is-active {
+      background: transparent;
+      border-radius: 0;
+      box-shadow: none;
+      overflow: hidden;
+    }
+
+    .c-accordion__head {
+      @include padding(4 4 4 0);
+      border-bottom: 1px solid $global-color-light-grey;
+      background: transparent;
+      box-shadow: none;
+      border-radius: 0;
+
+      @include breakpoint(tablet-up) {
+        &:after {
+          right: 24px;
+        }
+      }
+
+      &:after {
+        right: 0;
+      }
+
+      &:before {
+        display: none;
+      }
+
+      &.is-active {
+        border-bottom: 0;
+      }
+    }
+
+    .c-accordion__title {
+      @include padding(0);
+      font-weight: normal;
+    }
+
+    .c-accordion__body {
+      @include padding(0 0 4 0);
+      border-bottom: 1px solid $global-color-light-grey;
+    }
+
+    .c-accordion__content {
+      color: $global-color-dark-grey;
+    }
+
+  }
+}
+
+
+// ACCORDION HOLLOW - Inside table
+// ================
+@if ($mod-accordion-hollow == true) {
+  .c-accordion--hollow {
+
+    &.is-active {
+      background: transparent;
+      border-radius: 0;
+      box-shadow: none;
+      overflow: hidden;
+    }
+
+    .c-accordion__head {
+      @include padding(0);
+      padding-right: 20px;
+      border-bottom: 0;
+      background: transparent;
+      box-shadow: none;
+      border-radius: 0;
+      transition: $global-transition;
+      user-select: none;
+
+      @include breakpoint(tablet-up) {
+        &:after {
+          right: 24px;
+        }
+      }
+
+      &:after {
+        @include margin(2, "top");
+        top: 0;
+        right: 0;
+      }
+
+      &:before {
+        display: none;
+      }
+
+      &.is-active {
+        border-bottom: 0;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .c-accordion__title {
+      @include padding(0);
+      @include margin(2, "right");
+      font-weight: normal;
+    }
+
+    .c-accordion__body {
+      @include padding(2 0 4 0);
+      border-bottom: 0;
+    }
+
+    .c-accordion__content {
+      color: $global-color-dark-grey;
+
+      @include breakpoint(phone-only) {
+        @include txt-size("small");
+      }
+    }
+
+  }
+}

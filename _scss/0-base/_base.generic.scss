@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 100%;
+  color: $global-color-black;
+  font-family: $global-primary-font;
+  font-kerning: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: $global-color-brand;
+  transition: $global-transition;
+
+  &:hover {
+    color: $global-color-black;
+  }
+}
+
+select,
+textarea,
+input {
+  @include txt-size("base");
+  appearance: none;
+  font-family: $global-primary-font;
+  border: 1px solid $global-color-grey;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 20px;
+  background-color: $global-color-white;
+  width: 100%;
+  color: $global-color-black;
+  border-radius: $global-border-radius;
+  transition: $global-transition;
+
+  @include breakpoint(tablet-up) {
+    @include txt-size("fair");
+    padding: 10px;
+  }
+
+  &:active,
+  &:focus {
+    border-color: $global-color-black;
+    box-shadow: $global-shadow-hover;
+    outline: none;
+  }
+}
+
+select {
+  background-image: url("../img/icon/icon-chevron-down-select.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 20px auto;
+}
+
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+::-webkit-input-placeholder {
+  @include txt-size("base");
+  color: $global-color-grey;
+  letter-spacing: .03em;
+
+  @include breakpoint(tablet-up) {
+    @include txt-size("fair");
+  }
+}
+
+:-ms-input-placeholder {
+  @include txt-size("base");
+  color: $global-color-grey;
+  letter-spacing: .03em;
+
+  @include breakpoint(tablet-up) {
+    @include txt-size("fair");
+  }
+}
+
+table {
+  @include margin(5, "bottom");
+  width: 100%;
+  border-collapse: collapse;
+  background-color: $global-color-white;
+
+  tr {
+    border: 1px solid $global-color-light-grey;
+    &:nth-child(even) {
+      background: $global-color-selago;
+    }
+  }
+
+  th {
+    background: $global-color-selago;
+    text-align: initial;
+  }
+
+  th,
+  td {
+    @include padding(1.5);
+    @include txt-size("base");
+    border: 1px solid $global-color-light-grey;
+    vertical-align: top;
+
+    @include breakpoint(phone-only) {
+      @include padding(1);
+
+      &:before {
+        content: attr(data-th) "" !important;
+      }
+    }
+
+    @include breakpoint(tablet-up) {
+      @include txt-size("fair");
+      @include padding(2.5);
+    }
+
+  }
+}

@@ -1,0 +1,265 @@
+// POST
+// ================
+
+.c-post {
+  @include clearfix();
+  width: 100%;
+  margin: auto;
+
+  &__head {
+    @include margin(0 0 3 0);
+
+    @include breakpoint(tablet-up) {
+      @include margin(0 0 6 0);
+    }
+  }
+
+  &__title {
+    @include margin(0 0 4 0);
+    text-align: center;
+  }
+
+  &__thumb {
+    display: block;
+  }
+
+  &__meta {
+    @include txt-size("base");
+    color: $global-color-dark-grey;
+    display: flex;
+    flex-wrap: wrap;
+
+    @include breakpoint(phone-only) {
+      @include txt-size("small");
+      @include padding(3, "bottom");
+      border-bottom: 1px solid $global-color-light-grey;
+      justify-content: center;
+    }
+  }
+
+  &__meta-left {
+    @extend .col-sm-6;
+    @extend .col-xs-12;
+
+    @include breakpoint(phone-only) {
+      flex-basis: initial;
+    }
+  }
+
+  &__meta-right {
+    @extend .col-sm-6;
+    @extend .col-xs-12;
+    @include margin(2, "top");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include breakpoint(phone-up) {
+      @include margin(0, "top");
+      justify-content: flex-end;
+    }
+
+  }
+
+  h1 {
+    @include margin(2 0 2 0);
+    @include txt-size("xlarge");
+    font-family: $global-primary-font;
+
+    @include breakpoint(tablet-up) {
+      @include margin(3 0 3 0);
+      @include txt-size("xxlarge");
+    }
+  }
+
+  h2 {
+    @include margin(2 0 2 0);
+    @include txt-size("large");
+    font-family: $global-primary-font;
+
+    @include breakpoint(tablet-up) {
+      @include margin(3 0 3 0);
+      @include txt-size("xlarge");
+    }
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include margin(2 0 2 0);;
+    font-family: $global-primary-font;
+
+    @include breakpoint(tablet-up) {
+      @include margin(3 0 3 0);
+    }
+  }
+
+  h3 {
+    @include txt-size("medium");
+
+    @include breakpoint(tablet-up) {
+      @include txt-size("large");
+    }
+  }
+
+  ul,
+  ol,
+  p {
+    @include txt-size("fair");
+    @include margin(0, "top");
+    @include margin(5, "bottom");
+  }
+
+  ul,
+  ol {
+    @include margin(3, "left");
+    padding-left: 0;
+
+    @include breakpoint(tablet-up) {
+      padding-left: 0;
+    }
+
+    li {
+      list-style: decimal;
+    }
+
+    ol,
+    ul {
+      @include margin(0 0 0 3);
+      padding-left: initial;
+      li {
+        list-style: lower-alpha;
+      }
+    }
+  }
+
+  ul {
+    li {
+      list-style: square;
+    }
+  }
+
+  a {
+    display: inline-block;
+    transition: $global-transition;
+    color: $global-color-brand;
+
+    &:hover {
+      color: $global-color-black;
+    }
+  }
+
+  b,
+  strong {
+    font-weight: 600;
+  }
+
+  p {
+    img {
+      @include margin(5 5 5 0);
+      width: initial;
+      max-width: 100%;
+      float: left;
+    }
+  }
+
+  img {
+    @include margin(3, "bottom");
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  pre,
+  code {
+    direction: ltr;
+    text-align: left;
+    font-style: normal;
+    background: $global-color-light-purple;
+  }
+
+  pre {
+    @include margin(5, "bottom");
+    @include padding(1);
+    @include txt-size("small");
+    overflow-x: auto;
+    border-radius: $global-border-radius;
+
+    @include breakpoint(tablet-up) {
+      @include txt-size("base");
+      @include padding(2);
+      @include margin(5, "bottom");
+    }
+
+    code {
+      padding: 0;
+      background: none;
+      border: 0;
+    }
+  }
+
+  code {
+    @include txt-size("base");
+    padding: 1px 8px 3px;
+    border-radius: $global-border-radius;
+  }
+
+  blockquote {
+    @include padding(3, "bottom");
+    margin: 0;
+
+    @include breakpoint(tablet-up) {
+      @include padding(5, "bottom");
+    }
+
+    p {
+      @include txt-size("medium");
+      @include padding(3, "left");
+      @include margin(0, "bottom");
+      margin-left: 0;
+      color: $global-color-dark-purple;
+      border-left: 3px solid $global-color-light-purple;
+      letter-spacing: .005em;
+
+      @include breakpoint(tablet-up) {
+        @include txt-size("large");
+        @include padding(3, "left");
+        border-left: 3px solid $global-color-light-purple;
+      }
+    }
+
+    cite {
+      @include margin(2, "top");
+      @include padding(3, "left");
+      @include txt-size("small");
+      color: $global-color-grey;
+      font-style: italic;
+      display: block;
+    }
+  }
+
+  figure,
+  .wp-caption {
+    @include margin(0 0 5 0);
+    position: relative;
+    float: left;
+    width: 100%;
+
+    figcaption,
+    .wp-caption-text {
+      @include txt-size("small");
+      display: block;
+      color: $global-color-grey;
+    }
+
+    a {
+      display: block;
+      border-bottom: 0;
+    }
+
+    img {
+      margin-bottom: 0;
+    }
+  }
+}

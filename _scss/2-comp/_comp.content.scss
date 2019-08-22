@@ -1,0 +1,26 @@
+// CONTENT
+// ================
+
+.c-content {
+  @include padding(5, "top");
+  padding-bottom: 50px;
+  position: relative;
+
+  @include breakpoint(tablet-up) {
+    @include padding(10, "top");
+    padding-bottom: 100px;
+  }
+}
+
+// CONTENT BOTTOM BLEED
+// ================
+@if ($mod-content-bottom-bleed == true) {
+  .c-content--bottom-bleed {
+    padding-bottom: 0;
+
+    @include breakpoint(tablet-up) {
+      padding-bottom: 0;
+    }
+  }
+}
+

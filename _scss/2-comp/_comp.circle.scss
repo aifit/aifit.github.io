@@ -1,0 +1,41 @@
+// CIRCLE
+// ================
+
+.c-circle {
+  text-indent: -9999px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 57px;
+  right: 18px;
+  cursor: pointer;
+  z-index: 1;
+  border: 1px solid $global-color-light-purple;
+  background: $global-color-light-purple url("//placehold.it/100x100") no-repeat center center;
+  background-size: 13px auto;
+  transition: $global-transition;
+  visibility: hidden;
+  opacity: 0;
+
+  @include breakpoint(small-up) {
+    bottom: 180px;
+    right: 20px;
+  }
+
+  @include breakpoint(tablet-up) {
+    bottom: 70px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+  }
+
+  &:hover {
+    border-color: $global-color-dark-purple;
+  }
+
+  &.is-active {
+    visibility: visible;
+    opacity: 1;
+  }
+}

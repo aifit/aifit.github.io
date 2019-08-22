@@ -1,0 +1,54 @@
+// OBJECT CONTAINER
+// ================
+
+.o-container {
+  @include padding(0 3 0 3);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $global-container-default;
+
+  @include breakpoint(tablet-up) {
+    @include padding(0 4 0 4);
+  }
+}
+
+// FLUID WIDTH
+// ================
+@if ($mod-container-width-fluid == true) {
+  .o-container--fluid {
+    max-width: initial;
+    width: $global-container-fluid;
+  }
+}
+
+// BLEED WIDTH
+// ================
+@if ($mod-container-width-bleed == true) {
+  .o-container--bleed {
+    @include padding(0);
+  }
+}
+
+// SMALL WIDTH
+// ================
+@if ($mod-container-width-small == true) {
+  .o-container--small {
+    max-width: $global-container-small;
+  }
+}
+
+// TINY WIDTH
+// ================
+@if ($mod-container-width-tiny == true) {
+  .o-container--tiny {
+    max-width: $global-container-tiny;
+  }
+}
+
+// MICRO WIDTH
+// ================
+@if ($mod-container-width-micro == true) {
+  .o-container--micro {
+    max-width: $global-container-micro;
+  }
+}

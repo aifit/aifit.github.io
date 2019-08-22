@@ -1,0 +1,40 @@
+// UTILITIES COLOR
+// ================
+
+@each $name, $color in $global-utilities-colors {
+  .u-bg--#{$name} {
+    background-color: $color !important;
+  }
+
+  .u-fg--#{$name} {
+    &,
+    &:focus,
+    &:hover {
+      color: $color !important;
+    }
+  }
+}
+
+@each $name, $color in $global-utilities-colors {
+  .u-bg-hover--#{$name}:hover {
+    background-color: $color !important;
+  }
+
+  .u-fg-hover--#{$name}:hover {
+    color: $color !important;
+  }
+}
+
+@each $name, $color in $global-external-colors {
+  .u-bg-external--#{$name} {
+    background-color: $color !important;
+  }
+
+  .u-fg-external--#{$name} {
+    &,
+    &:focus,
+    &:hover {
+      color: $color !important;
+    }
+  }
+}

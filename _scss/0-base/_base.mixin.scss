@@ -1,0 +1,174 @@
+
+// CLEARFIX
+// ================
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+// SCROLLBAR
+// ================
+@mixin scrollbar() {
+  &::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $global-color-light-purple;
+    border-right: 0;
+    border-left: 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $global-color-dark-purple;
+    border: 3px solid $global-color-light-purple;
+  }
+}
+
+// CENTER ABSOLUTE
+// ================
+@mixin center-absolute($left: 50%, $top: 50%) {
+  left: $left;
+  top: $top;
+  transform: translate(-$left, -$top);
+}
+
+// lAYER
+// ================
+@mixin layer() {
+  width: 100%;
+  position: absolute;
+  display: block;
+  content: "";
+}
+
+// TEXT OVERFLOW
+// ================
+@mixin text-overflow($overflow-param: ellipsis) {
+  white-space: nowrap;
+  text-overflow: $overflow-param;
+  overflow: hidden;
+}
+
+// BREAKPOINT
+// ================
+@mixin breakpoint($range) {
+  $phone: 720px;
+  $tablet: 960px;
+  $desktop: 1024px;
+
+  // phone only
+  @if $range == phone-only {
+    @media (max-width: $phone - 1) { @content; }
+  }
+
+  // phone up
+  @else if $range == phone-up {
+    @media (min-width: $phone) { @content; }
+  }
+
+  // tablet up
+  @else if $range == tablet-up {
+    @media (min-width: $tablet) { @content; }
+  }
+
+  // desktop up
+  @else if $range == desktop-up {
+    @media (min-width: $desktop) { @content; }
+  }
+}
+
+
+//  REM CALC
+// ================
+@function rem-calc($size) {
+  $remsize: $size;
+  @return #{$remsize};
+}
+
+// WHITESPACE
+// ================
+@function whitespace-values($levels) {
+  $values: null;
+  $counter: 1;
+
+  @each $level in $levels {
+    @if($level < 0 or $level > $global-desktop-spacing-levels) {
+      $level: 1;
+    }
+
+    @if($counter < 5) {
+      $values: append($values, rem-calc($level * $global-desktop-spacing-unit));
+    }
+
+    $counter: $counter + 1;
+  }
+
+  @return $values;
+}
+
+// Margin
+// ================
+@mixin margin($levels, $directions: null, $important: "") {
+  @if($directions == null) {
+    margin: whitespace-values($levels) #{$important};
+  }
+  @else {
+    @each $direction in $directions {
+      @if(index($available-directions, $direction)) {
+        margin-#{$direction}: rem-calc(nth($levels, 1) * $global-desktop-spacing-unit) #{$important};
+      }
+    }
+  }
+}
+
+// Padding
+// ================
+@mixin padding($levels, $directions: null, $important: "") {
+  @if($directions == null) {
+    padding: whitespace-values($levels) #{$important};
+  }
+  @else {
+    @each $direction in $directions {
+      @if(index($available-directions, $direction)) {
+        padding-#{$direction}: rem-calc(nth($levels, 1) * $global-desktop-spacing-unit) #{$important};
+      }
+    }
+  }
+}
+
+// FONT SIZE
+// ================
+@mixin font-size($font-size, $line-height: auto, $global-line-height: $global-line-height) {
+
+  font-size: rem-calc($font-size);
+
+  @if $line-height == auto {
+    line-height: ceil($font-size / $global-line-height) * ($global-line-height / $font-size);
+  }
+  @else {
+    @if (type-of($line-height) == number or $line-height == inherit or $line-height == normal) {
+      line-height: $line-height;
+    }
+    @elseif ($line-height != none and $line-height != false) {
+      @error "D'oh! '#{$line-height}' is not a valid value for `line-height`."
+    }
+  }
+
+}
+
+// TEXT SIZE based on font-size mixin
+// ================
+@mixin txt-size($type) {
+  $size: map-get($global-available-font-size, $type);
+
+  @if($size) {
+    @include font-size($size, map-get($global-available-line-height-ratio, $type));
+  }
+  @else {
+    @include font-size(map-get($global-available-font-size, "base"), none);
+  }
+}

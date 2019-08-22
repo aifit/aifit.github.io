@@ -1,0 +1,101 @@
+// @import "../_javascript/vendor/normalize.css/normalize";
+@import "../_javascript/vendor/css-hamburgers/dist/hamburgers.min";
+
+
+$global-object-namespace:     "o-" !default;
+$global-component-namespace:     "c-" !default;
+
+$global-container-fluid: 100%;
+$global-container-default: 1200px;
+$global-container-small: 1000px;
+$global-container-tiny: 800px;
+$global-container-micro: 615px;
+
+$global-header-height:   85px;
+$global-border-radius:   2px;
+
+// primary color
+$global-color-white:        #fff;
+$global-color-black:        #333;
+$global-color-light-grey:   #e1e1e1;
+$global-color-grey:         #aaa;
+$global-color-dark-grey:    #666;
+$global-color-brand:        #d71149;
+$global-color-red-dark:     #c30f42;
+$global-color-light-purple: #d6d4f7;
+$global-color-white-purple: #f2f1ff;
+$global-color-dark-purple:  #272257;
+
+// secondary color
+$global-color-pink:         #ffe1e6;
+$global-color-selago:       #f4f4fd;
+$global-color-alabaster:    #fafafa;
+
+$global-transition:         all .15s linear;
+$global-shadow:             0 4px 9px 0 rgba(153, 153, 153, .13), 0 0 4px 0 rgba(153, 153, 153, .04);
+$global-shadow-sharp:       0 1px 2px 0 rgba(0, 0, 0, .08), 0 0 1px 0 #bbb;
+$global-shadow-hover:       0 0 10px rgba(0, 0, 0, .2);
+
+// WHITESPACE VARIABLE
+// ================
+$global-desktop-spacing-unit:     6px;
+$global-desktop-spacing-levels:   10;
+$global-utility-namespace:        "u-" !default;
+$available-directions:            "top" "right" "bottom" "left";
+
+// TYPOGRAPHY
+// ================
+$global-font-size:          14px;
+$global-line-height:        24px;
+$global-primary-font:       "Roboto", Helvetica, Arial, sans-serif;
+
+$global-available-line-height-ratio: (
+  tiny:     1.43,
+  small:    1.43,
+  base:     1.5,
+  fair:     1.5,
+  medium:   1.5,
+  large:    1.4,
+  xlarge:   1.4,
+  xxlarge:  1.5,
+  hero:     1.5
+);
+
+$global-available-font-size: (
+  tiny:     10px,
+  small:    12px,
+  base:     $global-font-size,
+  fair:     16px,
+  medium:   18px,
+  large:    22px,
+  xlarge:   28px,
+  xxlarge:  32px,
+  hero:     40px
+);
+
+$global-utilities-colors: (
+  "white":        $global-color-white,
+  "black":        $global-color-black,
+  "light-grey":   $global-color-light-grey,
+  "grey":         $global-color-grey,
+  "dark-grey":    $global-color-dark-grey,
+  "brand":        $global-color-brand,
+  "red-dark":     $global-color-red-dark,
+  "light-purple": $global-color-light-purple,
+  "white-purple": $global-color-white-purple,
+  "dark-purple":  $global-color-dark-purple,
+  "pink":         $global-color-pink,
+  "selago":       $global-color-selago,
+  "alabaster":    $global-color-alabaster
+) !default;
+
+$global-external-colors: (
+  "facebook":   #3b5998,
+  "twitter":    #55acee,
+  "gplus":      #dc4e41,
+  "pinterest":  #cb2027,
+  "gmail":      #c63737,
+  "yahoo":      #a207d6,
+  "whatsapp":   #25d366,
+  "line":       #01ba00
+) !default;
