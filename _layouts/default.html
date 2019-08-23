@@ -19,8 +19,15 @@
               </div>
             </div>
             <ul class="c-blocklink c-blocklink--for-mainmenu">
-              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">About</a></li>
-              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">Projects</a></li>
+              {% for page in site.pages %}
+              {% unless page.exclude %}
+              <li class="c-blocklink__item">
+                <a class="c-blocklink__link" href="{{ page.url }}">
+                  {{ page.title }}
+                </a>
+              </li>
+              {% endunless %}
+              {% endfor %}
             </ul>
           </div>
         </div>

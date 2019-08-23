@@ -64,7 +64,7 @@ function browser_sync() {
   watch(['_scss/*.scss', '_scss/**/*.scss'], series(jekyll_scss, jekyll_build));
   watch(['_javascript/*.js', '_javascript/**/*.js'], series(jekyll_js, jekyll_build, browserSyncReload));
   watch(['_javascript/vendor/jquery/dist/jquery.min.js'], series(jekyll_jquery, jekyll_build, browserSyncReload));
-  watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*'], series(jekyll_build, browserSyncReload));
+  watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*', 'pages/*'], series(jekyll_build, browserSyncReload));
 }
 
 task('browser_sync', browser_sync);

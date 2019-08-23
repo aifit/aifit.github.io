@@ -16,11 +16,13 @@ $global-border-radius:   4px;
 
 // primary color
 $global-color-white:        #fff;
-$global-color-black:        #231f1f;
+$global-color-black:        #1d1a1a;
 $global-color-light-grey:   #e1e1e1;
 $global-color-grey:         #9f9b89;
-$global-color-dark-grey:    #3e3838;
-$global-color-brand:        #2e2829;
+// $global-color-dark-grey:    #3e3838;
+$global-color-dark-grey:    #363131;
+// $global-color-brand:        #2e2829;
+$global-color-brand:        #282324;
 $global-color-khaki:        #d3ceb9;
 $global-color-gold:         #a28e00;
 
@@ -64,7 +66,7 @@ $global-available-font-size: (
   large:    24px,
   xlarge:   28px,
   xxlarge:  32px,
-  hero:     44px
+  hero:     46px
 );
 
 $global-utilities-colors: (

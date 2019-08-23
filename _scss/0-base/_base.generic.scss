@@ -115,23 +115,24 @@ table {
   border-collapse: collapse;
   background-color: transparent;
 
-  tr {
-    &:nth-child(even) {
-      background: $global-color-dark-grey;
-    }
-  }
+  // tr {
+  //   &:nth-child(even) {
+  //     background: $global-color-dark-grey;
+  //   }
+  // }
 
   th {
     background: $global-color-black;
     text-align: initial;
     font-weight: normal;
+    font-weight: bold;
   }
 
   th,
   td {
     @include padding(2);
     @include txt-size("fair");
-    border: 1px solid $global-color-black;
+    border: 1px solid $global-color-dark-grey;
     vertical-align: top;
     color: $global-color-grey;
   }
