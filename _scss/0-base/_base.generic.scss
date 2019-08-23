@@ -110,7 +110,7 @@ p {
 }
 
 table {
-  @include margin(6, "bottom");
+  @include margin(5, "bottom");
   width: 100%;
   border-collapse: collapse;
   background-color: transparent;

@@ -20,16 +20,18 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-| Column | Column | Column | Column | Column |
-|--------|--------|--------|--------|--------|
-| Row    | Row    | Row    | Row    | Row    |
-| Row    | Row    | Row    | Row    | Row    |
-| Row    | Row    | Row    | Row    | Row    |
-| Row    | Row    | Row    | Row    | Row    |
-| Row    | Row    | Row    | Row    | Row    |
-| Row    | Row    | Row    | Row    | Row    |
+| Column | Column | Column | Column |
+|--------|--------|--------|--------|
+| Row    | Row    | Row    | Row    |
+| Row    | Row    | Row    | Row    |
+| Row    | Row    | Row    | Row    |
+| Row    | Row    | Row    | Row    |
+| Row    | Row    | Row    | Row    |
+| Row    | Row    | Row    | Row    |
 
 > Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem est voluptatum accusantium libero quae? Culpa itaque ut fuga dolorem quidem ea natus doloribus minus dolore, suscipit hic esse provident ad.
+
+![too](https://placehold.it/672x400 'Title text')
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem est voluptatum accusantium libero quae? Culpa itaque ut fuga dolorem quidem ea natus doloribus minus dolore, suscipit hic esse provident ad.
 

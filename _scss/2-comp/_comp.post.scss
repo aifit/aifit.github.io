@@ -157,7 +157,7 @@
 
   p {
     img {
-      @include margin(5 5 5 0);
+      @include margin(0 0 5 0);
       width: initial;
       max-width: 100%;
       float: left;
@@ -165,7 +165,7 @@
   }
 
   img {
-    @include margin(3, "bottom");
+    @include margin(5, "bottom");
     display: block;
     width: 100%;
     height: auto;
@@ -191,7 +191,7 @@
     @include padding(2, "top");
     @include padding(2, "bottom");
     @include padding(4, "right");
-    @include margin(2, "bottom");
+    @include margin(5, "bottom");
     border-left: 4px solid $global-color-dark-grey;
     background: transparent;
 
@@ -221,30 +221,6 @@
       letter-spacing: .008em;
       line-height: 1.5;
       font-style: italic;
-    }
-  }
-
-  figure,
-  .wp-caption {
-    @include margin(0 0 5 0);
-    position: relative;
-    float: left;
-    width: 100%;
-
-    figcaption,
-    .wp-caption-text {
-      @include txt-size("small");
-      display: block;
-      color: $global-color-gold;
-    }
-
-    a {
-      display: block;
-      border-bottom: 0;
-    }
-
-    img {
-      margin-bottom: 0;
     }
   }
 }
