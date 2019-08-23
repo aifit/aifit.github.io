@@ -15,26 +15,19 @@
   }
 
   &__title {
-    @include margin(0 0 4 0);
-    text-align: center;
-  }
-
-  &__thumb {
-    display: block;
+    @include margin(0 0 2 0);
+    @include txt-size("hero");
+    letter-spacing: .01em;
+    font-weight: bold;
+    line-height: 1.3;
   }
 
   &__meta {
     @include txt-size("base");
-    color: $global-color-dark-grey;
+    color: $global-color-gold;
     display: flex;
     flex-wrap: wrap;
-
-    @include breakpoint(phone-only) {
-      @include txt-size("small");
-      @include padding(3, "bottom");
-      border-bottom: 1px solid $global-color-light-grey;
-      justify-content: center;
-    }
+    font-family: $global-secondary-font;
   }
 
   &__meta-left {
@@ -64,7 +57,9 @@
   h1 {
     @include margin(2 0 2 0);
     @include txt-size("xlarge");
-    font-family: $global-primary-font;
+    font-family: $global-secondary-font;
+    font-weight: bold;
+    color: $global-color-gold;
 
     @include breakpoint(tablet-up) {
       @include margin(3 0 3 0);
@@ -75,11 +70,12 @@
   h2 {
     @include margin(2 0 2 0);
     @include txt-size("large");
-    font-family: $global-primary-font;
+    font-family: $global-secondary-font;
+    font-weight: bold;
 
     @include breakpoint(tablet-up) {
       @include margin(3 0 3 0);
-      @include txt-size("xlarge");
+      @include txt-size("xxlarge");
     }
   }
 
@@ -88,7 +84,8 @@
   h5,
   h6 {
     @include margin(2 0 2 0);;
-    font-family: $global-primary-font;
+    font-family: $global-secondary-font;
+    font-weight: bold;
 
     @include breakpoint(tablet-up) {
       @include margin(3 0 3 0);
@@ -106,9 +103,11 @@
   ul,
   ol,
   p {
-    @include txt-size("fair");
+    @include txt-size("medium");
     @include margin(0, "top");
     @include margin(5, "bottom");
+    letter-spacing: .008em;
+    color: $global-color-grey;
   }
 
   ul,
@@ -144,6 +143,7 @@
     display: inline-block;
     transition: $global-transition;
     color: $global-color-gold;
+    text-decoration: underline;
 
     &:hover {
       color: $global-color-khaki;
@@ -176,66 +176,51 @@
     direction: ltr;
     text-align: left;
     font-style: normal;
-    background: $global-color-brand;
+  }
+
+  code {
+    @include txt-size("fair");
+    padding: 1px 8px 3px;
+    border-radius: $global-border-radius;
+    background: $global-color-black;
+    color: $global-color-grey;
   }
 
   pre {
-    @include margin(5, "bottom");
-    @include padding(1);
-    @include txt-size("small");
-    overflow-x: auto;
-    border-radius: $global-border-radius;
-
-    @include breakpoint(tablet-up) {
-      @include txt-size("base");
-      @include padding(2);
-      @include margin(5, "bottom");
-    }
+    @include padding(4, "left");
+    @include padding(2, "top");
+    @include padding(2, "bottom");
+    @include padding(4, "right");
+    @include margin(2, "bottom");
+    border-left: 4px solid $global-color-dark-grey;
+    background: transparent;
 
     code {
       padding: 0;
       background: none;
       border: 0;
+      color: $global-color-grey;
     }
-  }
-
-  code {
-    @include txt-size("base");
-    padding: 1px 8px 3px;
-    border-radius: $global-border-radius;
   }
 
   blockquote {
-    @include padding(3, "bottom");
+    @include padding(5, "bottom");
     margin: 0;
 
-    @include breakpoint(tablet-up) {
-      @include padding(5, "bottom");
-    }
-
     p {
-      @include txt-size("medium");
-      @include padding(3, "left");
+      @include txt-size("large");
+      @include padding(4, "left");
+      @include padding(2, "top");
+      @include padding(2, "bottom");
+      @include padding(4, "right");
       @include margin(0, "bottom");
       margin-left: 0;
-      color: $global-color-dark-grey;
-      border-left: 3px solid $global-color-light-grey;
-      letter-spacing: .005em;
-
-      @include breakpoint(tablet-up) {
-        @include txt-size("large");
-        @include padding(3, "left");
-        border-left: 3px solid $global-color-light-grey;
-      }
-    }
-
-    cite {
-      @include margin(2, "top");
-      @include padding(3, "left");
-      @include txt-size("small");
       color: $global-color-grey;
+      border-left: 4px solid $global-color-dark-grey;
+      background: transparent;
+      letter-spacing: .008em;
+      line-height: 1.5;
       font-style: italic;
-      display: block;
     }
   }
 

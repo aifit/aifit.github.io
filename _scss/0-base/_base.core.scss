@@ -8,20 +8,20 @@ $global-component-namespace:     "c-" !default;
 $global-container-fluid: 100%;
 $global-container-default: 1200px;
 $global-container-small: 1000px;
-$global-container-tiny: 800px;
+$global-container-tiny: 720px;
 $global-container-micro: 615px;
 
-$global-header-height:   65px;
-$global-border-radius:   2px;
+$global-header-height:   100px;
+$global-border-radius:   4px;
 
 // primary color
 $global-color-white:        #fff;
-$global-color-black:        #333;
+$global-color-black:        #231f1f;
 $global-color-light-grey:   #e1e1e1;
-$global-color-grey:         #aaa;
-$global-color-dark-grey:    #666;
+$global-color-grey:         #979381;
+$global-color-dark-grey:    #3e3838;
 $global-color-brand:        #2e2829;
-$global-color-khaki:        #eae5ce;
+$global-color-khaki:        #cac5b0;
 $global-color-gold:         #a28e00;
 
 $global-transition:         all .15s linear;
@@ -40,7 +40,8 @@ $available-directions:            "top" "right" "bottom" "left";
 // ================
 $global-font-size:          14px;
 $global-line-height:        24px;
-$global-primary-font:       "Roboto", Helvetica, Arial, sans-serif;
+$global-primary-font:       "IBM Plex Sans", Helvetica, Arial, sans-serif;
+$global-secondary-font:     "IBM Plex Sans", Helvetica, Arial, sans-serif;
 
 $global-available-line-height-ratio: (
   tiny:     1.43,
@@ -73,6 +74,8 @@ $global-utilities-colors: (
   "grey":         $global-color-grey,
   "dark-grey":    $global-color-dark-grey,
   "brand":        $global-color-brand,
+  "khaki":        $global-color-khaki,
+  "gold":         $global-color-gold,
 ) !default;
 
 $global-external-colors: (

@@ -2,6 +2,17 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-shadow: 0 1px 1px rgba(35, 33, 24, 1);
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: $global-color-grey;
+  background: $global-color-black;
+}
+
+::selection {
+  color: $global-color-grey;
+  background: $global-color-black;
 }
 
 html,
@@ -99,42 +110,29 @@ p {
 }
 
 table {
-  @include margin(5, "bottom");
+  @include margin(6, "bottom");
   width: 100%;
   border-collapse: collapse;
-  background-color: $global-color-white;
+  background-color: transparent;
 
   tr {
-    border: 1px solid $global-color-light-grey;
     &:nth-child(even) {
-      background: $global-color-light-grey;
+      background: $global-color-dark-grey;
     }
   }
 
   th {
-    background: $global-color-light-grey;
+    background: $global-color-black;
     text-align: initial;
+    font-weight: normal;
   }
 
   th,
   td {
-    @include padding(1.5);
-    @include txt-size("base");
-    border: 1px solid $global-color-light-grey;
+    @include padding(2);
+    @include txt-size("fair");
+    border: 1px solid $global-color-black;
     vertical-align: top;
-
-    @include breakpoint(phone-only) {
-      @include padding(1);
-
-      &:before {
-        content: attr(data-th) "" !important;
-      }
-    }
-
-    @include breakpoint(tablet-up) {
-      @include txt-size("fair");
-      @include padding(2.5);
-    }
-
+    color: $global-color-grey;
   }
 }

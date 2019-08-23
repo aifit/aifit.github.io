@@ -3,12 +3,12 @@
 
 .c-content {
   @include padding(3, "top");
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   position: relative;
 
   @include breakpoint(tablet-up) {
     @include padding(10, "top");
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
 

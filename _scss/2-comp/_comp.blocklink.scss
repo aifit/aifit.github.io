@@ -19,26 +19,28 @@
 
     &.is-active {
       .c-blocklink__link {
-        color: #a28e00;
+        color: $global-color-gold;
       }
     }
   }
 
   .current-menu-item {
     a {
-      color: #a28e00;
+      color: $global-color-gold;
     }
   }
 
   a,
   &__link {
-    @include txt-size("fair");
-    color: #a28e00;
+    @include txt-size("medium");
+    color: $global-color-grey;
+    letter-spacing: .008em;
     display: block;
     transition: $global-transition;
+    font-family: $global-secondary-font;
 
     &:hover {
-      color: #a28e00;
+      color: $global-color-khaki;
     }
   }
 }

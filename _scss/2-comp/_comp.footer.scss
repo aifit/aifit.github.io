@@ -4,51 +4,20 @@
 .c-footer {
   background: $global-color-brand;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid $global-color-dark-grey;
+  max-width: $global-container-tiny;
 
   &__body {
-    @include padding(4 0 3 0);
+    @include padding(6 3 6 3);
     max-width: $global-container-tiny;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-
-    @include breakpoint(tablet-up) {
-      @include padding(6 3 6 3);
-      display: flex;
-      align-items: center;
-    }
-  }
-
-  &__left,
-  &__right {
-    @include txt-size("base");
-    @include margin(2, "bottom");
-    display: block;
-    width: 100%;
-
-    @include breakpoint(tablet-up) {
-      @include margin(0, "bottom");
-    }
-
-    &:last-child {
-      @include margin(3, "bottom");
-
-      @include breakpoint(tablet-up) {
-        @include margin(0, "bottom");
-      }
-    }
-  }
-
-  &__left {
-    text-align: center;
-    color: $global-color-grey;
-
-    @include breakpoint(tablet-up) {
-      text-align: left;
-    }
-  }
-
-  &__right {
-    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $global-secondary-font;
   }
 }

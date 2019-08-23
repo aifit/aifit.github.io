@@ -8,7 +8,7 @@ title: Your New Jekyll Site
 {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
 
 {% if currentYear != year %}
-<div>
+<div class="u-fg--grey">
   <h2>{{ year }}</h2>
 </div>
 {% assign var currentYear = year %}
