@@ -19,26 +19,26 @@
 
     &.is-active {
       .c-blocklink__link {
-        color: $global-color-brand;
+        color: #a28e00;
       }
     }
   }
 
   .current-menu-item {
     a {
-      color: $global-color-brand;
+      color: #a28e00;
     }
   }
 
   a,
   &__link {
     @include txt-size("fair");
-    color: $global-color-dark-grey;
+    color: #a28e00;
     display: block;
     transition: $global-transition;
 
     &:hover {
-      color: $global-color-brand;
+      color: #a28e00;
     }
   }
 }

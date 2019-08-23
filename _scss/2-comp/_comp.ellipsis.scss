@@ -45,16 +45,6 @@ $text-line-height--large:   round($font-size--large * 1.5);
 }
 
 
-// COLOR ALABASTER
-// ================
-@if ($mod-ellipsis-color-alabaster == true) {
-  .c-ellipsis--alabaster {
-    &:after {
-      background: linear-gradient(to right, rgba($global-color-alabaster, 0), $global-color-alabaster 95%);
-    }
-  }
-}
-
 // LINE HEIGHT SMALL
 // ================
 @if ($mod-ellipsis-line-height-small == true) {

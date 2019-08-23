@@ -6,7 +6,9 @@
       <div class="c-header js-header">
         <div class="c-header__body">
           <div class="c-header__left">
-            <div class="c-header__logo"><a href="index.html" style="background-image: url('//placehold.it/200x100');"></a></div>
+            <div class="c-header__logo">
+              <a href="{{ site.url }}">YJA</a>
+            </div>
           </div>
           <div class="c-header__right">
             <div class="c-hamburger">
@@ -19,8 +21,7 @@
             <ul class="c-blocklink c-blocklink--for-mainmenu">
               <li class="c-blocklink__item is-active"><a class="c-blocklink__link" href="#">/home</a></li>
               <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/about</a></li>
-              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/project</a></li>
-              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/old</a></li>
+              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/past</a></li>
             </ul>
           </div>
         </div>
@@ -31,17 +32,17 @@
             <div class="c-blocklink c-blocklink--for-drawer">
               <li class="c-blocklink__item is-active"><a class="c-blocklink__link" href="#">/home</a></li>
               <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/about</a></li>
-              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/project</a></li>
-              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/old</a></li>
+              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/past</a></li>
             </div>
           </div>
         </div>
       </div>
-      <div class="o-container o-container--fluid o-container--bleed js-content">
+      <div class="o-container o-container--tiny o-container--bleed js-content">
         <div class="c-content">
           <div class="o-container">
             <div class="c-post">
-          </div>
+              {{ content }}
+            </div>
         </div>
       </div>
     </div>

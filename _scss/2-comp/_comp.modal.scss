@@ -33,10 +33,10 @@
   &__head {
     @include padding(2.3);
     @include txt-size("base");
-    background: $global-color-light-purple;
+    background: $global-color-light-grey;
     position: relative;
     font-weight: bold;
-    color: $global-color-dark-purple;
+    color: $global-color-dark-grey;
   }
 
 

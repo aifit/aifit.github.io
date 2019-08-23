@@ -143,10 +143,10 @@
   a {
     display: inline-block;
     transition: $global-transition;
-    color: $global-color-brand;
+    color: $global-color-gold;
 
     &:hover {
-      color: $global-color-black;
+      color: $global-color-khaki;
     }
   }
 
@@ -176,7 +176,7 @@
     direction: ltr;
     text-align: left;
     font-style: normal;
-    background: $global-color-light-purple;
+    background: $global-color-brand;
   }
 
   pre {
@@ -218,14 +218,14 @@
       @include padding(3, "left");
       @include margin(0, "bottom");
       margin-left: 0;
-      color: $global-color-dark-purple;
-      border-left: 3px solid $global-color-light-purple;
+      color: $global-color-dark-grey;
+      border-left: 3px solid $global-color-light-grey;
       letter-spacing: .005em;
 
       @include breakpoint(tablet-up) {
         @include txt-size("large");
         @include padding(3, "left");
-        border-left: 3px solid $global-color-light-purple;
+        border-left: 3px solid $global-color-light-grey;
       }
     }
 
@@ -250,7 +250,7 @@
     .wp-caption-text {
       @include txt-size("small");
       display: block;
-      color: $global-color-grey;
+      color: $global-color-gold;
     }
 
     a {

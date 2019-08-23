@@ -2,12 +2,12 @@
 // ================
 
 .c-footer {
-  background: $global-color-white;
+  background: $global-color-brand;
   position: relative;
 
   &__body {
     @include padding(4 0 3 0);
-    max-width: $global-container-default;
+    max-width: $global-container-tiny;
     margin-left: auto;
     margin-right: auto;
     display: block;

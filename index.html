@@ -3,11 +3,18 @@ layout: default
 title: Your New Jekyll Site
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% assign var currentYear = 0 %}
+{% for post in site.posts  %}
+{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+
+{% if currentYear != year %}
+<div>
+  <h2>{{ year }}</h2>
 </div>
+{% assign var currentYear = year %}
+{% endif %}
+<a href="{{ site.url }}{{ post.url }}">
+{{ post.title }}
+</a>
+{{ post.date | date_to_string }}
+{% endfor %}

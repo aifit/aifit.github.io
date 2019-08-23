@@ -11,7 +11,7 @@ $global-container-small: 1000px;
 $global-container-tiny: 800px;
 $global-container-micro: 615px;
 
-$global-header-height:   85px;
+$global-header-height:   65px;
 $global-border-radius:   2px;
 
 // primary color
@@ -20,16 +20,9 @@ $global-color-black:        #333;
 $global-color-light-grey:   #e1e1e1;
 $global-color-grey:         #aaa;
 $global-color-dark-grey:    #666;
-$global-color-brand:        #d71149;
-$global-color-red-dark:     #c30f42;
-$global-color-light-purple: #d6d4f7;
-$global-color-white-purple: #f2f1ff;
-$global-color-dark-purple:  #272257;
-
-// secondary color
-$global-color-pink:         #ffe1e6;
-$global-color-selago:       #f4f4fd;
-$global-color-alabaster:    #fafafa;
+$global-color-brand:        #2e2829;
+$global-color-khaki:        #eae5ce;
+$global-color-gold:         #a28e00;
 
 $global-transition:         all .15s linear;
 $global-shadow:             0 4px 9px 0 rgba(153, 153, 153, .13), 0 0 4px 0 rgba(153, 153, 153, .04);
@@ -80,13 +73,6 @@ $global-utilities-colors: (
   "grey":         $global-color-grey,
   "dark-grey":    $global-color-dark-grey,
   "brand":        $global-color-brand,
-  "red-dark":     $global-color-red-dark,
-  "light-purple": $global-color-light-purple,
-  "white-purple": $global-color-white-purple,
-  "dark-purple":  $global-color-dark-purple,
-  "pink":         $global-color-pink,
-  "selago":       $global-color-selago,
-  "alabaster":    $global-color-alabaster
 ) !default;
 
 $global-external-colors: (

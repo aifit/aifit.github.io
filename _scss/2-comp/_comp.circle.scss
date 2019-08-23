@@ -11,8 +11,8 @@
   right: 18px;
   cursor: pointer;
   z-index: 1;
-  border: 1px solid $global-color-light-purple;
-  background: $global-color-light-purple url("//placehold.it/100x100") no-repeat center center;
+  border: 1px solid $global-color-light-grey;
+  background: $global-color-light-grey url("//placehold.it/100x100") no-repeat center center;
   background-size: 13px auto;
   transition: $global-transition;
   visibility: hidden;
@@ -31,7 +31,7 @@
   }
 
   &:hover {
-    border-color: $global-color-dark-purple;
+    border-color: $global-color-dark-grey;
   }
 
   &.is-active {
