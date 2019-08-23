@@ -48,7 +48,7 @@ $global-available-line-height-ratio: (
   small:    1.43,
   base:     1.5,
   fair:     1.5,
-  medium:   1.5,
+  medium:   1.6,
   large:    1.4,
   xlarge:   1.4,
   xxlarge:  1.5,
@@ -60,11 +60,11 @@ $global-available-font-size: (
   small:    12px,
   base:     $global-font-size,
   fair:     16px,
-  medium:   18px,
-  large:    22px,
+  medium:   20px,
+  large:    24px,
   xlarge:   28px,
   xxlarge:  32px,
-  hero:     40px
+  hero:     44px
 );
 
 $global-utilities-colors: (
