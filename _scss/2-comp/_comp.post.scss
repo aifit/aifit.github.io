@@ -16,19 +16,28 @@
 
   &__title {
     @include margin(0 0 2 0);
-    @include txt-size("hero");
+    @include txt-size("xlarge");
     letter-spacing: .01em;
     font-weight: bold;
     line-height: 1.3;
+
+    @include breakpoint(tablet-up) {
+      @include margin(0 0 2 0);
+      @include txt-size("hero");
+    }
   }
 
   &__meta {
-    @include txt-size("base");
+    @include txt-size("small");
     color: $global-color-gold;
     display: flex;
     flex-wrap: wrap;
     font-family: $global-secondary-font;
     text-transform: uppercase;
+
+    @include breakpoint(tablet-up) {
+      @include txt-size("base");
+    }
   }
 
   &__meta-left {
@@ -104,11 +113,15 @@
   ul,
   ol,
   p {
-    @include txt-size("medium");
+    @include txt-size("fair");
     @include margin(0, "top");
     @include margin(5, "bottom");
     letter-spacing: .008em;
     color: $global-color-grey;
+
+    @include breakpoint(tablet-up) {
+      @include txt-size("medium");
+    }
   }
 
   ul,
@@ -180,11 +193,15 @@
   }
 
   code {
-    @include txt-size("fair");
+    @include txt-size("base");
     padding: 1px 8px 3px;
     border-radius: $global-border-radius;
     background: $global-color-black;
-    color: $global-color-grey;
+    color: $global-color-khaki;
+
+    @include breakpoint(tablet-up) {
+      @include txt-size("fair");
+    }
   }
 
   pre {
@@ -200,7 +217,7 @@
       padding: 0;
       background: none;
       border: 0;
-      color: $global-color-grey;
+      color: $global-color-khaki;
     }
   }
 
@@ -209,7 +226,7 @@
     margin: 0;
 
     p {
-      @include txt-size("large");
+      @include txt-size("fair");
       @include padding(4, "left");
       @include padding(2, "top");
       @include padding(2, "bottom");
@@ -222,6 +239,10 @@
       letter-spacing: .008em;
       line-height: 1.5;
       font-style: italic;
+
+      @include breakpoint(tablet-up) {
+        @include txt-size("large");
+      }
     }
   }
 }

@@ -14,7 +14,7 @@
 
   &__body {
     @include padding(6 3 6 3);
-    @include txt-size("fair");
+    @include txt-size("medium");
     max-width: $global-container-tiny;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
     color: $global-color-grey;
 
     @include breakpoint(tablet-up) {
-      @include txt-size("medium");
+      @include txt-size("large");
     }
 
     a {

@@ -4,7 +4,7 @@
 .c-blocklist {
 
   &__head {
-    @include txt-size("xxlarge");
+    @include txt-size("medium");
     @include margin(2, "bottom");
     @include margin(5, "top");
     font-weight: bold;
@@ -12,6 +12,10 @@
 
     &:first-child {
       @include margin(0, "top");
+    }
+
+    @include breakpoint(tablet-up) {
+      @include txt-size("xxlarge");
     }
   }
 
