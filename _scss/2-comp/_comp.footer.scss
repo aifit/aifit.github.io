@@ -14,10 +14,15 @@
 
   &__body {
     @include padding(6 3 6 3);
+    @include txt-size("base");
     max-width: $global-container-tiny;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: $global-secondary-font;
+
+    @include breakpoint("tablet-up") {
+      @include txt-size("medium");
+    }
   }
 }

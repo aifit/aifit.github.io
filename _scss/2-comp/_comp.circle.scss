@@ -2,17 +2,17 @@
 // ================
 
 .c-circle {
-  text-indent: -9999px;
-  width: 37px;
-  height: 37px;
+  // text-indent: -9999px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   position: fixed;
-  bottom: 57px;
+  bottom: 30px;
   right: 18px;
   cursor: pointer;
   z-index: 1;
-  border: 1px solid $global-color-light-grey;
-  background: $global-color-light-grey url("//placehold.it/100x100") no-repeat center center;
+  border: 1px solid $global-color-dark-grey;
+  background: $global-color-dark-grey;
   background-size: 13px auto;
   transition: $global-transition;
   visibility: hidden;
@@ -26,12 +26,20 @@
   @include breakpoint(tablet-up) {
     bottom: 70px;
     right: 50px;
-    width: 40px;
-    height: 40px;
+  }
+
+  &__text {
+    @include txt-size("small");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1;
+    letter-spacing: .008em;
   }
 
   &:hover {
-    border-color: $global-color-dark-grey;
+    border-color: $global-color-grey;
   }
 
   &.is-active {
