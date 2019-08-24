@@ -73,29 +73,13 @@
 
       &:last-child {
         .c-blocklink__link {
-          border-bottom: 0;
         }
-      }
-
-      &.is-active {
-        .c-blocklink__link {
-          border-radius: $global-border-radius;
-          background: $global-color-light-grey;
-        }
-      }
-    }
-
-    .current-menu-item {
-      a {
-        border-radius: $global-border-radius;
-        background: $global-color-light-grey;
       }
     }
 
     a,
     .c-blocklink__link {
       @include padding(2.3);
-      border-bottom: 1px solid $global-color-light-grey;
       white-space: nowrap;
     }
   }

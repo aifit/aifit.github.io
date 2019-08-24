@@ -40,10 +40,22 @@
       <div class="c-drawer js-drawer-menu">
         <div class="c-drawer__content js-drawer-content">
           <div class="c-drawer__body">
-            <div class="c-blocklink c-blocklink--for-drawer">
-              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/about</a></li>
-              <li class="c-blocklink__item"><a class="c-blocklink__link" href="#">/projects</a></li>
-            </div>
+            <ul class="c-blocklink c-blocklink--for-drawer">
+              {% for page in site.pages %}
+              {% unless page.exclude %}
+              <li class="c-blocklink__item">
+                <a class="c-blocklink__link" href="{{ site.url }}{{ page.url }}">
+                  {{ page.title }}
+                </a>
+              </li>
+              {% endunless %}
+              {% endfor %}
+              <li class="c-blocklink__item">
+                <a class="c-blocklink__link" target="_blank" href="http://v2.yja.me">
+                  v2.0
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
