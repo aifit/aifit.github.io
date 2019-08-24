@@ -14,15 +14,24 @@
 
   &__body {
     @include padding(6 3 6 3);
-    @include txt-size("base");
+    @include txt-size("fair");
     max-width: $global-container-tiny;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: $global-secondary-font;
+    color: $global-color-grey;
 
-    @include breakpoint("tablet-up") {
+    @include breakpoint(tablet-up) {
       @include txt-size("medium");
+    }
+
+    a {
+      @include margin(4, "right");
+
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
 }

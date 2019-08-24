@@ -42,6 +42,7 @@
     @extend .col-xs-12;
     @extend .col-sm-3;
     @include txt-size("small");
+    @include margin(.5, "top");
     color: $global-color-grey;
     text-transform: uppercase;
     text-align: left;

@@ -17,15 +17,6 @@
     padding-bottom: 0;
     display: block;
 
-    &.is-active {
-      .hamburger-inner {
-        &:before,
-        &:after {
-          background-color: $global-color-grey
-        }
-      }
-    }
-
     &-box {
       width: 24px;
       height: 24px;
@@ -54,4 +45,9 @@
       }
     }
   }
+
+  .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner:after, .hamburger.is-active .hamburger-inner:before {
+    background-color: $global-color-grey;
+  }
+
 }
