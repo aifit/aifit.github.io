@@ -3,9 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
+    <title>{% if page.title %}{{ page.title }} &bull; {% endif %} {{ site.title }}</title>
     <meta name="viewport" content="width=device-width">
-
-    <!-- Custom CSS -->
+    <link href="{{ site.url }}/favicon-32.png" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
   </head>

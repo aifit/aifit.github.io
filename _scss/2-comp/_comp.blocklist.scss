@@ -1,0 +1,55 @@
+//  BLOCKLIST
+// ================
+
+.c-blocklist {
+
+  &__head {
+    @include txt-size("xxlarge");
+    @include margin(2, "bottom");
+    @include margin(5, "top");
+    font-weight: bold;
+    color: $global-color-grey;
+
+    &:first-child {
+      @include margin(0, "top");
+    }
+  }
+
+  &__item {
+    display: block;
+    width: 100%;
+    @include margin(3, "bottom");
+
+    &:last-child {
+      @include margin(0, "bottom");
+    }
+
+    @include breakpoint(phone-up) {
+      @include margin(2, "bottom");
+      display: flex;
+      align-items: flex-start;
+    }
+  }
+
+  &__link {
+    @extend .col-xs-12;
+    @extend .col-sm-9;
+    @include txt-size("medium");
+    display: block;
+  }
+
+  &__tag {
+    @extend .col-xs-12;
+    @extend .col-sm-3;
+    @include txt-size("small");
+    color: $global-color-grey;
+    text-transform: uppercase;
+    text-align: left;
+
+    @include breakpoint(phone-up) {
+      @include txt-size("fair");
+      text-align: right;
+    }
+  }
+
+}

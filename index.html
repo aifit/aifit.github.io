@@ -1,21 +1,24 @@
 ---
 layout: default
-title: Your New Jekyll Site
 exclude: true
 ---
-
-{% assign var currentYear = 0 %}
-{% for post in site.posts  %}
-{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
-
-{% if currentYear != year %}
-<div class="u-fg--grey">
-  <h2>{{ year }}</h2>
+<div class="c-blocklist">
+  {% assign var currentYear = 0 %}
+  {% for post in site.posts  %}
+  {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% if currentYear != year %}
+  <div class="c-blocklist__head">
+    {{ year }}
+  </div>
+  {% assign var currentYear = year %}
+  {% endif %}
+  <div class="c-blocklist__item">
+    <a href="{{ site.url }}{{ post.url }}" class="c-blocklist__link">
+      {{ post.title }}
+    </a>
+    <div class="c-blocklist__tag">
+      {{ post.date | date_to_string }}
+    </div>
+  </div>
+  {% endfor %}
 </div>
-{% assign var currentYear = year %}
-{% endif %}
-<a href="{{ site.url }}{{ post.url }}">
-{{ post.title }}
-</a>
-{{ post.date | date_to_string }}
-{% endfor %}

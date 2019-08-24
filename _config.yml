@@ -7,3 +7,6 @@ highlighter: null # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:categories/:title/
 markdown: kramdown
+title: Yahya J. Aifit
+description: "Front-end Web Developer"
+tracking_id: "UA-52996034-4"
