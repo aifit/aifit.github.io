@@ -241,6 +241,7 @@
     @include margin(5, "bottom");
     border-left: 4px solid $global-color-dark-grey;
     background: transparent;
+    overflow: auto;
 
     code {
       padding: 0;
