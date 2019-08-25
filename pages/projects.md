@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-Berikut ini beberapa project pribadi saya.
+Berikut ini beberapa project pribadi:
 
 ___
 

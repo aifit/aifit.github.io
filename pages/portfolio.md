@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<p class="u-mrgn-bottom--0">Berikut beberapa portofolio pilihan saya. Ada beberapa diantaranya yang sudah difitur di website seperti:</p>
+<p class="u-mrgn-bottom--0">Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur di website seperti:</p>
 
 <div class="o-grid">
   <div class="o-grid__item">
