@@ -2,7 +2,7 @@
 name: Yahya J. Aifit
 baseurl: "/"
 # url: "http://localhost:3000"
-url: "https://aifit.github.io/yjame"
+url: "https://yja.me"
 markdown: redcarpet
 highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
