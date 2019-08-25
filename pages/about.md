@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm `Yahya J. Aifit`, Front-end Web Developer living & working in Jakarta, Indonesia.
-
-I started working with HTML & CSS since 2008. Focus on minimalist design & prioritize the beauty of typography.
+`Yahya J. Aifit`, seorang Front-end Web Developer yang saat ini tinggal dan bekerja di Jakarta. Memulai bekerja sebagai Front-end Web Developer dari tahun 2012.
 
 <div class="o-grid">
   <div class="o-grid__item u-txt--fair u-fg--grey u-mrgn-bottom--3" >
@@ -31,20 +29,20 @@ I started working with HTML & CSS since 2008. Focus on minimalist design & prior
 
 ___
 
-### About This Site
+### Tentang Website Ini
 
-This URL address has been a number of years that visitor can be accessed to view my blog and portfolio.
+URL dari blog ini telah aktif beberapa tahun dan dapat diakses oleh publik untuk melihat blog dan portfolio online saya.
 
-This blog repeatedly changed its appearance. The previous version was built using WordPress, using the concept of Blogazine, which means that each article has a different appearance depending on the contents of the article.
+Blog ini juga telah beberapa kali berganti tampilan. Versi sebelumnya dibangun dengan menggunakan mesin Wordpress. Versi tersebut mengusung konsep [Blogazine][blogazine_url], yang berarti setiap artikel mempunyai tampilan yang berbeda sesuai dengan konteksnya. Namun, karena membutuhkan waktu dan usaha yang cukup banyak jadi jarang diupdate lagi.
 
-Due to time constraints, it is often not updated anymore.
+#### Pndah Ke Jekyll
 
-#### Why Jekyll?
-
-After previously using Wordpress, I finally decided to use Jekyll the open source static site generator. This blog will be used as a Github Page. Which means we will get free hosting and SSL from Github :)
+Setelah beberapa tahun menggunakan Wordpress, akhirnya memutuskan untuk beralih ke Jekyll (the static site generator). Alasannya cukup sederhana, karena merupakan static site maka blog ini bisa di deploy ke Github Page. Selain dapat hosting, Github Page juga memberikan SSL gratis :)
 
 ___
 
-### Contact Me
+### Kontak
 
-I also often do side project, for anyone who wants to collaborate can contact me via email at `yahya@yja.me`
+Saya sering melakukan side project juga, jika kalian ingin berkolaborasi silakan hubungi via email di `yahya@yja.me`.
+
+[blogazine_url]: {{ site.url }}/bookmark/mengaktifkan-kembali-blogazine/

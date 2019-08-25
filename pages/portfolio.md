@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<p class="u-mrgn-bottom--0">Here are some my portfolio of work. Some have been featured on:</p>
+<p class="u-mrgn-bottom--0">Berikut beberapa portofolio pilihan saya. Ada beberapa diantaranya yang sudah difitur di website seperti:</p>
 
 <div class="o-grid">
   <div class="o-grid__item">
@@ -22,11 +22,6 @@ permalink: /portfolio/
     </p>
   </div>
 </div>
-
-<!-- [Awwwards][awwwards_url] [Citra Pariwara 2016][solemate_url]
-
-[awwwards_url]: https://www.awwwards.com/sites/festival-mantap-kopi-abc
-[solemate_url]: http://archive.citrapariwara.org/penghargaan/2016/digital?id=764 -->
 
 ___
 

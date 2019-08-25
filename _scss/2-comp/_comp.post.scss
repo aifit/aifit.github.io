@@ -225,6 +225,8 @@
   code {
     @include txt-size("base");
     color: $global-color-code;
+    background: none !important;
+    padding: 0 !important;
 
     @include breakpoint(tablet-up) {
       @include txt-size("fair");
