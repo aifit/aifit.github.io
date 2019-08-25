@@ -161,6 +161,7 @@
     text-decoration: underline;
 
     &:hover {
+      text-decoration: none;
       color: $global-color-khaki;
     }
   }
@@ -171,21 +172,42 @@
   }
 
   p {
+    position: relative;
+
     img {
-      @include margin(0 0 5 0);
+      @include margin(0 0 1 0);
       width: initial;
       max-width: 100%;
       float: left;
+
+      @include breakpoint(tablet-up) {
+        @include margin(0 0 5 0);
+      }
+    }
+
+    em {
+      @include txt-size("base");
+      position: static;
+
+      @include breakpoint(tablet-up) {
+        @include padding(3, "left");
+        position: absolute;
+        top: 0;
+        width: 150px;
+        right: -150px;
+      }
     }
   }
 
   img {
     @include margin(5, "bottom");
+    padding: 4px;
     display: block;
     width: 100%;
     height: auto;
     opacity: .75;
     transition: $global-transition;
+    background: $global-color-dark-grey;
 
     &:hover {
       opacity: 1;
@@ -240,16 +262,12 @@
       @include padding(4, "right");
       @include margin(0, "bottom");
       margin-left: 0;
-      color: $global-color-grey;
+      color: $global-color-khaki;
       border-left: 4px solid $global-color-dark-grey;
       background: transparent;
       letter-spacing: .008em;
-      line-height: 1.5;
+      line-height: 1.6;
       font-style: italic;
-
-      @include breakpoint(tablet-up) {
-        @include txt-size("large");
-      }
     }
   }
 }
