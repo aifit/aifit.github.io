@@ -6,6 +6,9 @@
     <title>{% if page.title %}{{ page.title }} &bull; {% endif %} {{ site.title }}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
+    {% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="5; url=/">
+    {% endif %}
     <link href="{{ site.url }}/favicon-32.png" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
   </head>
