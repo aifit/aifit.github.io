@@ -4,4 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-### Personal Projects
+In the meantime, you can view my portfolio of work at the [previous site][portfolio].
+
+[portfolio]: http://old.yja.me
