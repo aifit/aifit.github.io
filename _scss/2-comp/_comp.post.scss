@@ -172,6 +172,7 @@
   }
 
   p {
+    @include clearfix();
     position: relative;
 
     img {
