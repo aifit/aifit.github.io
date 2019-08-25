@@ -4,11 +4,31 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-Here are some my portfolio of work. Some have been featured on:
-[Awwwards][awwwards_url], [Citra Pariwara 2016][solemate_url]
+<p class="u-mrgn-bottom--0">Here are some my portfolio of work. Some have been featured on:</p>
+
+<div class="o-grid">
+  <div class="o-grid__item">
+    <p class="u-mrgn-bottom--0">
+      <a href="https://www.awwwards.com/sites/festival-mantap-kopi-abc" target="_blank">
+        Awwwards
+      </a>
+    </p>
+  </div>
+  <div class="o-grid__item">
+    <p class="u-mrgn-bottom--0">
+      <a href="http://archive.citrapariwara.org/penghargaan/2016/digital?id=764" target="_blank">
+        Citra Pariwara 2016
+      </a>
+    </p>
+  </div>
+</div>
+
+<!-- [Awwwards][awwwards_url] [Citra Pariwara 2016][solemate_url]
 
 [awwwards_url]: https://www.awwwards.com/sites/festival-mantap-kopi-abc
-[solemate_url]: http://archive.citrapariwara.org/penghargaan/2016/digital?id=764
+[solemate_url]: http://archive.citrapariwara.org/penghargaan/2016/digital?id=764 -->
+
+___
 
 <div class="o-grid">
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
