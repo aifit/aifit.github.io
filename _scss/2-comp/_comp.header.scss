@@ -65,7 +65,7 @@
       display: block;
       letter-spacing: .008em;
 
-      @include breakpoint(tablet-up) {
+      @include breakpoint(phone-up) {
         @include txt-size("large");
       }
     }

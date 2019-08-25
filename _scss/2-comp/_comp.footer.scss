@@ -22,7 +22,7 @@
     font-family: $global-secondary-font;
     color: $global-color-grey;
 
-    @include breakpoint(tablet-up) {
+    @include breakpoint(phone-up) {
       @include txt-size("large");
     }
 

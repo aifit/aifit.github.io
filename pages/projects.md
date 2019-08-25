@@ -19,9 +19,9 @@ ___
           <div class="c-thumb__title">
             Netizen LOL
           </div>
-          <div class="c-thumb__desc u-mrgn-top--1">
+          <!-- <div class="c-thumb__desc u-mrgn-top--1">
             Netizen...
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -36,9 +36,9 @@ ___
           <div class="c-thumb__title">
             YJA.me Versi 1
           </div>
-          <div class="c-thumb__desc u-mrgn-top--1">
+          <!-- <div class="c-thumb__desc u-mrgn-top--1">
             YJA....
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
