@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mengaktifkan Kembali Blogazine"
+title:  "Mengaktifkan Kembali Blogazine This is Example for Long Titile"
 date:   2014-04-20 09:11:03
 categories: update
 ---
