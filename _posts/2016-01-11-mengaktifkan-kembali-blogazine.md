@@ -21,9 +21,6 @@ Bisa diliat kan? Dengan memakai gaya seperti itu, konten juga bisa lebih menarik
 
 ### Permasalahan
 
-Tapi sayangnya, karena membutuhkan effort yang tinggi untuk membuat satu desain dan satu tulisan saja, banyak dari blog yang mengusung gaya Blogazine malah jarang diupdate (termasuk blog ini).
+Tapi sayangnya, karena membutuhkan effort yang tinggi untuk membuat satu desain dan satu tulisan saja, banyak dari blog yang mengusung gaya Blogazine malah jarang diupdate.
 
 [jason_url]: https://jasonsantamaria.com
-
-<!-- ### Solusi
-Sebenarnya, untuk blog yang jarang diupdate bisa diakali dengan membuat dua kategori, satu untuk blogazine dan satunya lagi untuk tulisan dengan desain biasa. Pada blog ini saya namakan Article dan Journal. Sehingga kalau kita gak punya cukup waktu untuk membuat blogazine, kita bisa menulis sebuah Journal singkat. -->
