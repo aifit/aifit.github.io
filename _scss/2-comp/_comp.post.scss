@@ -184,6 +184,12 @@
     display: block;
     width: 100%;
     height: auto;
+    opacity: .75;
+    transition: $global-transition;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 
   pre,
