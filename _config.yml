@@ -8,7 +8,7 @@ exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:categories/:title/
 markdown: kramdown
 title: Yahya J. Aifit
-description: "Front-end Web Developer"
+description: "Portfolio and Blog of Yahya J Aifit, Front-end Web Developer living and working in Jakarta Indonesia. Focusing on simple and minimalist design."
 tracking_id: "UA-52996034-4"
 plugins:
   - jekyll-feed
