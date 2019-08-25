@@ -224,10 +224,7 @@
 
   code {
     @include txt-size("base");
-    padding: 1px 8px 3px;
-    border-radius: $global-border-radius;
-    background: $global-color-black;
-    color: $global-color-khaki;
+    color: $global-color-code;
 
     @include breakpoint(tablet-up) {
       @include txt-size("fair");
@@ -269,6 +266,10 @@
       letter-spacing: .008em;
       line-height: 1.6;
       font-style: italic;
+
+      @include breakpoint(tablet-up) {
+        @include txt-size("medium");
+      }
     }
   }
 }
