@@ -42,10 +42,10 @@ function openModal(o) {
 }function hideHeader() {
   var i = $(".js-header"),
       a = 0,
-      c = 0;$(document).on("scroll", function (o) {
+      s = 0;$(document).on("scroll", function (o) {
     var e = $(document).scrollTop(),
-        t = e - c,
-        n = i.height();n < a + t ? a = n : e < 0 ? a = 0 : a += t, a = a < 0 ? 0 : a, i.css("top", -a + "px"), c = e;
+        t = e - s,
+        n = i.height();n < a + t ? a = n : e < 0 ? a = 0 : a += t, a = a < 0 ? 0 : a, i.css("top", -a + "px"), s = e;
   });
 }function gotopButton(o, e) {
   var t = $(o),
@@ -56,5 +56,5 @@ function openModal(o) {
     }, 100);
   });
 }$(document).ready(function () {
-  checkModalInitialStatus(), bindModalTrigger(), toggleTrigerMenu(), bindMenuTrigger(), stickyFooter(), scrollToId(".js-gotop, .js-faqlist"), preventive(".js-prevent"), hideHeader(), gotopButton(".js-gotop", "is-active"), accordion(".js-accor", ".js-accor-header");
+  toggleTrigerMenu(), bindMenuTrigger(), stickyFooter(), scrollToId(".js-gotop, .js-faqlist"), preventive(".js-prevent"), hideHeader(), gotopButton(".js-gotop", "is-active");
 });

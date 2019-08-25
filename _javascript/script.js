@@ -170,8 +170,8 @@ function gotopButton(gotopClass, gotopState) {
 
 // ON LOAD
 $(document).ready(function() {
-  checkModalInitialStatus();
-  bindModalTrigger();
+  // checkModalInitialStatus();
+  // bindModalTrigger();
   toggleTrigerMenu();
   bindMenuTrigger();
   stickyFooter();
@@ -179,7 +179,7 @@ $(document).ready(function() {
   preventive(".js-prevent");
   hideHeader();
   gotopButton(".js-gotop", "is-active");
-  accordion(".js-accor", ".js-accor-header");
+  // accordion(".js-accor", ".js-accor-header");
 });
 
 

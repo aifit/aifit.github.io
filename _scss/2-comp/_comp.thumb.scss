@@ -1,0 +1,41 @@
+// THUMBNAIL
+// ================
+
+.c-thumb {
+
+  .c-thumb__item {
+    width: 100%;
+  }
+
+  .c-thumb__head {
+    width: 100%;
+    padding: 4px;
+    background: $global-color-dark-grey;
+  }
+
+  .c-thumb__img {
+    @include margin(0, "bottom");
+  }
+
+  .c-thumb__body {
+    padding: 8px 4px;
+  }
+
+  .c-thumb__title {
+    @include txt-size("fair");
+    @include margin(0, "bottom");
+    letter-spacing: .008em;
+    font-weight: bold;
+    color: $global-color-khaki;
+  }
+
+  .c-thumb__desc {
+    @include txt-size("small");
+    color: $global-color-grey;
+
+    @include breakpoint(tablet-up) {
+      @include txt-size("base");
+    }
+  }
+
+}
