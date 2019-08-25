@@ -20,6 +20,14 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+{% highlight css %}
+.component {
+  background: red;
+  color: blue;
+  transform: translate(-50%, -50%);
+}
+{% endhighlight %}
+
 | Column | Column | Column | Column |
 |--------|--------|--------|--------|
 | Row    | Row    | Row    | Row    |
