@@ -262,7 +262,7 @@ ___
         </div>
         <div class="c-thumb__body">
           <div class="c-thumb__title">
-            Festival Mantap
+            Festival Mantap Kopi ABC
           </div>
           <div class="c-thumb__desc">
             <div class="o-grid">
