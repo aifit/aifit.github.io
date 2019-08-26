@@ -201,7 +201,7 @@
       @include txt-size("base");
       position: static;
 
-      @include breakpoint(tablet-up) {
+      @include breakpoint(desktop-up) {
         @include padding(3, "left");
         position: absolute;
         top: 0;

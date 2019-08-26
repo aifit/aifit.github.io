@@ -56,28 +56,24 @@
 // BREAKPOINT
 // ================
 @mixin breakpoint($range) {
-  $phone: 544px;
-  $tablet: 960px;
-  $desktop: 1024px;
-
   // phone only
   @if $range == phone-only {
-    @media (max-width: $phone - 1) { @content; }
+    @media (max-width: $breakpoint-phone - 1) { @content; }
   }
 
   // phone up
   @else if $range == phone-up {
-    @media (min-width: $phone) { @content; }
+    @media (min-width: $breakpoint-phone) { @content; }
   }
 
   // tablet up
   @else if $range == tablet-up {
-    @media (min-width: $tablet) { @content; }
+    @media (min-width: $breakpoint-tablet) { @content; }
   }
 
   // desktop up
   @else if $range == desktop-up {
-    @media (min-width: $desktop) { @content; }
+    @media (min-width: $breakpoint-desktop) { @content; }
   }
 }
 
