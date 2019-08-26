@@ -42,8 +42,12 @@
   &__link {
     @extend .col-xs-12;
     @extend .col-sm-9;
-    @include txt-size("medium");
+    @include txt-size("fair");
     display: block;
+
+    @include breakpoint(phone-up) {
+      @include txt-size("medium");
+    }
   }
 
   &__tag {

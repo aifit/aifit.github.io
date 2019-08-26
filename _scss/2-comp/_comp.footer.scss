@@ -14,7 +14,7 @@
 
   &__body {
     @include padding(6 3 6 3);
-    @include txt-size("large");
+    @include txt-size("medium");
     max-width: $global-container-tiny;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
     color: $global-color-grey;
 
     @include breakpoint(phone-up) {
-      @include txt-size("xlarge");
+      @include txt-size("large");
     }
 
     a {
