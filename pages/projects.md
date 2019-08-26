@@ -21,7 +21,7 @@ ___
           </div>
           <div class="c-thumb__desc u-mrgn-top--1">
             Netizen LOL dibangun di atas mesin Wordpress. Blog ini merupakan blog keluarga saya yang membahas tentang aktifitas sehari - hari, misal liburan, mengurus administrasi dan lain sebagainya.
-          </div>>
+          </div>
         </div>
       </div>
     </div>
