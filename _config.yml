@@ -9,9 +9,13 @@ exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:categories/:title/
 markdown: kramdown
 title: Yahya J. Aifit
+tagline: Front-end Web Developer
 description: "Portfolio dan Blog dari Yahya J Aifit seorang Front-end Web Developer"
 
-# Google Analitycs
+# social media image
+image_share: img/share/share.jpg
+
+  # Google Analitycs
 tracking_id: "UA-52996034-4"
 
 # Plugins
