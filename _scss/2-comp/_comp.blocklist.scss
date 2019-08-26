@@ -4,7 +4,7 @@
 .c-blocklist {
 
   &__head {
-    @include txt-size("medium");
+    @include txt-size("large");
     @include margin(2, "bottom");
     @include margin(5, "top");
     font-weight: bold;
@@ -15,7 +15,7 @@
     }
 
     @include breakpoint(phone-up) {
-      @include txt-size("large");
+      @include txt-size("xlarge");
     }
 
     @include breakpoint(tablet-up) {
