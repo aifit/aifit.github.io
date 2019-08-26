@@ -12,7 +12,7 @@ ___
   <div class="o-grid__item col-sm-12 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/project/netizen.jpg" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">
@@ -29,7 +29,7 @@ ___
   <div class="o-grid__item col-sm-12 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/project/yja.jpg" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">

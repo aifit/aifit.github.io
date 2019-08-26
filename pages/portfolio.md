@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<p class="u-mrgn-bottom--0">Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur di website seperti:</p>
+<p class="u-mrgn-bottom--3">Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur di website seperti:</p>
 
 <div class="o-grid">
   <div class="o-grid__item">
@@ -29,7 +29,7 @@ ___
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/port/sgm.gif" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">
@@ -53,7 +53,7 @@ ___
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/port/epicbanana.gif" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">
@@ -80,7 +80,7 @@ ___
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/port/solemate.png" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">
@@ -104,7 +104,7 @@ ___
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/port/infografik.gif" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">
@@ -131,7 +131,7 @@ ___
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/port/bebaslembab.gif" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">
@@ -155,7 +155,7 @@ ___
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/port/uniqlo.gif" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">
@@ -182,7 +182,7 @@ ___
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/port/hokben.gif" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">
@@ -206,7 +206,7 @@ ___
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/port/mamypoko.gif" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">
@@ -233,7 +233,7 @@ ___
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/port/nissan.gif" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">
@@ -257,7 +257,7 @@ ___
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">
-        <div class="c-thum__head">
+        <div class="c-thumb__head">
           <img src="{{ site.url }}/img/port/festival.gif" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">

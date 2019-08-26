@@ -4,10 +4,12 @@
 .c-thumb {
 
   .c-thumb__item {
+    @include margin(4, "bottom");
     width: 100%;
   }
 
   .c-thumb__head {
+    @include margin(2, "bottom");
     width: 100%;
     padding: 4px;
     background: $global-color-dark-grey;
@@ -25,7 +27,6 @@
     @include txt-size("fair");
     @include margin(0, "bottom");
     letter-spacing: .008em;
-    font-weight: bold;
     color: $global-color-khaki;
   }
 
