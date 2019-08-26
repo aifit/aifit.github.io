@@ -96,7 +96,6 @@
   h6 {
     @include margin(2 0 2 0);;
     font-family: $global-secondary-font;
-    font-weight: bold;
 
     @include breakpoint(tablet-up) {
       @include margin(3 0 3 0);
@@ -105,9 +104,21 @@
 
   h3 {
     @include txt-size("medium");
+    font-weight: bold;
 
     @include breakpoint(tablet-up) {
       @include txt-size("large");
+    }
+  }
+
+  h4,
+  h5,
+  h6 {
+    @include txt-size("fair");
+    font-weight: normal;
+
+    @include breakpoint(tablet-up) {
+      @include txt-size("medium");
     }
   }
 
