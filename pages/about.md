@@ -37,7 +37,7 @@ Blog ini juga telah beberapa kali berganti tampilan. Versi sebelumnya dibangun d
 
 #### Pndah Ke Jekyll
 
-Setelah beberapa tahun menggunakan Wordpress, akhirnya memutuskan untuk beralih ke Jekyll (static site generator). Alasannya selain karena content-focused, karena merupakan static site maka blog ini bisa di deploy ke Github Page. Selain dapat hosting, Github Page juga memberikan SSL gratis :)
+Setelah beberapa tahun menggunakan Wordpress, akhirnya memutuskan untuk beralih ke Jekyll (static site generator). Alasannya selain karena ingin fokus dikonten, output dari Jekyll ini merupakan static site yang bisa di deploy ke Github Page. Selain dapat hosting, Github Page juga memberikan SSL gratis :)
 
 ___
 
