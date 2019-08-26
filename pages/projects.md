@@ -17,7 +17,7 @@ ___
         </div>
         <div class="c-thumb__body">
           <div class="c-thumb__title">
-            <a href="//netizen.lol" target="_blank">Netizen LOL</a>
+            <a href="http://netizen.lol" target="_blank">Netizen LOL</a>
           </div>
           <div class="c-thumb__desc u-mrgn-top--1">
             NetizenLOL dibangun di atas mesin Wordpress. Blog ini merupakan blog keluarga yang membahas tentang aktifitas sehari - hari, misal liburan, mengurus administrasi dan beberapa kegiatan lainnya.
