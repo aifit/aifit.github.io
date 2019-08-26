@@ -30,6 +30,57 @@ ___
     <div class="c-thumb">
       <div class="c-thumb__item">
         <div class="c-thum__head">
+          <img src="{{ site.url }}/img/port/sgm.gif" alt="" class="c-thumb__img">
+        </div>
+        <div class="c-thumb__body">
+          <div class="c-thumb__title">
+            Aku Anak SGM
+          </div>
+          <div class="c-thumb__desc">
+            <div class="o-grid">
+              <div class="o-grid__item col-sm-8 col-xs-9">
+                <strong>Owner:</strong> MullenLowe Indonesia
+              </div>
+              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+                2018
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
+    <div class="c-thumb">
+      <div class="c-thumb__item">
+        <div class="c-thum__head">
+          <img src="{{ site.url }}/img/port/epicbanana.gif" alt="" class="c-thumb__img">
+        </div>
+        <div class="c-thumb__body">
+          <div class="c-thumb__title">
+            Epic Banana Challenge
+          </div>
+          <div class="c-thumb__desc">
+            <div class="o-grid">
+              <div class="o-grid__item col-sm-8 col-xs-9">
+                <strong>Owner:</strong> I-DAC ASIA
+              </div>
+              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+                2016
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="o-grid">
+  <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
+    <div class="c-thumb">
+      <div class="c-thumb__item">
+        <div class="c-thum__head">
           <img src="{{ site.url }}/img/port/solemate.png" alt="" class="c-thumb__img">
         </div>
         <div class="c-thumb__body">
@@ -39,7 +90,7 @@ ___
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-8 col-xs-9">
-                Owner: Mirum @ JWT
+                <strong>Owner:</strong> Mirum @ JWT
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
                 2016
@@ -63,7 +114,7 @@ ___
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-8 col-xs-9">
-                Owner: Mirum @ JWT
+                <strong>Owner:</strong> Mirum @ JWT
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
                 2014
@@ -90,7 +141,7 @@ ___
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-8 col-xs-9">
-                Owner: Mirum @ JWT
+                <strong>Owner:</strong> Mirum @ JWT
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
                 2014
@@ -114,7 +165,7 @@ ___
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-8 col-xs-9">
-                Owner: Dentsu Digital
+                <strong>Owner:</strong> Dentsu Digital
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
                 2013
@@ -141,7 +192,7 @@ ___
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-8 col-xs-9">
-                Owner: Dentsu Digital
+                <strong>Owner:</strong> Dentsu Digital
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
                 2013
@@ -165,7 +216,7 @@ ___
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-8 col-xs-9">
-                Owner: Dentsu Digital
+                <strong>Owner:</strong> Dentsu Digital
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
                 2013
@@ -192,7 +243,7 @@ ___
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-8 col-xs-9">
-                Owner: VP Digital
+                <strong>Owner:</strong> VP Digital
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
                 2012
@@ -216,7 +267,7 @@ ___
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-8 col-xs-9">
-                Owner: VP Digital
+                <strong>Owner:</strong> VP Digital
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
                 2012
