@@ -25,7 +25,7 @@
 
   .c-thumb__title {
     @include txt-size("fair");
-    @include margin(0, "bottom");
+    @include margin(1, "bottom");
     letter-spacing: .008em;
     color: $global-color-khaki;
   }

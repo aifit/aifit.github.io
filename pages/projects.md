@@ -17,10 +17,10 @@ ___
         </div>
         <div class="c-thumb__body">
           <div class="c-thumb__title">
-            Netizen LOL
+            <a href="//netizen.lol" target="_blank">Netizen LOL</a>
           </div>
           <div class="c-thumb__desc u-mrgn-top--1">
-            Netizen LOL dibangun di atas mesin Wordpress. Blog ini merupakan blog keluarga saya yang membahas tentang aktifitas sehari - hari, misal liburan, mengurus administrasi dan lain sebagainya.
+            NetizenLOL dibangun di atas mesin Wordpress. Blog ini merupakan blog keluarga yang membahas tentang aktifitas sehari - hari, misal liburan, mengurus administrasi dan beberapa kegiatan lainnya.
           </div>
         </div>
       </div>
@@ -34,10 +34,10 @@ ___
         </div>
         <div class="c-thumb__body">
           <div class="c-thumb__title">
-            YJA.me Versi 1
+            YJA.me - Versi 1
           </div>
           <div class="c-thumb__desc u-mrgn-top--1">
-            Ini merupakan tampilan dari desain blog yja.me versi lama yang dibangun di atas mesin Wordpress. Blog tersebut sudah nggak digunakan lagi( dinonaktifkan) karena sudah diubah dan di desain ulang menggunakan Jekyll.
+            Ini merupakan tampilan dari desain blog <a href="https://yja.me">YJA.me</a> versi lama yang dibangun di atas mesin Wordpress. Blog tersebut sudah dinonaktifkan.
           </div>
         </div>
       </div>
