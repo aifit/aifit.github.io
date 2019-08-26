@@ -23,7 +23,14 @@
 
     <meta property="og:locale" content="id_ID" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ site.title }} &bull; {{ site.tagline }}" />
+    <meta property="og:title" content="
+      {% if page.title %}
+        {{ page.title }} &bull; {{ site.title }}
+      {% endif %}
+      {% if page.url == '/' %}
+        {{ site.title }} &bull; {{ site.tagline }}
+      {% endif %}
+    " />
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
     <meta property="og:site_name" content="{{ site.title }}" />
@@ -35,7 +42,14 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description" content="{{ site.description }}" />
-    <meta name="twitter:title" content="{{ site.title }} &bull; {{ site.tagline }}" />
+    <meta name="twitter:title" content="
+      {% if page.title %}
+        {{ page.title }} &bull; {{ site.title }}
+      {% endif %}
+      {% if page.url == '/' %}
+        {{ site.title }} &bull; {{ site.tagline }}
+      {% endif %}
+    " />
     <meta name="twitter:site" content="@omipit" />
     <meta name="twitter:image" content="{{ site.url }}/{{ site.image_share }}" />
   </head>
