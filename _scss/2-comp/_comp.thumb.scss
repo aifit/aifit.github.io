@@ -30,12 +30,8 @@
   }
 
   .c-thumb__desc {
-    @include txt-size("small");
+    @include txt-size("base");
     color: $global-color-grey;
-
-    @include breakpoint(tablet-up) {
-      @include txt-size("base");
-    }
   }
 
 }
