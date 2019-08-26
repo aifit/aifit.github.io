@@ -16,7 +16,7 @@
 
   &__title {
     @include margin(0 0 2 0);
-    @include txt-size("xlarge");
+    @include txt-size("xxlarge");
     letter-spacing: .01em;
     font-weight: bold;
     line-height: 1.35;
