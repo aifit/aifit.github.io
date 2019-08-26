@@ -12,10 +12,11 @@
     {% endif %}
     <link href="{{ site.url }}/favicon-32.png" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
 
     <meta property="og:locale" content="id_ID" />
     <meta property="og:type" content="website" />
-    <!-- <meta property="og:title" content="{{ site.title }} &bull; {{ site.tagline }}" /> -->
+    <meta property="og:title" content="{{ site.title }} &bull; {{ site.tagline }}" />
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
@@ -27,7 +28,7 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description" content="{{ site.description }}" />
-    <!-- <meta name="twitter:title" content="{{ site.title }} &bull; {{ site.tagline }}" /> -->
+    <meta name="twitter:title" content="{{ site.title }} &bull; {{ site.tagline }}" />
     <meta name="twitter:site" content="@omipit" />
     <meta name="twitter:image" content="{{ site.url }}/{{ site.image_share }}" />
   </head>
