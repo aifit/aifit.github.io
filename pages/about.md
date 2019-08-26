@@ -31,9 +31,7 @@ ___
 
 ### Tentang Website Ini
 
-URL dari blog ini telah aktif beberapa tahun dan dapat diakses oleh publik untuk melihat blog dan portfolio online saya.
-
-Blog ini juga telah beberapa kali berganti tampilan. Versi sebelumnya dibangun dengan menggunakan mesin Wordpress. Versi tersebut mengusung konsep [Blogazine][blogazine_url], yang berarti setiap artikel mempunyai tampilan yang berbeda sesuai dengan konteksnya. Namun, karena membutuhkan waktu dan usaha yang cukup banyak jadi jarang diupdate lagi.
+Blog ini telah beberapa kali berganti tampilan. Versi sebelumnya dibangun dengan menggunakan mesin Wordpress. Versi tersebut mengusung konsep [Blogazine][blogazine_url], yang berarti setiap artikel mempunyai tampilan yang berbeda sesuai dengan konteksnya. Namun, karena membutuhkan waktu dan usaha yang cukup banyak jadi jarang diupdate lagi.
 
 #### Pndah Ke Jekyll
 
