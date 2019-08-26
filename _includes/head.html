@@ -3,7 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{% if page.title %}{{ page.title }} - {% endif %} {{ site.title }} &bull; {{ site.tagline }}</title>
+    <title>
+      {% if page.title %}
+        {{ page.title }} |
+      {% endif %}
+      {{ site.title }} &bull; {{ site.tagline }}
+    </title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
     <meta name="google-site-verification" content="1-U1YlLAsXy-vgLsg9psOgQI_LS0or_9fqak4yUEZ5g" />
@@ -12,13 +17,13 @@
     {% endif %}
     <link href="{{ site.url }}/favicon-32.png" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
 
     <meta property="og:locale" content="id_ID" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ site.title }} &bull; {{ site.tagline }}" />
     <meta property="og:description" content="{{ site.description }}" />
-    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="fb:app_id" content="899392273777724" />
     <meta property="og:image" content="{{ site.url }}/{{ site.image_share }}" />
