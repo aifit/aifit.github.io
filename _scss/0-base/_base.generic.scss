@@ -113,14 +113,9 @@ p {
 table {
   @include margin(5, "bottom");
   width: 100%;
+  border-spacing: 0;
   border-collapse: collapse;
   background-color: transparent;
-
-  // tr {
-  //   &:nth-child(even) {
-  //     background: $global-color-dark-grey;
-  //   }
-  // }
 
   th {
     background: $global-color-black;
