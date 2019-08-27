@@ -198,6 +198,7 @@
       display: block;
       position: static;
       clear: both;
+      text-decoration: underline;
 
       @include breakpoint(desktop-up) {
         @include padding(0, "top");
@@ -206,6 +207,7 @@
         top: 0;
         width: 150px;
         right: -150px;
+        text-decoration: none;
       }
     }
   }
