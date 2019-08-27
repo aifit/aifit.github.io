@@ -33,6 +33,16 @@
     &:hover {
       color: $global-color-khaki;
     }
+
+    .c-blocklink__icon {
+      color: $global-color-code;
+    }
+
+    &:hover {
+      .c-blocklink__icon {
+        color: $global-color-khaki;
+      }
+    }
   }
 
   &__icon {
