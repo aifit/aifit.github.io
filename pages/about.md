@@ -7,19 +7,19 @@ permalink: /about/
 `Yahya J. Aifit`, seorang Front-end Web Developer yang saat ini tinggal dan bekerja di Jakarta. Memulai bekerja sebagai Front-end Web Developer dari tahun 2012.
 
 <div class="o-grid">
-  <div class="o-grid__item u-txt--fair u-fg--grey u-mrgn-bottom--3" >
+  <div class="o-grid__item u-txt--fair u-fg--grey" >
     <span class="icon-linkedin"></span>
     <a href="https://linkedin.com/in/omipit" target="_blank">
       Linkedin
     </a>
   </div>
-  <div class="o-grid__item u-txt--fair u-fg--grey u-mrgn-bottom--3" >
+  <div class="o-grid__item u-txt--fair u-fg--grey" >
     <span class="icon-github"></span>
     <a href="https://github.com/aifit" target="_blank">
       Github
     </a>
   </div>
-  <div class="o-grid__item u-txt--fair u-fg--grey u-mrgn-bottom--3" >
+  <div class="o-grid__item u-txt--fair u-fg--grey" >
     <span class="icon-codepen"></span>
     <a href="https://codepen.io/yja" target="_blank">
       Codepen

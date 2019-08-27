@@ -66,7 +66,7 @@
   }
 
   h1 {
-    @include margin(2 0 2 0);
+    @include margin(0 0 2 0);
     @include txt-size("xlarge");
     font-family: $global-secondary-font;
     font-weight: bold;
@@ -79,7 +79,7 @@
   }
 
   h2 {
-    @include margin(2 0 2 0);
+    @include margin(0 0 2 0);
     @include txt-size("large");
     font-family: $global-secondary-font;
     font-weight: bold;
@@ -94,7 +94,7 @@
   h4,
   h5,
   h6 {
-    @include margin(2 0 2 0);;
+    @include margin(0 0 2 0);;
     font-family: $global-secondary-font;
 
     @include breakpoint(tablet-up) {

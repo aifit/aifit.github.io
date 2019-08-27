@@ -19,7 +19,7 @@ ___
           <div class="c-thumb__title">
             <a href="http://netizen.lol" target="_blank">Netizen LOL</a>
           </div>
-          <div class="c-thumb__desc u-mrgn-top--1">
+          <div class="c-thumb__desc">
             NetizenLOL dibangun di atas mesin Wordpress. Blog ini merupakan blog keluarga yang membahas tentang aktifitas sehari - hari, misal liburan, mengurus administrasi dan beberapa kegiatan lainnya.
           </div>
         </div>
@@ -36,7 +36,7 @@ ___
           <div class="c-thumb__title">
             YJA.me - Versi 1
           </div>
-          <div class="c-thumb__desc u-mrgn-top--1">
+          <div class="c-thumb__desc">
             Ini merupakan tampilan dari desain blog <a href="https://yja.me">YJA.me</a> versi lama yang dibangun di atas mesin Wordpress. Blog tersebut sudah dinonaktifkan.
           </div>
         </div>

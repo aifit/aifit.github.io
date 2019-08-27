@@ -142,8 +142,8 @@ hr {
   height: 2px;
   background: $global-color-dark-grey;
 
-  @include breakpoint(table-up) {
-    @include margin(8, "top");
-    @include margin(8, "bottom");
+  @include breakpoint(tablet-up) {
+    @include margin(7, "top");
+    @include margin(7, "bottom");
   }
 }
