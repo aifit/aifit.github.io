@@ -13,18 +13,17 @@
 // ================
 @mixin scrollbar() {
   &::-webkit-scrollbar {
-    height: 10px;
+    height: 4px;
   }
 
   &::-webkit-scrollbar-track {
-    background: $global-color-light-grey;
+    background: $global-color-dark-grey;
     border-right: 0;
     border-left: 0;
   }
 
   &::-webkit-scrollbar-thumb {
-    background: $global-color-dark-grey;
-    border: 3px solid $global-color-light-grey;
+    background: #0e4757;
   }
 }
 
