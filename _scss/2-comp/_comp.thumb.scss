@@ -11,8 +11,6 @@
   .c-thumb__head {
     @include margin(2, "bottom");
     width: 100%;
-    padding: 4px;
-    background: $global-color-dark-grey;
   }
 
   .c-thumb__img {

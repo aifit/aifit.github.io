@@ -213,13 +213,17 @@
   }
 
   img {
-    padding: 1px;
+    padding: 2px;
     display: block;
     width: 100%;
     height: auto;
     opacity: .75;
     transition: $global-transition;
     background: $global-color-dark-grey;
+
+    @include breakpoint(tablet-up) {
+      padding: 4px;
+    }
 
     &:hover {
       opacity: 1;
