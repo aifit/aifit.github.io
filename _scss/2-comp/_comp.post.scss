@@ -187,21 +187,20 @@
     position: relative;
 
     img {
-      @include margin(0 0 1 0);
       width: initial;
       max-width: 100%;
       float: left;
-
-      @include breakpoint(tablet-up) {
-        @include margin(0 0 5 0);
-      }
     }
 
     em {
       @include txt-size("base");
+      @include padding(2, "top");
+      display: block;
       position: static;
+      clear: both;
 
       @include breakpoint(desktop-up) {
+        @include padding(0, "top");
         @include padding(3, "left");
         position: absolute;
         top: 0;
@@ -212,7 +211,6 @@
   }
 
   img {
-    @include margin(5, "bottom");
     padding: 4px;
     display: block;
     width: 100%;
