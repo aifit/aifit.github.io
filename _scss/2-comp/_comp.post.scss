@@ -73,7 +73,7 @@
     color: $global-color-gold;
 
     @include breakpoint(tablet-up) {
-      @include margin(3 0 3 0);
+      @include margin(0 0 3 0);
       @include txt-size("xxlarge");
     }
   }
@@ -85,7 +85,7 @@
     font-weight: bold;
 
     @include breakpoint(tablet-up) {
-      @include margin(3 0 3 0);
+      @include margin(0 0 3 0);
       @include txt-size("xxlarge");
     }
   }
@@ -98,7 +98,7 @@
     font-family: $global-secondary-font;
 
     @include breakpoint(tablet-up) {
-      @include margin(3 0 3 0);
+      @include margin(0 0 3 0);
     }
   }
 
