@@ -43,6 +43,16 @@
       color: $global-color-khaki;
     }
   }
+
+  &__icon {
+    &:before {
+      @include txt-size("medium");
+      padding-top: 3px;
+      line-height: 1;
+      display: block;
+    }
+  }
+
 }
 
 // FOR MAINMENU
@@ -70,78 +80,19 @@
       @include txt-size("base");
       margin: 0;
       flex: 1 0 auto;
-
-      &:last-child {
-        .c-blocklink__link {
-        }
-      }
+      border-bottom: 2px solid $global-color-dark-grey;
     }
 
     a,
     .c-blocklink__link {
-      @include padding(2.3);
+      @include padding(3 0 3 0);
       white-space: nowrap;
+      display: flex;
+      align-items: center;
+    }
+
+    .c-blocklink__icon {
+      @include padding(2, "right");
     }
   }
 }
-
-
-// FOR JUMBOTRON
-// ================
-@if ($mod-for-jumbotron == true) {
-  .c-blocklink--for-jumbotron {
-    @include scrollbar;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    max-width: $global-container-small;
-    -webkit-overflow-scrolling: touch;
-
-    .c-blocklink__item {
-      @include txt-size("base");
-      @include margin(0, "left");
-      @include margin(1, "right");
-      flex: 0 0 auto;
-
-      &:last-child {
-        @include margin(0, "right");
-
-        .c-blocklink__link {
-          border-bottom: 0;
-        }
-      }
-
-      &.is-active {
-        .c-blocklink__link {
-          background: $global-color-white;
-        }
-      }
-    }
-
-    .c-blocklink__link {
-      @include txt-size("base");
-      @include padding(2 2.5);
-      text-align: center;
-      color: $global-color-dark-grey;
-      background: $global-color-light-grey;
-      border-top-left-radius: $global-border-radius;
-      border-top-right-radius: $global-border-radius;
-      transition: $global-transition;
-
-      @include breakpoint(phone-only) {
-        @include padding(2 2.5 2.1);
-      }
-
-      @include breakpoint(tablet-up) {
-        @include txt-size("fair");
-        @include padding(2);
-        min-width: 150px;
-      }
-
-      &:hover {
-        background: $global-color-white;
-      }
-    }
-  }
-}
-
-
