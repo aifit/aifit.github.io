@@ -42,7 +42,9 @@ ___
                 <strong>Owner:</strong> MullenLowe Indonesia
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
-                2018
+                <div class="c-thumb__cta">
+                  2018
+                </div>
               </div>
             </div>
           </div>
@@ -66,7 +68,9 @@ ___
                 <strong>Owner:</strong> I-DAC ASIA
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
-                2016
+                <div class="c-thumb__cta">
+                  2016
+                </div>
               </div>
             </div>
           </div>
@@ -93,7 +97,9 @@ ___
                 <strong>Owner:</strong> J. Walter Thompson
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
-                2016
+                <div class="c-thumb__cta">
+                  2016
+                </div>
               </div>
             </div>
           </div>
@@ -117,7 +123,9 @@ ___
                 <strong>Owner:</strong> J. Walter Thompson
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
-                2014
+                <div class="c-thumb__cta">
+                  2014
+                </div>
               </div>
             </div>
           </div>
@@ -144,7 +152,9 @@ ___
                 <strong>Owner:</strong> J. Walter Thompson
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
-                2014
+                <div class="c-thumb__cta">
+                  2014
+                </div>
               </div>
             </div>
           </div>
@@ -168,7 +178,9 @@ ___
                 <strong>Owner:</strong> Dentsu Digital
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
-                2013
+                <div class="c-thumb__cta">
+                  2013
+                </div>
               </div>
             </div>
           </div>
@@ -195,7 +207,9 @@ ___
                 <strong>Owner:</strong> Dentsu Digital
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
-                2013
+                <div class="c-thumb__cta">
+                  2013
+                </div>
               </div>
             </div>
           </div>
@@ -219,7 +233,9 @@ ___
                 <strong>Owner:</strong> Dentsu Digital
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
-                2013
+                <div class="c-thumb__cta">
+                  2013
+                </div>
               </div>
             </div>
           </div>
@@ -246,7 +262,9 @@ ___
                 <strong>Owner:</strong> VP Digital
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
-                2012
+                <div class="c-thumb__cta">
+                  2012
+                </div>
               </div>
             </div>
           </div>
@@ -270,7 +288,9 @@ ___
                 <strong>Owner:</strong> VP Digital
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
-                2012
+                <div class="c-thumb__cta">
+                  2012
+                </div>
               </div>
             </div>
           </div>

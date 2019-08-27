@@ -3,34 +3,49 @@
 
 .c-thumb {
 
-  .c-thumb__item {
+  &__item {
     @include margin(4, "bottom");
     width: 100%;
   }
 
-  .c-thumb__head {
+  &__head {
     @include margin(2, "bottom");
     width: 100%;
   }
 
-  .c-thumb__img {
+  &__img {
     @include margin(0, "bottom");
   }
 
-  .c-thumb__body {
+  &__body {
     padding: 4px 4px 0;
   }
 
-  .c-thumb__title {
+  &__title {
     @include txt-size("fair");
     @include margin(1, "bottom");
     letter-spacing: .008em;
     color: $global-color-khaki;
   }
 
-  .c-thumb__desc {
+  &__desc {
     @include txt-size("base");
     color: $global-color-grey;
+  }
+
+  &__cta {
+    color: $global-color-code;
+    letter-spacing: .008em;
+
+    a {
+      color: $global-color-code;
+      transition: $global-transition;
+      text-decoration: none;
+
+      &:hover {
+        color: $global-color-khaki
+      }
+    }
   }
 
 }
