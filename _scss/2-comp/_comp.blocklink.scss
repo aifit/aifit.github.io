@@ -7,8 +7,6 @@
   align-items: center;
 
 
-
-  li,
   &__item {
     @include margin(0 3);
     list-style: none;
@@ -24,13 +22,6 @@
     }
   }
 
-  .current-menu-item {
-    a {
-      color: $global-color-gold;
-    }
-  }
-
-  a,
   &__link {
     @include txt-size("medium");
     color: $global-color-grey;
@@ -75,7 +66,6 @@
     display: initial;
     position: relative;
 
-    li,
     .c-blocklink__item {
       @include txt-size("base");
       margin: 0;
@@ -83,7 +73,6 @@
       border-bottom: 2px solid $global-color-dark-grey;
     }
 
-    a,
     .c-blocklink__link {
       @include padding(3 0 3 0);
       white-space: nowrap;
