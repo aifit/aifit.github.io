@@ -125,7 +125,7 @@
   ul,
   ol,
   p {
-    @include txt-size("fair");
+    @include txt-size("base");
     @include margin(0, "top");
     @include margin(5, "bottom");
     letter-spacing: .008em;
