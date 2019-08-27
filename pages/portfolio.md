@@ -90,7 +90,7 @@ ___
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> Mirum @ JWT
+                <strong>Owner:</strong> J. Walter Thompson
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
                 2016
@@ -114,7 +114,7 @@ ___
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> Mirum @ JWT
+                <strong>Owner:</strong> J. Walter Thompson
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
                 2014
@@ -141,7 +141,7 @@ ___
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> Mirum @ JWT
+                <strong>Owner:</strong> J. Walter Thompson
               </div>
               <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
                 2014
