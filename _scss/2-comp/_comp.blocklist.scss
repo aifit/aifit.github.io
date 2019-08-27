@@ -40,10 +40,11 @@
   }
 
   &__link {
-    @include txt-size("fair");
+    // @include txt-size("fair");
     @extend .col-xs-12;
     @extend .col-sm-9;
     display: block;
+    font-size: 17px;
 
     @include breakpoint(phone-up) {
       @include txt-size("medium");
