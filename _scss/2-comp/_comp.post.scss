@@ -254,7 +254,6 @@
     @include padding(2, "bottom");
     @include padding(4, "right");
     @include margin(5, "bottom");
-    @include scrollbar();
     border-left: 4px solid $global-color-dark-grey;
     background: transparent;
     overflow: auto;
@@ -264,6 +263,10 @@
       background: none;
       border: 0;
       color: $global-color-khaki;
+    }
+
+    @include breakpoint(tablet-up) {
+      @include scrollbar();
     }
   }
 
