@@ -68,7 +68,7 @@
   h1 {
     @include margin(0 0 2 0);
     @include txt-size("xlarge");
-    font-family: $global-secondary-font;
+    font-family: $global-primary-font;
     font-weight: bold;
     color: $global-color-gold;
 
@@ -81,7 +81,7 @@
   h2 {
     @include margin(0 0 2 0);
     @include txt-size("large");
-    font-family: $global-secondary-font;
+    font-family: $global-primary-font;
     font-weight: bold;
 
     @include breakpoint(tablet-up) {
@@ -95,7 +95,7 @@
   h5,
   h6 {
     @include margin(0 0 2 0);;
-    font-family: $global-secondary-font;
+    font-family: $global-primary-font;
 
     @include breakpoint(tablet-up) {
       @include margin(0 0 3 0);
@@ -130,6 +130,10 @@
     @include margin(5, "bottom");
     letter-spacing: .008em;
     color: $global-color-grey;
+
+    // @include breakpoint(phone-up) {
+    //   @include txt-size("fair");
+    // }
 
     @include breakpoint(tablet-up) {
       @include txt-size("medium");
@@ -193,12 +197,11 @@
     }
 
     em {
-      @include txt-size("base");
-      @include padding(2, "top");
+      @include txt-size("small");
+      @include padding(1, "top");
       display: block;
       position: static;
       clear: both;
-      text-decoration: underline;
 
       @include breakpoint(desktop-up) {
         @include padding(0, "top");
@@ -242,6 +245,7 @@
     color: $global-color-code;
     background: none !important;
     padding: 0 !important;
+    font-family: $global-secondary-font;
 
     @include breakpoint(tablet-up) {
       @include txt-size("fair");
@@ -259,6 +263,7 @@
     overflow: auto;
 
     code {
+      @include txt-size("base");
       padding: 0;
       background: none;
       border: 0;
