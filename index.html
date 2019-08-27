@@ -16,7 +16,7 @@ layout: default
       {{ post.title }}
     </a>
     <div class="c-blocklist__tag">
-      {{ post.date | date_to_string }}
+      {{ post.date | date: '%d / %b' }}
     </div>
   </div>
   {% endfor %}

@@ -40,9 +40,9 @@
   }
 
   &__link {
+    @include txt-size("fair");
     @extend .col-xs-12;
     @extend .col-sm-9;
-    @include txt-size("fair");
     display: block;
 
     @include breakpoint(phone-up) {
@@ -53,10 +53,9 @@
   &__tag {
     @extend .col-xs-12;
     @extend .col-sm-3;
-    @include txt-size("small");
+    @include txt-size("base");
     @include margin(.5, "top");
     color: $global-color-grey;
-    text-transform: uppercase;
     text-align: left;
 
     @include breakpoint(phone-up) {
