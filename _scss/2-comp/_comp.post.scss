@@ -125,15 +125,11 @@
   ul,
   ol,
   p {
-    @include txt-size("base");
+    @include txt-size("fair");
     @include margin(0, "top");
     @include margin(5, "bottom");
     letter-spacing: .008em;
     color: $global-color-grey;
-
-    // @include breakpoint(phone-up) {
-    //   @include txt-size("fair");
-    // }
 
     @include breakpoint(tablet-up) {
       @include txt-size("medium");

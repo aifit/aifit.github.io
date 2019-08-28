@@ -37,23 +37,6 @@ ___
       </div>
     </div>
   </div>
-  <div class="o-grid__item col-sm-12 col-xs-12 u-mrgn-bottom--5">
-    <div class="c-thumb">
-      <div class="c-thumb__item">
-        <div class="c-thumb__head">
-          <img src="{{ site.url }}/img/project/yja.jpg" alt="" class="c-thumb__img">
-        </div>
-        <div class="c-thumb__body">
-          <div class="c-thumb__title">
-            YJA.me
-          </div>
-          <div class="c-thumb__desc">
-            Ini merupakan tampilan dari desain blog <a href="https://yja.me">YJA.me</a> versi pertama yang dibangun di atas mesin Wordpress. Blog dengan tampilan ini sudah dinonaktifkan.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 
