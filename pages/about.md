@@ -31,10 +31,6 @@ ___
 
 ### Tentang Website Ini
 
-Blog ini telah beberapa kali berganti tampilan. Versi sebelumnya dibangun dengan menggunakan mesin Wordpress. Versi tersebut mengusung konsep [Blogazine][blogazine_url], yang berarti setiap artikel mempunyai tampilan yang berbeda sesuai dengan konteksnya. Namun, karena membutuhkan waktu dan usaha yang cukup banyak jadi jarang diupdate lagi.
-
-#### Pndah Ke Jekyll
-
 Setelah beberapa tahun menggunakan Wordpress, akhirnya memutuskan untuk beralih ke Jekyll (static site generator). Alasannya selain karena ingin fokus dikonten, output dari Jekyll ini merupakan static site yang bisa di deploy ke Github Pages. Selain dapat hosting, Github Pages juga memberikan SSL gratis :)
 
 ___
