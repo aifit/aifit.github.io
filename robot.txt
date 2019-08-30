@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disalow: /img
+Disalow: /css
+Disalow: /javascript
+
+User-agent: ia_archiver
+Disalow: /
+
+Sitemap: https://yja.me/sitemap.xml
