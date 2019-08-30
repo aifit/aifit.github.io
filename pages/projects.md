@@ -31,7 +31,7 @@ ___
             </div>
           </div>
           <div class="c-thumb__desc">
-            NetizenLOL dibangun di atas mesin Wordpress. Blog ini merupakan blog keluarga yang membahas tentang aktifitas sehari - hari, misal liburan, mengurus administrasi dan beberapa topik lainnya.
+            NetizenLOL dibangun di atas mesin Wordpress. Blog ini merupakan blog keluarga yang membahas tentang aktifitas sehari - hari, misal liburan, mengurus administrasi dan topik lainnya.
           </div>
         </div>
       </div>
