@@ -2,7 +2,11 @@
 layout: default
 ---
 <div class="c-post__head">
-  <div class="c-post__title">{{ page.title }}</div>
-  <div class="c-post__meta">{{ page.date | date_to_string }}</div>
+  <div class="c-post__title">
+    {{ page.title }}
+  </div>
+  <div class="c-post__meta">
+    <a>{{ page.categories }}</a> &nbsp; &bull; &nbsp; {{ page.date | date: '%d / %b / %Y' }}
+  </div>
 </div>
 {{ content }}
