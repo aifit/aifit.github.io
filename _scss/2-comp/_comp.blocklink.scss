@@ -46,6 +46,8 @@
   }
 
   &__icon {
+    transition: $global-transition;
+
     &:before {
       @include txt-size("medium");
       padding-top: 3px;
