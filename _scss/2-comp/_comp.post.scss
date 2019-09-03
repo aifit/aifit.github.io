@@ -260,6 +260,7 @@
     border-left: 4px solid $global-color-dark-grey;
     background: transparent;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
 
     code {
       // @include txt-size("base");
