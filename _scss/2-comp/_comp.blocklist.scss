@@ -29,6 +29,15 @@
     width: 100%;
     @include margin(3, "bottom");
 
+    a {
+      transition: $global-transition;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
     &:last-child {
       @include margin(0, "bottom");
     }
