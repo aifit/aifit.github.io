@@ -1,0 +1,27 @@
+---
+layout: archive
+---
+<div class="c-post c-post--category">
+  <div class="c-post__head">
+    <div class="c-post__title">
+      {{page.category_name}}
+    </div>
+    <div class="c-post__meta">
+      Semua tulisan dengan kategori {{page.category_name}}.
+    </div>
+  </div>
+  {% if site.categories[page.category_name] %}
+  {% for post in site.categories[page.category_name] %}
+  <div class="c-blocklist__item">
+    <a href="{{ site.url }}{{ post.url }}" class="c-blocklist__link">
+      {{ post.title }}
+    </a>
+    <div class="c-blocklist__tag">
+      {{ post.date | date: '%d / %b / %Y' }}
+    </div>
+  </div>
+  {% endfor %}
+  {% else %}
+  <p>No posts for this category. If you have something in mind, check <a href="/write">Write For Us</a> page.</p>
+  {% endif %}
+</div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mengaktifkan Kembali Blogazine"
-categories: bookmark
+categories: 'blogging'
 ---
 
 ### Apa itu Blogazine?

@@ -9,6 +9,7 @@
     @include margin(5, "top");
     font-weight: bold;
     color: $global-color-grey;
+    text-transform: capitalize;
 
     &:first-child {
       @include margin(0, "top");

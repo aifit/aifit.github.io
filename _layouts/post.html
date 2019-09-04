@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-<div class="c-post__head">
-  <div class="c-post__title">
-    {{ page.title }}
+<div class="c-post">
+  <div class="c-post__head">
+    <div class="c-post__title">
+      {{ page.title }}
+    </div>
+    <div class="c-post__meta">
+      <a href="{{ site.url }}/{{ page.categories }}">{{ page.categories }}</a> &nbsp; &bull; &nbsp; {{ page.date | date: '%d / %b / %Y' }}
+    </div>
   </div>
-  <div class="c-post__meta">
-    <a>{{ page.categories }}</a> &nbsp; &bull; &nbsp; {{ page.date | date: '%d / %b / %Y' }}
-  </div>
+  {{ content }}
 </div>
-{{ content }}

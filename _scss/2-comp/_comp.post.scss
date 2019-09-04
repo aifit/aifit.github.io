@@ -301,3 +301,22 @@
     }
   }
 }
+
+
+// FOR CATEGORY
+// ================
+@if ($mod-post-category == true) {
+  .c-post--category {
+    .c-post__title {
+      text-transform: capitalize;
+    }
+    .c-post__meta {
+      @include txt-size("fair");
+      text-transform: initial;
+
+      @include breakpoint(tablet-up) {
+        @include txt-size("medium");
+      }
+    }
+  }
+}
