@@ -29,11 +29,11 @@ permalink: /about/
 
 ___
 
-<!-- ### Tentang Website Ini
+### Tentang Website
 
-Setelah beberapa tahun menggunakan Wordpress, akhirnya memutuskan untuk beralih ke Jekyll (static site generator). Alasannya selain karena ingin fokus dikonten, output dari Jekyll ini merupakan static site yang bisa di deploy ke Github Pages. Selain dapat hosting, Github Pages juga memberikan SSL gratis :)
+Setelah sebelumnya menggunakan Wordpress, akhirnya memutuskan untuk beralih ke Jekyll. Alasannya, output dari Jekyll ini merupakan static site yang bisa di deploy ke Github. Selain dapat hosting, Github juga memberikan SSL gratis :)
 
-___ -->
+___
 
 ### Kontak
 
