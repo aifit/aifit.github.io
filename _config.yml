@@ -21,4 +21,3 @@ tracking_id: "UA-52996034-4"
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-target-blank
