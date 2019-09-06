@@ -29,10 +29,6 @@
     width: 100%;
     @include margin(3, "bottom");
 
-    a {
-      transition: $global-transition;
-    }
-
     &:last-child {
       @include margin(0, "bottom");
     }
@@ -49,6 +45,7 @@
     @extend .col-xs-12;
     @extend .col-sm-9;
     display: block;
+    transition: $global-transition;
 
     @include breakpoint(phone-up) {
       @include txt-size("medium");

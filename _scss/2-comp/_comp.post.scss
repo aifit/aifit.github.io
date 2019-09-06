@@ -46,10 +46,6 @@
       @include padding(0 0 6 0);
       @include txt-size("base");
     }
-
-    a {
-      text-decoration: none !important;
-    }
   }
 
   &__meta-left {
@@ -181,10 +177,8 @@
     display: inline-block;
     transition: $global-transition;
     color: $global-color-gold;
-    text-decoration: underline;
 
     &:hover {
-      text-decoration: none;
       color: $global-color-khaki;
     }
   }
@@ -345,14 +339,6 @@
 
       @include breakpoint(tablet-up) {
         @include txt-size("medium");
-      }
-
-      a {
-        text-decoration: underline !important;
-
-        &:hover {
-          text-decoration: none !important;
-        }
       }
     }
   }
