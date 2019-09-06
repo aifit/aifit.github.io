@@ -135,8 +135,11 @@
     @include txt-size("fair");
     @include margin(0, "top");
     @include margin(5, "bottom");
-    letter-spacing: .008em;
     color: $global-color-grey;
+
+    @include breakpoint(phone-up) {
+      line-height: 1.4;
+    }
 
     @include breakpoint(tablet-up) {
       @include txt-size("medium");
