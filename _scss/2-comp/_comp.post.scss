@@ -179,7 +179,7 @@
     color: $global-color-gold;
 
     &:hover {
-      color: $global-color-khaki;
+      color: $global-color-white;
     }
   }
 
@@ -292,17 +292,16 @@
       @include padding(4, "right");
       @include margin(0, "bottom");
       margin-left: 0;
-      color: $global-color-khaki;
       border-left: 4px solid $global-color-dark-grey;
       background: transparent;
-      letter-spacing: .008em;
-      line-height: 1.6;
-      font-style: italic;
 
       @include breakpoint(tablet-up) {
         @include txt-size("fair");
-        @include padding(6, "bottom");
       }
+    }
+
+    @include breakpoint(tablet-up) {
+      @include padding(6, "bottom");
     }
   }
 }

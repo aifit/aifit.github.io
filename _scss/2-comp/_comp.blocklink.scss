@@ -31,7 +31,7 @@
     font-family: $global-primary-font;
 
     &:hover {
-      color: $global-color-khaki;
+      color: $global-color-white;
     }
 
     .c-blocklink__icon {
@@ -40,7 +40,7 @@
 
     &:hover {
       .c-blocklink__icon {
-        color: $global-color-khaki;
+        color: $global-color-white;
       }
     }
   }
