@@ -2,11 +2,8 @@
 layout: page
 title: Projects
 permalink: /projects/
+description: 'Berikut beberapa proyek pribadi:'
 ---
-
-Berikut beberapa proyek pribadi:
-
-___
 
 <div class="o-grid">
   <div class="o-grid__item col-sm-12 col-xs-12 u-mrgn-bottom--5">

@@ -2,9 +2,10 @@
 layout: page
 title: About
 permalink: /about/
+description: '<code>Yahya Junianto Aifit</code>'
 ---
 
-`Yahya J. Aifit`, seorang Front-end Web Developer yang saat ini tinggal dan bekerja di Jakarta. Memulai bekerja sebagai Front-end Web Developer dari tahun 2012.
+Seorang Front-end Web Developer yang saat ini tinggal dan bekerja di Jakarta. Memulai bekerja sebagai Front-end Web Developer dari tahun 2012.
 
 <div class="o-grid">
   <div class="o-grid__item u-txt--fair u-fg--grey" >

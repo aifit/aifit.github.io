@@ -13,14 +13,14 @@ $global-border-radius:   4px;
 // primary color
 $global-color-white:        #fff;
 $global-color-black:        #1d1a1a;
-$global-color-light-grey:   #e1e1e1;
-$global-color-grey:         #9f9b89;
+$global-color-light-grey:   #d3ceba;
+$global-color-grey:         #aaa694;
 // $global-color-dark-grey:    #3e3838;
 $global-color-dark-grey:    #363131;
 // $global-color-brand:        #2e2829;
 $global-color-brand:        #282324;
 $global-color-khaki:        #d3ceb9;
-$global-color-gold:         #a28e00;
+$global-color-gold:         #bbaa2d;
 $global-color-code:         #209BBE;
 
 $global-transition:         all .15s linear;
@@ -37,7 +37,7 @@ $available-directions:            "top" "right" "bottom" "left";
 
 // TYPOGRAPHY
 // ================
-$global-font-size:          15px;
+$global-font-size:          14px;
 $global-line-height:        24px;
 $global-primary-font:       "IBM Plex Sans", Helvetica, Arial, sans-serif;
 $global-secondary-font:     "IBM Plex Mono", Helvetica, Arial, sans-serif;
@@ -52,7 +52,7 @@ $global-available-line-height-ratio: (
   small:    1.43,
   base:     1.5,
   fair:     1.5,
-  medium:   1.45,
+  medium:   1.43,
   large:    1.4,
   xlarge:   1.4,
   xxlarge:  1.5,
@@ -63,7 +63,7 @@ $global-available-font-size: (
   tiny:     10px,
   small:    12px,
   base:     $global-font-size,
-  fair:     17px,
+  fair:     16px,
   medium:   19px,
   large:    24px,
   xlarge:   28px,

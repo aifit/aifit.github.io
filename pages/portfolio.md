@@ -2,11 +2,9 @@
 layout: page
 title: Portfolio
 permalink: /portfolio/
----
-
-<p class="u-mrgn-bottom--3">Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur di website seperti:</p>
-
-<div class="o-grid">
+description: '
+Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur di website seperti:
+<div class="o-grid u-mrgn-top--2">
   <div class="o-grid__item">
     <p class="u-mrgn-bottom--0">
       <a href="https://www.awwwards.com/sites/festival-mantap-kopi-abc" target="_blank">
@@ -22,8 +20,8 @@ permalink: /portfolio/
     </p>
   </div>
 </div>
-
-___
+'
+---
 
 <div class="o-grid">
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">

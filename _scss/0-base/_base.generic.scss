@@ -117,6 +117,10 @@ table {
   border-collapse: collapse;
   background-color: transparent;
 
+  @include breakpoint(tablet-up) {
+    @include margin(6, "bottom");
+  }
+
   th {
     background: $global-color-black;
     text-align: initial;
@@ -143,12 +147,16 @@ hr {
   background: $global-color-dark-grey;
 
   @include breakpoint(tablet-up) {
-    @include margin(7, "top");
-    @include margin(7, "bottom");
+    @include margin(6, "top");
+    @include margin(6, "bottom");
   }
 }
 
 iframe {
   @include margin(5, "bottom");
   display: block;
+
+  @include breakpoint(tablet-up) {
+    @include margin(6, "bottom");
+  }
 }
