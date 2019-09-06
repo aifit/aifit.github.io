@@ -32,7 +32,7 @@ ___
 
 ### Tentang Website
 
-Setelah sebelumnya menggunakan Wordpress, akhirnya memutuskan untuk beralih ke Jekyll. Alasannya, output dari Jekyll ini merupakan static site yang bisa di deploy ke Github Pages.
+Setelah sebelumnya menggunakan Wordpress, akhirnya memutuskan untuk beralih ke Jekyll. Alasannya, karena output dari Jekyll ini merupakan website statis performa dan keamanannya lebih bagus dari website dinamis. Dan kita bisa memanfaatkan Github Pages sebagai storage-nya.
 
 ___
 
