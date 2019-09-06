@@ -9,53 +9,68 @@
 
 <url>
   <loc>https://yja.me/</loc>
-  <lastmod>2019-08-26T06:43:47+00:00</lastmod>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://yja.me/projects/</loc>
-  <lastmod>2019-08-26T06:43:47+00:00</lastmod>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://yja.me/portfolio/</loc>
-  <lastmod>2019-08-26T06:43:47+00:00</lastmod>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://yja.me/about/</loc>
-  <lastmod>2019-08-26T06:43:47+00:00</lastmod>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://yja.me/bookmark/browser-strangeness/</loc>
-  <lastmod>2019-08-26T06:43:47+00:00</lastmod>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://yja.me/tutorial/alternatif-css-untuk-text-underline/</loc>
-  <lastmod>2019-08-26T06:43:47+00:00</lastmod>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://yja.me/bookmark/brv-web-performance/</loc>
-  <lastmod>2019-08-26T06:43:47+00:00</lastmod>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://yja.me/tutorial/expose-local-server/</loc>
-  <lastmod>2019-08-26T06:43:47+00:00</lastmod>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://yja.me/bookmark/inspirasi-typografi/</loc>
-  <lastmod>2019-08-26T06:43:47+00:00</lastmod>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://yja.me/bookmark/mengaktifkan-kembali-blogazine/</loc>
-  <lastmod>2019-08-26T06:43:47+00:00</lastmod>
+  <loc>https://yja.me/blogging/mengaktifkan-kembali-blogazine/</loc>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yja.me/bookmark/</loc>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yja.me/tutorial/</loc>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yja.me/blogging/</loc>
+  <lastmod>2019-09-06T00:13:51+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
