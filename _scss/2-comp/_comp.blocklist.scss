@@ -31,11 +31,6 @@
 
     a {
       transition: $global-transition;
-      text-decoration: underline;
-
-      &:hover {
-        text-decoration: none;
-      }
     }
 
     &:last-child {

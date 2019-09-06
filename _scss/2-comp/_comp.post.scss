@@ -46,6 +46,10 @@
       @include padding(0 0 6 0);
       @include txt-size("base");
     }
+
+    a {
+      text-decoration: none !important;
+    }
   }
 
   &__meta-left {
@@ -341,6 +345,14 @@
 
       @include breakpoint(tablet-up) {
         @include txt-size("medium");
+      }
+
+      a {
+        text-decoration: underline !important;
+
+        &:hover {
+          text-decoration: none !important;
+        }
       }
     }
   }
