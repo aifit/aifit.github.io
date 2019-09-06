@@ -26,7 +26,7 @@ function openModal(o) {
   });
 }function stickyFooter() {
   var o = $(".js-header").outerHeight(),
-      e = $(".js-footer").outerHeight();$(".js-content").css({ "padding-top": o / 1.2, "padding-bottom": e / 1.2 }), $(".js-drawer-content").css({ "padding-top": o }), $(".js-footer").css({ "margin-top": -e });
+      e = $(".js-footer").outerHeight();$(".js-content").css({ "padding-top": o, "padding-bottom": e }), $(".js-drawer-content").css({ "padding-top": o }), $(".js-footer").css({ "margin-top": -e });
 }function accordion(o, e) {
   $(o).on("click", e, function () {
     $(this).toggleClass("is-active").next().slideToggle(), $(o).addClass("is-active");

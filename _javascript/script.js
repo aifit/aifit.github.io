@@ -75,8 +75,8 @@ function stickyFooter() {
 	var headerHeight = $('.js-header').outerHeight();
 	var footerHeight = $('.js-footer').outerHeight();
 	$('.js-content').css({
-		'padding-top': headerHeight / 1.2,
-		'padding-bottom': footerHeight / 1.2,
+		'padding-top': headerHeight,
+		'padding-bottom': footerHeight,
   });
 
   $('.js-drawer-content').css({

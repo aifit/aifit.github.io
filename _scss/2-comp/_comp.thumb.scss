@@ -31,6 +31,10 @@
   &__desc {
     @include txt-size("base");
     color: $global-color-grey;
+
+    @include breakpoint(tablet-up) {
+      @include txt-size("fair");
+    }
   }
 
   &__cta {

@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-description: '<code>Yahya Junianto Aifit</code>'
+description: 'Yahya Junianto Aifit'
 ---
 
 Seorang Front-end Web Developer yang saat ini tinggal dan bekerja di Jakarta. Memulai bekerja sebagai Front-end Web Developer dari tahun 2012.
@@ -32,7 +32,7 @@ ___
 
 ### Tentang Website
 
-Setelah sebelumnya menggunakan Wordpress, akhirnya memutuskan untuk beralih ke Jekyll. Alasannya, output dari Jekyll ini merupakan static site yang bisa di deploy ke Github. Selain dapat hosting, Github juga memberikan SSL gratis :)
+Setelah sebelumnya menggunakan Wordpress, akhirnya memutuskan untuk beralih ke Jekyll. Alasannya, output dari Jekyll ini merupakan static site yang bisa di deploy ke Github Pages.
 
 ___
 
