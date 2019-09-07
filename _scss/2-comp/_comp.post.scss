@@ -256,7 +256,8 @@
     font-family: $global-secondary-font;
 
     @include breakpoint(tablet-up) {
-      @include txt-size("fair");
+      // @include txt-size("fair");
+      font-size: 18px;
     }
   }
 
