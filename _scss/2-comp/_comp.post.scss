@@ -36,42 +36,30 @@
 
   &__meta {
     @include txt-size("small");
-    @include padding(0 0 5 0);
+    // @include padding(0 0 5 0);
+    @include padding(0);
     color: $global-color-grey;
     display: flex;
     flex-wrap: wrap;
     font-family: $global-primary-font;
     text-transform: uppercase;
-    border-bottom: 2px solid $global-color-dark-grey;
 
     @include breakpoint(phone-up) {
-      @include padding(0 0 6 0);
+      @include padding(0);
       @include txt-size("base");
     }
   }
 
-  &__meta-left {
-    @extend .col-sm-6;
-    @extend .col-xs-12;
-
-    @include breakpoint(phone-only) {
-      flex-basis: initial;
-    }
-  }
-
-  &__meta-right {
-    @extend .col-sm-6;
-    @extend .col-xs-12;
-    @include margin(2, "top");
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  &__meta-date {
+    @include txt-size("small");
+    font-style: italic;
+    font-family: $global-serif-font;
+    text-transform: capitalize;
+    color: $global-color-light-grey;
 
     @include breakpoint(phone-up) {
-      @include margin(0, "top");
-      justify-content: flex-end;
+      @include txt-size("base");
     }
-
   }
 
   h1 {
@@ -182,11 +170,9 @@
     display: inline-block;
     transition: $global-transition;
     color: $global-color-gold;
-    text-decoration: underline;
 
     &:hover {
       color: $global-color-white;
-      text-decoration: none;
     }
   }
 
@@ -212,6 +198,7 @@
       position: static;
       clear: both;
       color: $global-color-cite;
+      font-family: $global-serif-font;
 
       @include breakpoint(desktop-up) {
         @include padding(0, "top");

@@ -4,7 +4,7 @@
 .c-blocklist {
 
   &__head {
-    @include txt-size("large");
+    @include txt-size("medium");
     @include margin(2, "bottom");
     @include margin(5, "top");
     font-weight: 500;
@@ -18,17 +18,13 @@
     }
 
     @include breakpoint(phone-up) {
-      @include txt-size("xlarge");
-    }
-
-    @include breakpoint(tablet-up) {
-      @include txt-size("xxlarge");
+      @include txt-size("large");
     }
   }
 
   &__item {
     width: 100%;
-    @include margin(2, "bottom");
+    @include margin(2.5, "bottom");
 
     &:last-child {
       @include margin(0, "bottom");
@@ -45,13 +41,8 @@
     @extend .col-sm-9;
     display: block;
     transition: $global-transition;
-    text-decoration: underline;
     font-size: 18px;
     line-height: 1.5;
-
-    &:hover {
-      text-decoration: none;
-    }
 
     @include breakpoint(phone-up) {
       @include txt-size("medium");
@@ -66,6 +57,7 @@
     color: $global-color-grey;
     text-align: left;
     font-family: $global-serif-font;
+    font-style: italic;
 
     @include breakpoint(phone-up) {
       @include txt-size("fair");

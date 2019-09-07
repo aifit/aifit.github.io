@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 4px solid $global-color-dark-grey;
+  border-top: 1px solid $global-color-dark-grey;
   max-width: $global-container-tiny;
 
   &__body {
@@ -23,11 +23,11 @@
     color: $global-color-grey;
 
     @include breakpoint(phone-up) {
-      @include txt-size("large");
+      @include txt-size("medium");
     }
 
     a {
-      @include margin(4, "right");
+      @include margin(3.5, "right");
 
       &:last-child {
         margin-right: 0;

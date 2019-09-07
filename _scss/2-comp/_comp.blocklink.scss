@@ -25,7 +25,6 @@
   &__link {
     @include txt-size("medium");
     color: $global-color-grey;
-    letter-spacing: .008em;
     display: block;
     transition: $global-transition;
     font-family: $global-primary-font;
@@ -82,7 +81,7 @@
       @include txt-size("base");
       margin: 0;
       flex: 1 0 auto;
-      border-bottom: 2px solid $global-color-dark-grey;
+      border-bottom: 1px solid $global-color-dark-grey;
     }
 
     .c-blocklink__link {

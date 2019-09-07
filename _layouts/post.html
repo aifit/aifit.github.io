@@ -7,7 +7,12 @@ layout: default
       {{ page.title }}
     </div>
     <div class="c-post__meta">
-      <a href="{{ site.url }}/{{ page.categories }}">{{ page.categories }}</a> &nbsp; &bull; &nbsp; {{ page.date | date: '%d / %b / %Y' }}
+      <a href="{{ site.url }}/{{ page.categories }}">
+        {{ page.categories }}</a>
+        &nbsp; &bull; &nbsp;
+      <span class="c-post__meta-date">
+        {{ page.date | date: '%B %d, %Y' }}
+      </span>
     </div>
   </div>
   {{ content }}

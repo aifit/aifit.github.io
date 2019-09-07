@@ -26,7 +26,7 @@
   }
 
   &__body {
-    @include padding(3);
+    @include padding(3 4 3 4);
     padding-bottom: 150px;
     height: 100%;
     overflow-y: auto;

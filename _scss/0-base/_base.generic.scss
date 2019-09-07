@@ -143,7 +143,7 @@ hr {
   @include margin(5, "top");
   @include margin(5, "bottom");
   border: 0;
-  height: 2px;
+  height: 1px;
   background: $global-color-dark-grey;
 
   @include breakpoint(tablet-up) {
