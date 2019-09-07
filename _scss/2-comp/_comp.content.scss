@@ -3,12 +3,8 @@
 
 .c-content {
   @include padding(9, "top");
-  @include padding(5, "bottom");
+  @include padding(9, "bottom");
   position: relative;
-
-  @include breakpoint(tablet-up) {
-    @include padding(6, "bottom");
-  }
 }
 
 // CONTENT BOTTOM BLEED

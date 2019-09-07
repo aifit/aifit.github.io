@@ -6,6 +6,9 @@
   width: 100%;
   margin: auto;
 
+  // reduce whitespace from last post element
+  margin-bottom: -25px;
+
   &__head {
     @include margin(0 0 5 0);
 
