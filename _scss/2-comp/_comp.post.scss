@@ -20,7 +20,7 @@
   &__title {
     @include margin(0 0 2 0);
     @include txt-size("xlarge");
-    letter-spacing: -1px;
+    letter-spacing: -.5px;
     font-weight: 500;
     font-family: $global-serif-font;
 
