@@ -2,12 +2,11 @@
 // ================
 
 .c-content {
-  @include padding(8, "top");
+  @include padding(9, "top");
   @include padding(5, "bottom");
   position: relative;
 
   @include breakpoint(tablet-up) {
-    @include padding(8, "top");
     @include padding(6, "bottom");
   }
 }
