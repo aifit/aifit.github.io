@@ -8,7 +8,7 @@
     @include margin(2, "bottom");
     @include margin(5, "top");
     font-weight: bold;
-    color: $global-color-grey;
+    color: $global-color-khaki;
     text-transform: capitalize;
 
     &:first-child {
@@ -46,6 +46,7 @@
     @extend .col-sm-9;
     display: block;
     transition: $global-transition;
+    text-decoration: underline;
 
     @include breakpoint(phone-up) {
       @include txt-size("medium");
