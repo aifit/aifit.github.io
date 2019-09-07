@@ -27,14 +27,14 @@
   &__item {
     display: block;
     width: 100%;
-    @include margin(3, "bottom");
+    @include margin(2, "bottom");
 
     &:last-child {
       @include margin(0, "bottom");
     }
 
     @include breakpoint(phone-up) {
-      @include margin(2, "bottom");
+      @include margin(3, "bottom");
       display: flex;
       align-items: flex-start;
     }

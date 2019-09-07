@@ -42,7 +42,7 @@
     text-transform: uppercase;
     border-bottom: 2px solid $global-color-dark-grey;
 
-    @include breakpoint(tablet-up) {
+    @include breakpoint(phone-up) {
       @include padding(0 0 6 0);
       @include txt-size("base");
     }
@@ -138,7 +138,7 @@
     color: $global-color-grey;
 
     @include breakpoint(phone-up) {
-      line-height: 1.4;
+      @include txt-size("medium");
     }
 
     @include breakpoint(tablet-up) {
@@ -172,7 +172,7 @@
 
   ul {
     li {
-      list-style: square;
+      list-style: disc;
     }
   }
 
@@ -269,12 +269,16 @@
     -webkit-overflow-scrolling: touch;
 
     code {
-      // @include txt-size("base");
-      font-size: 14px;
+      @include txt-size("small");
       padding: 0;
       background: none;
       border: 0;
       color: $global-color-khaki;
+    }
+
+    @include breakpoint(phone-up) {
+      @include txt-size("base");
+      line-height: 1.3;
     }
 
     @include breakpoint(tablet-up) {
@@ -298,8 +302,9 @@
       border-left: 4px solid $global-color-dark-grey;
       background: transparent;
       color: $global-color-khaki;
+      font-style: italic;
 
-      @include breakpoint(tablet-up) {
+      @include breakpoint(phone-up) {
         @include txt-size("fair");
       }
     }

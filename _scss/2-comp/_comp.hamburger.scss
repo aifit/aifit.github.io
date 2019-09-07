@@ -18,13 +18,13 @@
     display: block;
 
     &-box {
-      width: 24px;
-      height: 24px;
+      width: 20px;
+      height: 20px;
     }
 
     &-inner {
-      width: 24px;
-      height: 3px;
+      width: 20px;
+      height: 2px;
       background-color: $global-color-grey;
       border-radius: 0;
 
@@ -37,11 +37,11 @@
       }
 
       &:before {
-        top: -7px;
+        top: -6px;
       }
 
       &:after {
-        bottom: -7px;
+        bottom: -6px;
       }
     }
   }
