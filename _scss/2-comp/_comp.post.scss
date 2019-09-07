@@ -25,13 +25,11 @@
 
     @include breakpoint(phone-up) {
       @include txt-size("xxlarge");
-      line-height: 1.35;
     }
 
     @include breakpoint(tablet-up) {
       @include margin(0 0 2 0);
       @include txt-size("hero");
-      line-height: 1.35;
     }
   }
 
