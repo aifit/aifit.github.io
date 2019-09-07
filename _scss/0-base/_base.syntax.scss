@@ -4,19 +4,19 @@
 //   Syntax highlighting
 // ==========================================================================
 
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
-$font-size-code: 0.75em !default; // ~12px
-$border-radius: 4px !default;
-$border-color: rgba(0, 0, 0, 0.1);
+$monospace: Monaco, Consolas, "$global-font-mono", Lucida Console, monospace !default;
+$font-size-code: initial;
+$border-radius: initial;
+$border-color: 0;
 
 $base00: #263238 !default; // Default Background
 $base01: #2E3C43 !default; // Lighter Background (Used for status bars)
 $base02: #314549 !default; // Selection Background
 $base03: #546E7A !default; // Comments, Invisibles, Line Highlighting
 $base04: #B2CCD6 !default; // Dark Foreground (Used for status bars)
-$base05: #EEFFFF !default; // Default Foreground, Caret, Delimiters, Operators
-$base06: #EEFFFF !default; // Light Foreground (Not often used)
-$base07: #FFFFFF !default; // Light Background (Not often used)
+$base05: $global-color-light-grey !default; // Default Foreground, Caret, Delimiters, Operators
+$base06: $global-color-light-grey !default; // Light Foreground (Not often used)
+$base07: $global-color-khaki !default; // Light Background (Not often used)
 $base08: #F07178 !default; // Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
 $base09: #F78C6C !default; // Integers, Boolean, Constants, XML Attributes, Markup Link Url
 $base0a: #FFCB6B !default; // Classes, Markup Bold, Search Text Background
@@ -123,7 +123,6 @@ code.highlighter-rouge {
  .ni{ /* Name.Entity */ color:$base05}
  .ne{ /* Name.Exception */ color:$base08}
  .nf{ /* Name.Function */ color:$base0d}
-//  .nl{ /* Name.Label */ color:$base05}
  .nl{ /* Name.Label */ color:$global-color-khaki}
  .nn{ /* Name.Namespace */ color:$base0a}
  .nx{ /* Name.Other */ color:$base0d}

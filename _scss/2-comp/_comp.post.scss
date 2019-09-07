@@ -261,31 +261,33 @@
   }
 
   pre {
-    @include padding(4, "left");
+    @include padding(2, "left");
+    @include padding(2, "right");
     @include padding(2, "top");
     @include padding(2, "bottom");
-    @include padding(4, "right");
     @include margin(5, "bottom");
-    border-left: 4px solid $global-color-dark-grey;
+    border-left: 2px solid $global-color-dark-grey;
     background: transparent;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+
+    @include breakpoint(tablet-up) {
+      @include padding(4, "left");
+      @include padding(4, "right");
+      @include scrollbar();
+      @include margin(6, "bottom");
+      border-left: 4px solid $global-color-dark-grey;
+    }
 
     code {
       @include txt-size("small");
       padding: 0;
       background: none;
       border: 0;
-      color: $global-color-khaki;
 
       @include breakpoint(phone-up) {
         @include txt-size("base");
       }
-    }
-
-    @include breakpoint(tablet-up) {
-      @include scrollbar();
-      @include margin(6, "bottom");
     }
   }
 
@@ -295,19 +297,22 @@
 
     p {
       @include txt-size("base");
-      @include padding(4, "left");
+      @include padding(2, "left");
+      @include padding(2, "right");
       @include padding(2, "top");
       @include padding(2, "bottom");
-      @include padding(4, "right");
       @include margin(0, "bottom");
       margin-left: 0;
-      border-left: 4px solid $global-color-dark-grey;
+      border-left: 2px solid $global-color-dark-grey;
       background: transparent;
       color: $global-color-khaki;
       font-style: italic;
 
       @include breakpoint(phone-up) {
         @include txt-size("fair");
+        @include padding(4, "left");
+        @include padding(4, "right");
+        border-left: 4px solid $global-color-dark-grey;
       }
     }
 
