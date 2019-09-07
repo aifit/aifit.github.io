@@ -55,11 +55,12 @@
     a {
       @include txt-size("medium");
       font-family: $global-primary-font;
-      font-weight: bold;
+      font-family: $global-serif-font;
+      font-weight: 500;
       width: 100%;
       height: 100%;
       display: block;
-      letter-spacing: .08em;
+      letter-spacing: -1px;
 
       @include breakpoint(phone-up) {
         @include txt-size("large");
