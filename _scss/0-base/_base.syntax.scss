@@ -4,7 +4,7 @@
 //   Syntax highlighting
 // ==========================================================================
 
-$monospace: Monaco, Consolas, "$global-font-mono", Lucida Console, monospace !default;
+$monospace: $global-tertiary-font;
 $font-size-code: initial;
 $border-radius: initial;
 $border-color: 0;

@@ -259,8 +259,7 @@
     font-family: $global-secondary-font;
 
     @include breakpoint(tablet-up) {
-      // @include txt-size("fair");
-      font-size: 18px;
+      font-size: 17px;
     }
   }
 
@@ -288,6 +287,7 @@
       padding: 0;
       background: none;
       border: 0;
+      font-family: $global-tertiary-font;
 
       @include breakpoint(phone-up) {
         @include txt-size("base");

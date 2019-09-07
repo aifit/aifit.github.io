@@ -25,28 +25,27 @@
   }
 
   &__item {
-    display: block;
     width: 100%;
-    @include margin(1, "bottom");
+    @include margin(2, "bottom");
 
     &:last-child {
       @include margin(0, "bottom");
     }
 
     @include breakpoint(phone-up) {
-      @include margin(2, "bottom");
       display: flex;
       align-items: flex-start;
     }
   }
 
   &__link {
-    @include txt-size("fair");
     @extend .col-xs-12;
     @extend .col-sm-9;
     display: block;
     transition: $global-transition;
     text-decoration: underline;
+    font-size: 18px;
+    line-height: 1.5;
 
     @include breakpoint(phone-up) {
       @include txt-size("medium");
@@ -56,7 +55,7 @@
   &__tag {
     @extend .col-xs-12;
     @extend .col-sm-3;
-    @include txt-size("base");
+    @include txt-size("fair");
     @include margin(.3, "top");
     color: $global-color-grey;
     text-align: left;
