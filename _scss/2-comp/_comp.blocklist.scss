@@ -24,7 +24,7 @@
 
   &__item {
     width: 100%;
-    @include margin(2.5, "bottom");
+    @include margin(2, "bottom");
 
     &:last-child {
       @include margin(0, "bottom");
@@ -37,6 +37,7 @@
   }
 
   &__link {
+    @include txt-size("fair");
     @extend .col-xs-12;
     @extend .col-sm-9;
     display: block;
@@ -44,7 +45,7 @@
     font-size: 18px;
     line-height: 1.5;
 
-    @include breakpoint(phone-up) {
+    @include breakpoint(tablet-up) {
       @include txt-size("medium");
     }
   }

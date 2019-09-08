@@ -127,10 +127,6 @@
     @include margin(5, "bottom");
     color: $global-color-grey;
 
-    @include breakpoint(phone-up) {
-      @include txt-size("medium");
-    }
-
     @include breakpoint(tablet-up) {
       @include txt-size("medium");
       @include margin(6, "bottom");
