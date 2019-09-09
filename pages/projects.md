@@ -21,14 +21,14 @@ description: 'Berikut beberapa proyek pribadi:'
               <div class="o-grid__item col-sm-4 col-xs-4 u-align-right u-fg--code">
                 <div class="c-thumb__cta">
                   <a href="http://netizen.lol" target="_blank" class="u-txt--small u-txt--upcase">
-                    Lihat
+                    Kunjungi
                   </a>
                 </div>
               </div>
             </div>
           </div>
           <div class="c-thumb__desc">
-            NetizenLOL dibangun di atas mesin Wordpress. Blog ini merupakan blog keluarga yang membahas tentang aktifitas sehari - hari, misal liburan, mengurus administrasi dan topik lainnya.
+            NetizenLOL dibangun di atas mesin Wordpress. Blog ini merupakan blog keluarga yang membahas tentang aktifitas sehari - hari, misal liburan, mengurus administrasi dan beberapa topik lainnya.
           </div>
         </div>
       </div>
