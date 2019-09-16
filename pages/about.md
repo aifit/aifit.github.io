@@ -10,7 +10,7 @@ Seorang Front-end Web Developer yang saat ini tinggal dan bekerja di Jakarta. Me
 <div class="o-grid">
   <div class="o-grid__item u-txt--fair u-fg--grey" >
     <span class="icon-linkedin"></span>
-    <a href="https://linkedin.com/in/omipit" target="_blank">
+    <a href="https://linkedin.com/in/yja" target="_blank">
       Linkedin
     </a>
   </div>
