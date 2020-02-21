@@ -1,3 +1,8 @@
-### How to run
+How to run
+---
 
-`$ bundle exec jekyll serve`
+#### Start local server
+`$ jekyll serve`
+
+#### Build
+`$ jekyll build`
