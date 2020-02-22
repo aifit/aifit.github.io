@@ -36,7 +36,6 @@
 
   &__meta {
     @include txt-size("small");
-    // @include padding(0 0 5 0);
     @include padding(0);
     color: $global-color-grey;
     display: flex;
@@ -52,10 +51,10 @@
 
   &__meta-date {
     @include txt-size("small");
-    font-style: italic;
     font-family: $global-serif-font;
     text-transform: capitalize;
-    color: $global-color-light-grey;
+    color: $global-color-grey;
+    letter-spacing: .01em;
 
     @include breakpoint(phone-up) {
       @include txt-size("base");
@@ -166,9 +165,17 @@
     display: inline-block;
     transition: $global-transition;
     color: $global-color-gold;
+    border-bottom: 1px solid $global-color-gold;
 
+    &:active,
+    &:focus,
     &:hover {
+      border-bottom: 1px solid $global-color-white;
       color: $global-color-white;
+    }
+
+    &:has(img) {
+      border: 0;
     }
   }
 
@@ -188,13 +195,15 @@
     }
 
     em {
-      @include txt-size("small");
+      @include txt-size("base");
       @include padding(1, "top");
       display: block;
       position: static;
       clear: both;
       color: $global-color-cite;
       font-family: $global-serif-font;
+      font-style: normal;
+      letter-spacing: .01em;
 
       @include breakpoint(desktop-up) {
         @include padding(0, "top");
@@ -213,7 +222,7 @@
     display: block;
     width: 100%;
     height: auto;
-    opacity: .75;
+    opacity: .8;
     transition: $global-transition;
     background: $global-color-dark-grey;
 
@@ -246,19 +255,17 @@
   }
 
   pre {
-    @include padding(2, "left");
-    @include padding(2, "right");
-    @include padding(2, "top");
-    @include padding(2, "bottom");
+    @include padding(4, "left");
+    @include padding(4, "right");
+    @include padding(4, "top");
+    @include padding(4, "bottom");
     @include margin(5, "bottom");
     border-left: 2px solid $global-color-dark-grey;
-    background: transparent;
+    background: $global-color-black;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
 
     @include breakpoint(tablet-up) {
-      @include padding(4, "left");
-      @include padding(4, "right");
       @include scrollbar();
       @include margin(6, "bottom");
       border-left: 4px solid $global-color-dark-grey;
@@ -278,15 +285,15 @@
   }
 
   blockquote {
-    @include padding(5, "bottom");
-    margin: 0;
+    @include margin(5, "bottom");
+    background: $global-color-black;
 
     p {
-      @include txt-size("base");
-      @include padding(2, "left");
-      @include padding(2, "right");
-      @include padding(2, "top");
-      @include padding(2, "bottom");
+      @include txt-size("medium");
+      @include padding(4, "left");
+      @include padding(4, "right");
+      @include padding(4, "top");
+      @include padding(4, "bottom");
       @include margin(0, "bottom");
       margin-left: 0;
       border-left: 2px solid $global-color-dark-grey;
@@ -295,15 +302,14 @@
       line-height: 1.65;
 
       @include breakpoint(phone-up) {
-        @include txt-size("fair");
-        @include padding(4, "left");
-        @include padding(4, "right");
+        //@include padding(4, "left");
+        //@include padding(4, "right");
         border-left: 4px solid $global-color-dark-grey;
       }
     }
 
     @include breakpoint(tablet-up) {
-      @include padding(6, "bottom");
+      @include margin(6, "bottom");
     }
   }
 }

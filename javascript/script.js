@@ -56,5 +56,5 @@ function openModal(o) {
     }, 100);
   });
 }$(document).ready(function () {
-  toggleTrigerMenu(), bindMenuTrigger(), stickyFooter(), scrollToId(".js-gotop, .js-faqlist"), preventive(".js-prevent"), hideHeader(), gotopButton(".js-gotop", "is-active");
+  $("a").has("img").css("border", "0"), toggleTrigerMenu(), bindMenuTrigger(), stickyFooter(), scrollToId(".js-gotop, .js-faqlist"), preventive(".js-prevent"), hideHeader(), gotopButton(".js-gotop", "is-active");
 });

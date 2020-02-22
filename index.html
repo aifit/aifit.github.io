@@ -12,9 +12,11 @@ layout: default
   {% assign var currentYear = year %}
   {% endif %}
   <div class="c-blocklist__item">
-    <a href="{{ site.url }}{{ post.url }}" class="c-blocklist__link">
-      {{ post.title }}
-    </a>
+    <div class="c-blocklist__link">
+      <a href="{{ site.url }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </div>
     <div class="c-blocklist__tag">
       {{ post.date | date: '%B, %d' }}
     </div>

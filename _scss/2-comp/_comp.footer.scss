@@ -22,12 +22,8 @@
     font-family: $global-secondary-font;
     color: $global-color-grey;
 
-    @include breakpoint(phone-up) {
-      @include txt-size("medium");
-    }
-
     a {
-      @include margin(3.5, "right");
+      @include margin(5, "right");
 
       &:last-child {
         margin-right: 0;

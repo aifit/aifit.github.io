@@ -11,15 +11,11 @@
     color: $global-color-khaki;
     text-transform: capitalize;
     font-family: $global-serif-font;
-    letter-spacing: -.5px;
 
     &:first-child {
       @include margin(0, "top");
     }
 
-    //@include breakpoint(phone-up) {
-    //  @include txt-size("large");
-    //}
   }
 
   &__item {
@@ -37,16 +33,14 @@
   }
 
   &__link {
-    @include txt-size("fair");
+    @include txt-size("medium");
+    @include margin(1, "bottom");
     @extend .col-xs-12;
     @extend .col-sm-9;
-    display: block;
-    transition: $global-transition;
-    font-size: 18px;
-    line-height: 1.5;
 
-    @include breakpoint(tablet-up) {
-      @include txt-size("medium");
+    a {
+      transition: $global-transition;
+      border-bottom: 1px solid $global-color-gold;
     }
   }
 
@@ -58,7 +52,7 @@
     color: $global-color-grey;
     text-align: left;
     font-family: $global-serif-font;
-    font-style: italic;
+    letter-spacing: .01em;
 
     @include breakpoint(phone-up) {
       @include txt-size("fair");

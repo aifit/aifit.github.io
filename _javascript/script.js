@@ -172,6 +172,7 @@ function gotopButton(gotopClass, gotopState) {
 $(document).ready(function() {
   // checkModalInitialStatus();
   // bindModalTrigger();
+  $('a').has('img').css('border', '0');
   toggleTrigerMenu();
   bindMenuTrigger();
   stickyFooter();
