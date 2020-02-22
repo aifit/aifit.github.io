@@ -46,7 +46,11 @@
   }
 
   .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner:after, .hamburger.is-active .hamburger-inner:before {
-    background-color: $global-color-grey;
+    background-color: $global-color-white;
+  }
+
+  .hamburger.is-active:hover, .hamburger:hover {
+    opacity: 1;
   }
 
 }

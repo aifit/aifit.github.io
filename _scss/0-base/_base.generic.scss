@@ -39,6 +39,8 @@ a {
   color: $global-color-gold;
   transition: $global-transition;
 
+  &:active,
+  &:focus,
   &:hover {
     color: $global-color-white;
   }

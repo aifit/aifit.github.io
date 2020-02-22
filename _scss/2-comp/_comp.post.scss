@@ -163,15 +163,10 @@
     color: $global-color-gold;
     border-bottom: 1px solid $global-color-gold;
 
-    &:active,
-    &:focus,
+    //&:active,
+    //&:focus,
     &:hover {
-      border-bottom: 1px solid $global-color-white;
       color: $global-color-white;
-    }
-
-    &:has(img) {
-      border: 0;
     }
   }
 
