@@ -4,8 +4,8 @@
 .c-blocklist {
 
   &__head {
-    @include txt-size("medium");
-    @include margin(2, "bottom");
+    @include txt-size("large");
+    @include margin(3, "bottom");
     @include margin(5, "top");
     font-weight: 500;
     color: $global-color-khaki;
@@ -17,9 +17,9 @@
       @include margin(0, "top");
     }
 
-    @include breakpoint(phone-up) {
-      @include txt-size("large");
-    }
+    //@include breakpoint(phone-up) {
+    //  @include txt-size("large");
+    //}
   }
 
   &__item {
@@ -53,7 +53,7 @@
   &__tag {
     @extend .col-xs-12;
     @extend .col-sm-3;
-    @include txt-size("fair");
+    @include txt-size("base");
     @include margin(.3, "top");
     color: $global-color-grey;
     text-align: left;
