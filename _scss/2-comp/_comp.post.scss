@@ -122,15 +122,15 @@
   ul,
   ol,
   p {
-    @include txt-size("fair");
+    @include txt-size("medium");
     @include margin(0, "top");
-    @include margin(5, "bottom");
+    @include margin(6, "bottom");
     color: $global-color-grey;
 
-    @include breakpoint(tablet-up) {
-      @include txt-size("medium");
-      @include margin(6, "bottom");
-    }
+    //@include breakpoint(tablet-up) {
+    //  @include txt-size("medium");
+    //  @include margin(7, "bottom");
+    //}
   }
 
   ul,
@@ -234,15 +234,15 @@
   }
 
   code {
-    @include txt-size("base");
+    @include txt-size("fair");
     color: $global-color-code;
     background: none !important;
     padding: 0 !important;
     font-family: $global-secondary-font;
 
-    @include breakpoint(tablet-up) {
-      font-size: 17px;
-    }
+    //@include breakpoint(tablet-up) {
+    //  font-size: 17px;
+    //}
   }
 
   pre {
@@ -265,15 +265,15 @@
     }
 
     code {
-      @include txt-size("small");
+      @include txt-size("base");
       padding: 0;
       background: none;
       border: 0;
       font-family: $global-tertiary-font;
 
-      @include breakpoint(phone-up) {
-        @include txt-size("base");
-      }
+      //@include breakpoint(phone-up) {
+      //  @include txt-size("base");
+      //}
     }
   }
 
