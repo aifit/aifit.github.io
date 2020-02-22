@@ -50,15 +50,11 @@
   }
 
   &__meta-date {
-    @include txt-size("small");
+    @include txt-size("base");
     font-family: $global-serif-font;
     text-transform: capitalize;
     color: $global-color-grey;
     letter-spacing: .01em;
-
-    @include breakpoint(phone-up) {
-      @include txt-size("base");
-    }
   }
 
   h1 {
