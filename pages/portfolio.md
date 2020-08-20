@@ -24,6 +24,37 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
 ---
 
 <div class="o-grid">
+  <div class="o-grid__item col-sm-12 col-xs-12 u-mrgn-bottom--5">
+    <div class="c-thumb">
+      <div class="c-thumb__item">
+        <div class="c-thumb__head">
+          <a href="https://gorental-indonesia.com" target="_blank" rel="nofollow">
+            <img src="{{ site.url }}/img/port/gorental.jpg" alt="" class="c-thumb__img">
+          </a>
+        </div>
+        <div class="c-thumb__body">
+          <div class="c-thumb__title">
+            Go Rental Indonesia
+          </div>
+          <div class="c-thumb__desc">
+            <div class="o-grid">
+              <div class="o-grid__item col-sm-9 col-xs-9">
+                <strong>Role:</strong> UI Engineer, create custom React component for Go Rental online booking website.
+              </div>
+              <div class="o-grid__item col-sm-3 col-xs-3 u-align-right">
+                <div class="c-thumb__cta">
+                  2019
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="o-grid">
   <div class="o-grid__item col-sm-6 col-xs-12 u-mrgn-bottom--5">
     <div class="c-thumb">
       <div class="c-thumb__item">

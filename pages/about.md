@@ -5,7 +5,7 @@ permalink: /about/
 description: 'Yahya Junianto Aifit'
 ---
 
-Seorang UI-UX Engineer & Wordpress Developer yang saat ini tinggal dan bekerja di Jakarta.
+Seorang UI-UX Engineer & WordPress Developer yang saat ini tinggal dan bekerja di Jakarta.
 
 <div class="o-grid">
   <div class="o-grid__item u-txt--fair u-fg--grey" >
@@ -32,7 +32,7 @@ ___
 
 ### Tentang Website
 
-Setelah sebelumnya menggunakan Wordpress, saya memutuskan untuk beralih ke Jekyll. Alasannya, karena output dari Jekyll ini merupakan website statis sehingga bisa memanfaatkan Github Pages sebagai storage-nya.
+Setelah sebelumnya menggunakan WordPress, saya memutuskan untuk beralih ke Jekyll. Alasannya, karena output dari Jekyll ini merupakan website statis sehingga bisa memanfaatkan Github Pages sebagai storage-nya.
 
 ___
 
