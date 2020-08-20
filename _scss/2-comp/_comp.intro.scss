@@ -13,9 +13,13 @@
     border-left: 2px solid $global-color-gold;
 
     @include breakpoint(phone-up) {
-      font-size: 55px;
+      font-size: 45px;
       margin-bottom: 50px;
       padding-left: 50px;
+    }
+
+    @include breakpoint(tablet-up) {
+      font-size: 55px;
     }
 
     span {
