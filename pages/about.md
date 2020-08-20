@@ -5,7 +5,7 @@ permalink: /about/
 description: 'Yahya Junianto Aifit'
 ---
 
-Seorang Front-end Web Developer yang saat ini tinggal dan bekerja di Jakarta. Memulai bekerja sebagai Front-end Web Developer dari tahun 2012.
+Seorang UI-UX Engineer & Wordpress Developer yang saat ini tinggal dan bekerja di Jakarta.
 
 <div class="o-grid">
   <div class="o-grid__item u-txt--fair u-fg--grey" >
@@ -32,12 +32,10 @@ ___
 
 ### Tentang Website
 
-Setelah sebelumnya menggunakan Wordpress, akhirnya memutuskan untuk beralih ke Jekyll. Alasannya, karena output dari Jekyll ini merupakan website statis performa dan keamanannya lebih bagus dari website dinamis. Dan kita bisa memanfaatkan Github Pages sebagai storage-nya.
+Setelah sebelumnya menggunakan Wordpress, saya memutuskan untuk beralih ke Jekyll. Alasannya, karena output dari Jekyll ini merupakan website statis sehingga bisa memanfaatkan Github Pages sebagai storage-nya.
 
 ___
 
 ### Kontak
 
 Saya sering melakukan side project juga, jika kalian ingin berkolaborasi silakan hubungi via email di `yahya@yja.me`.
-
-[blogazine_url]: {{ site.url }}/bookmark/mengaktifkan-kembali-blogazine/

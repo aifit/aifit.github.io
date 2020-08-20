@@ -14,9 +14,9 @@ $global-border-radius:   4px;
 $global-color-white:        #fff;
 $global-color-black:        #1d1a1a;
 $global-color-light-grey:   #d3ceba;
-$global-color-grey:         #9b9788;
-$global-color-dark-grey:    #413b3b;
-$global-color-brand:        #282324;
+$global-color-grey:         #a6a294;
+$global-color-dark-grey:    #4c4545;
+$global-color-brand:        #272425;
 $global-color-khaki:        #dbd6c0;
 $global-color-gold:         #c5b32c;
 $global-color-code:         #209BBE;
@@ -39,9 +39,8 @@ $available-directions:            "top" "right" "bottom" "left";
 $global-font-size:          14px;
 $global-line-height:        24px;
 $global-primary-font:       "IBM Plex Sans", Helvetica, Arial, sans-serif;
-$global-secondary-font:     "IBM Plex Mono", Helvetica, Arial, sans-serif;
-$global-tertiary-font:      "SFMono-Regular", Menlo, Monaco, "Courier New", monospace;
-$global-serif-font:         "IBM Plex Serif", Georgia, serif;
+$global-secondary-font:     "IBM Plex Mono", monospace;
+$global-serif-font:         "IBM Plex Serif", Rockwell, serif;
 
 // Breakpoint
 $breakpoint-phone: 544px;

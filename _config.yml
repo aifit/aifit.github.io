@@ -9,11 +9,11 @@ exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:categories/:title/
 markdown: kramdown
 title: Yahya J. Aifit
-tagline: Front-end Web Developer
-description: "Portfolio dan Blog dari Yahya Junianto Aifit seorang Front-end Web Developer"
+tagline: UI-UX Engineer & Wordpress Developer
+description: "Portfolio dan Blog dari Yahya Junianto Aifit seorang UI-UX Engineer dan Wordpress Developer"
 
 # social media image
-image_share: img/share/socialshare.jpg
+image_share: img/share/image-sharer.jpg
 
   # Google Analitycs
 tracking_id: "UA-52996034-4"
