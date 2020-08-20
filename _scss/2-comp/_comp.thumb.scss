@@ -26,6 +26,10 @@
     @include margin(1, "bottom");
     letter-spacing: .008em;
     color: $global-color-khaki;
+
+    @include breakpoint(tablet-up) {
+      @include txt-size("medium");
+    }
   }
 
   &__desc {

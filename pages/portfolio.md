@@ -39,7 +39,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-9 col-xs-9">
-                <strong>Role:</strong> UI Engineer, create custom React component for Go Rental online booking website.
+                <strong>Role:</strong> UI Engineer, membuat kustom React component dengan metodologi Atomic Design (atom, molecule, organism, page).
               </div>
               <div class="o-grid__item col-sm-3 col-xs-3 u-align-right">
                 <div class="c-thumb__cta">
