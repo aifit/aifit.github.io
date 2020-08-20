@@ -4,13 +4,19 @@
 .c-intro {
 
   &__title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    padding-left: 25px;
     letter-spacing: -.5px;
-    font-size: 55px;
-    margin-bottom: 50px;
-    padding-left: 50px;
     font-family: $global-serif-font;
     font-weight: 500;
     border-left: 2px solid $global-color-gold;
+
+    @include breakpoint(phone-up) {
+      font-size: 55px;
+      margin-bottom: 50px;
+      padding-left: 50px;
+    }
 
     span {
       font-weight: 200;
