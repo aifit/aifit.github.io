@@ -55,9 +55,10 @@
 // BREAKPOINT
 // ================
 @mixin breakpoint($range) {
-  // phone only
-  @if $range == phone-only {
-    @media (max-width: $breakpoint-phone - 1) { @content; }
+
+  // phone old
+  @if $range == phone-old {
+    @media (max-width: $breakpoint-phone-old) { @content; }
   }
 
   // phone up
@@ -74,6 +75,7 @@
   @else if $range == desktop-up {
     @media (min-width: $breakpoint-desktop) { @content; }
   }
+
 }
 
 

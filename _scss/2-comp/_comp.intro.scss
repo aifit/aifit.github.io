@@ -12,6 +12,13 @@
     font-weight: 500;
     border-left: 2px solid $global-color-gold;
 
+    // smallest phone screen 320px
+    @include breakpoint(phone-old) {
+      font-size: 26px;
+      margin-bottom: 40px;
+      padding-left: 15px;
+    }
+
     @include breakpoint(phone-up) {
       font-size: 45px;
       margin-bottom: 50px;

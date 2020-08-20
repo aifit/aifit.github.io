@@ -5,7 +5,7 @@ permalink: /about/
 description: 'Yahya Junianto Aifit'
 ---
 
-Seorang UI-UX Engineer & WordPress Developer yang saat ini tinggal dan bekerja di Jakarta.
+Seorang UI / UX Engineer & WordPress Developer yang saat ini tinggal dan bekerja di Jakarta.
 
 <div class="o-grid">
   <div class="o-grid__item u-txt--fair u-fg--grey" >

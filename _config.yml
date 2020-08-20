@@ -9,8 +9,8 @@ exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:categories/:title/
 markdown: kramdown
 title: Yahya J. Aifit
-tagline: UI-UX Engineer & WordPress Developer
-description: "Portfolio dan Blog dari Yahya Junianto Aifit seorang UI-UX Engineer dan WordPress Developer"
+tagline: UI / UX Engineer & WordPress Developer
+description: "Portfolio dan Blog dari Yahya Junianto Aifit seorang UI / UX Engineer dan WordPress Developer"
 
 # social media image
 image_share: img/share/image-sharer.jpg
