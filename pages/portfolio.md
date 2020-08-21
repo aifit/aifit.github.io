@@ -28,7 +28,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
     <div class="c-thumb">
       <div class="c-thumb__item">
         <div class="c-thumb__head">
-          <a href="https://gorental-indonesia.com" target="_blank" rel="nofollow">
+          <a href="https://gorental-indonesia.com" target="_blank" rel="nofollow" style="display: block">
             <img src="{{ site.url }}/img/port/gorental.jpg" alt="" class="c-thumb__img">
           </a>
         </div>

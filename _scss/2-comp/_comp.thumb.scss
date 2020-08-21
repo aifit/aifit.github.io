@@ -15,6 +15,9 @@
 
   &__img {
     @include margin(0, "bottom");
+    max-width: initial;
+    width: 100%;
+    min-height: 200px;
   }
 
   &__body {
