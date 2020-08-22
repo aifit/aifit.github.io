@@ -4,9 +4,9 @@
 .c-intro {
 
   &__title {
-    font-size: 30px;
+    font-size: 28px;
     margin-bottom: 40px;
-    padding-left: 25px;
+    padding-left: 22px;
     letter-spacing: -.5px;
     font-family: $global-serif-font;
     font-weight: 500;
@@ -14,7 +14,7 @@
 
     // smallest phone screen 320px
     @include breakpoint(phone-old) {
-      font-size: 26px;
+      font-size: 25px;
       margin-bottom: 40px;
       padding-left: 15px;
     }
