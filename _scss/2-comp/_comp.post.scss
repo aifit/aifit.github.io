@@ -192,17 +192,17 @@
       position: static;
       clear: both;
       color: $global-color-cite;
-      font-family: $global-serif-font;
-      font-style: normal;
-      letter-spacing: .01em;
+      font-style: italic;
+      letter-spacing: .01px;
+      transition: $global-transition;
 
       @include breakpoint(desktop-up) {
         @include padding(0, "top");
         @include padding(2, "left");
         position: absolute;
         top: 0;
-        width: 150px;
-        right: -150px;
+        width: 180px;
+        right: -180px;
         text-decoration: none;
       }
     }
@@ -223,6 +223,14 @@
 
     &:hover {
       opacity: 1;
+    }
+  }
+
+  a, img {
+    &:hover {
+      + em {
+        color: $global-color-grey;
+      }
     }
   }
 
