@@ -3,7 +3,7 @@ name: Yahya J. Aifit
 baseurl: "/"
 # url: "http://localhost:3000"
 url: "https://yja.me"
-markdown: redcarpet
+# markdown: redcarpet
 highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:categories/:title/
