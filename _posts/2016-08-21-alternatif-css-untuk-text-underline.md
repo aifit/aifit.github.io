@@ -70,16 +70,9 @@ Selesai, sekarang underline terkesan terpisah dengan hurufnya.
 * Setiap huruf punya karakteristik `line-height` yang berbeda, maka saat mengganti huruf `text-shadow`-nya harus diatur ulang
 * Saat user men-select teks, text-shadow harus dihilangkan
 
-### Final Code
+### CodePen
 
-Untuk lebih jelasnya, bisa kalian utak-atik di Codepen:
-
-<p class="codepen" data-height="400" data-theme-id="0" data-default-tab="css,result" data-user="yja" data-slug-hash="EyGdwq" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Alternative for CSS Text Underline">
-  <span>See the Pen <a href="https://codepen.io/yja/pen/EyGdwq/">
-  Alternative for CSS Text Underline</a> by Yahya J Aifit (<a href="https://codepen.io/yja">@yja</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+Untuk lebih jelasnya, bisa kalian utak-atik di [CodePen][codepen]
 
 ### Rujukan
 * [Smarter Link Underlines For Every Website][smarterlink]
@@ -88,4 +81,5 @@ Untuk lebih jelasnya, bisa kalian utak-atik di Codepen:
 
 [smarterlink]: https://eager.io/blog/smarter-link-underlines/
 [crafting]: https://medium.design/crafting-link-underlines-on-medium-7c03a9274f9
-[multiple]: http://westciv.com/tools/shadows/
+[multiple]: https://westciv.com/tools/shadows/
+[codepen]: https://codepen.io/yja/pen/EyGdwq
