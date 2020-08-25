@@ -28,7 +28,7 @@ description: 'Berikut beberapa proyek pribadi:'
             </div>
           </div>
           <div class="c-thumb__desc">
-            Merupakan website yang berisi informasi tentang program dari tim Talent Bukalapak. Dibangun di atas mesin WordPress, dan menggunakan custom <a href="https://wordpress.org/gutenberg/" target="_blank" rel="nofollow">Gutenberg</a> block sehingga informasi yang disampaikan ke pengunjung dapat tersajikan dengan baik.
+            <span>Desc</span> Merupakan website yang berisi informasi tentang program dari tim Talent Bukalapak. Dibangun di atas mesin WordPress, dan menggunakan custom <a href="https://wordpress.org/gutenberg/" target="_blank" rel="nofollow">Gutenberg</a> block sehingga informasi yang disampaikan ke pengunjung dapat tersajikan dengan baik.
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@ description: 'Berikut beberapa proyek pribadi:'
             </div>
           </div>
           <div class="c-thumb__desc">
-            Dibangun di atas mesin WordPress. Blog ini merupakan blog keluarga yang membahas tentang aktifitas sehari - hari, misal liburan, mengurus administrasi, galeri foto dan beberapa topik lainnya.
+            <span>Desc</span> Dibangun di atas mesin WordPress. Blog ini merupakan blog keluarga yang membahas tentang aktifitas sehari - hari, misal liburan, mengurus administrasi, galeri foto dan beberapa topik lainnya.
           </div>
         </div>
       </div>

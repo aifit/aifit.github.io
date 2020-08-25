@@ -8,7 +8,6 @@
 
 
   &__item {
-    @include margin(0 3 0 0);
     list-style: none;
 
     &:last-child {
@@ -17,15 +16,11 @@
   }
 
   &__link {
-    @include txt-size("fair");
+    @include txt-size("medium");
     color: $global-color-grey;
     display: block;
     transition: $global-transition;
     font-family: $global-primary-font;
-
-    @include breakpoint(phone-up) {
-      @include txt-size("medium");
-    }
 
     &:hover {
       color: $global-color-white;
@@ -69,8 +64,10 @@
     }
 
     .c-blocklink__item {
+      @include margin(1.5, "right");
+
       @include breakpoint(phone-up) {
-        @include margin(0 5 0 0);
+        @include margin(5, "right");
       }
 
       &:last-child {

@@ -39,7 +39,7 @@ description: '
           <div class="c-thumb__desc">
             <div class="o-grid">
               <div class="o-grid__item col-sm-9 col-xs-9">
-                <strong>Role:</strong> UI Engineer, membuat kustom React component dengan metodologi Atomic Design (atom, molecule, organism, page).
+                <span>Role</span> Sebagai UI Engineer, membuat kustom React komponen dengan metodologi Atomic Design (atom, molecule, organism).
               </div>
               <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
@@ -67,10 +67,10 @@ description: '
           </div>
           <div class="c-thumb__desc">
             <div class="o-grid">
-              <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> MullenLowe Indonesia
+              <div class="o-grid__item col-sm-9 col-xs-9">
+                <span>OWNER</span> MullenLowe Indonesia
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3">
+              <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
                   2018
                 </div>
@@ -93,10 +93,10 @@ description: '
           </div>
           <div class="c-thumb__desc">
             <div class="o-grid">
-              <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> I-DAC ASIA
+              <div class="o-grid__item col-sm-9 col-xs-9">
+                <span>OWNER</span> I-DAC ASIA
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3">
+              <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
                   2016
                 </div>
@@ -122,10 +122,10 @@ description: '
           </div>
           <div class="c-thumb__desc">
             <div class="o-grid">
-              <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> J. Walter Thompson
+              <div class="o-grid__item col-sm-9 col-xs-9">
+                <span>OWNER</span> J. Walter Thompson
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3">
+              <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
                   2016
                 </div>
@@ -148,10 +148,10 @@ description: '
           </div>
           <div class="c-thumb__desc">
             <div class="o-grid">
-              <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> J. Walter Thompson
+              <div class="o-grid__item col-sm-9 col-xs-9">
+                <span>OWNER</span> J. Walter Thompson
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3">
+              <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
                   2014
                 </div>
@@ -177,10 +177,10 @@ description: '
           </div>
           <div class="c-thumb__desc">
             <div class="o-grid">
-              <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> J. Walter Thompson
+              <div class="o-grid__item col-sm-9 col-xs-9">
+                <span>OWNER</span> J. Walter Thompson
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3">
+              <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
                   2014
                 </div>
@@ -203,10 +203,10 @@ description: '
           </div>
           <div class="c-thumb__desc">
             <div class="o-grid">
-              <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> Dentsu Digital
+              <div class="o-grid__item col-sm-9 col-xs-9">
+                <span>OWNER</span> Dentsu Digital
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3">
+              <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
                   2013
                 </div>
@@ -232,10 +232,10 @@ description: '
           </div>
           <div class="c-thumb__desc">
             <div class="o-grid">
-              <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> Dentsu Digital
+              <div class="o-grid__item col-sm-9 col-xs-9">
+                <span>OWNER</span> Dentsu Digital
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3">
+              <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
                   2013
                 </div>
@@ -258,10 +258,10 @@ description: '
           </div>
           <div class="c-thumb__desc">
             <div class="o-grid">
-              <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> Dentsu Digital
+              <div class="o-grid__item col-sm-9 col-xs-9">
+                <span>OWNER</span> Dentsu Digital
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3">
+              <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
                   2013
                 </div>
@@ -287,10 +287,10 @@ description: '
           </div>
           <div class="c-thumb__desc">
             <div class="o-grid">
-              <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> VP Digital
+              <div class="o-grid__item col-sm-9 col-xs-9">
+                <span>OWNER</span> VP Digital
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3">
+              <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
                   2012
                 </div>
@@ -313,10 +313,10 @@ description: '
           </div>
           <div class="c-thumb__desc">
             <div class="o-grid">
-              <div class="o-grid__item col-sm-8 col-xs-9">
-                <strong>Owner:</strong> VP Digital
+              <div class="o-grid__item col-sm-9 col-xs-9">
+                <span>OWNER</span> VP Digital
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3">
+              <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
                   2012
                 </div>
