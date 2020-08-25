@@ -2,14 +2,14 @@
 // ================
 
 .c-hamburger {
-  display: block;
+  display: none;
   position: absolute;
   top: 50%;
   right: 0;
   transform: translateY(-40%);
 
-  @include breakpoint(tablet-up) {
-    display: none;
+  @include breakpoint(phone-old) {
+    display: block;
   }
 
   .hamburger {

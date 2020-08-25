@@ -3,17 +3,17 @@ layout: page
 title: Portfolio
 permalink: /portfolio/
 description: '
-Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur di website seperti:
-<div class="o-grid u-mrgn-top--2">
+<div class="u-mrgn-bottom--3">Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur di website seperti:</div>
+<div class="o-grid">
   <div class="o-grid__item">
-    <p class="u-mrgn-bottom--0">
+    <p class="u-mrgn-bottom--5">
       <a href="https://www.awwwards.com/sites/festival-mantap-kopi-abc" target="_blank">
         Awwwards
       </a>
     </p>
   </div>
   <div class="o-grid__item">
-    <p class="u-mrgn-bottom--0">
+    <p class="u-mrgn-bottom--5">
       <a href="http://archive.citrapariwara.org/penghargaan/2016/digital?id=764" target="_blank">
         Citra Pariwara 2016
       </a>
@@ -41,7 +41,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
               <div class="o-grid__item col-sm-9 col-xs-9">
                 <strong>Role:</strong> UI Engineer, membuat kustom React component dengan metodologi Atomic Design (atom, molecule, organism, page).
               </div>
-              <div class="o-grid__item col-sm-3 col-xs-3 u-align-right">
+              <div class="o-grid__item col-sm-3 col-xs-3">
                 <div class="c-thumb__cta">
                   2019
                 </div>
@@ -70,7 +70,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
               <div class="o-grid__item col-sm-8 col-xs-9">
                 <strong>Owner:</strong> MullenLowe Indonesia
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+              <div class="o-grid__item col-sm-4 col-xs-3">
                 <div class="c-thumb__cta">
                   2018
                 </div>
@@ -96,7 +96,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
               <div class="o-grid__item col-sm-8 col-xs-9">
                 <strong>Owner:</strong> I-DAC ASIA
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+              <div class="o-grid__item col-sm-4 col-xs-3">
                 <div class="c-thumb__cta">
                   2016
                 </div>
@@ -125,7 +125,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
               <div class="o-grid__item col-sm-8 col-xs-9">
                 <strong>Owner:</strong> J. Walter Thompson
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+              <div class="o-grid__item col-sm-4 col-xs-3">
                 <div class="c-thumb__cta">
                   2016
                 </div>
@@ -151,7 +151,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
               <div class="o-grid__item col-sm-8 col-xs-9">
                 <strong>Owner:</strong> J. Walter Thompson
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+              <div class="o-grid__item col-sm-4 col-xs-3">
                 <div class="c-thumb__cta">
                   2014
                 </div>
@@ -180,7 +180,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
               <div class="o-grid__item col-sm-8 col-xs-9">
                 <strong>Owner:</strong> J. Walter Thompson
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+              <div class="o-grid__item col-sm-4 col-xs-3">
                 <div class="c-thumb__cta">
                   2014
                 </div>
@@ -206,7 +206,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
               <div class="o-grid__item col-sm-8 col-xs-9">
                 <strong>Owner:</strong> Dentsu Digital
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+              <div class="o-grid__item col-sm-4 col-xs-3">
                 <div class="c-thumb__cta">
                   2013
                 </div>
@@ -235,7 +235,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
               <div class="o-grid__item col-sm-8 col-xs-9">
                 <strong>Owner:</strong> Dentsu Digital
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+              <div class="o-grid__item col-sm-4 col-xs-3">
                 <div class="c-thumb__cta">
                   2013
                 </div>
@@ -261,7 +261,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
               <div class="o-grid__item col-sm-8 col-xs-9">
                 <strong>Owner:</strong> Dentsu Digital
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+              <div class="o-grid__item col-sm-4 col-xs-3">
                 <div class="c-thumb__cta">
                   2013
                 </div>
@@ -290,7 +290,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
               <div class="o-grid__item col-sm-8 col-xs-9">
                 <strong>Owner:</strong> VP Digital
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+              <div class="o-grid__item col-sm-4 col-xs-3">
                 <div class="c-thumb__cta">
                   2012
                 </div>
@@ -316,7 +316,7 @@ Berikut beberapa portofolio pilihan. Ada beberapa diantaranya yang sudah difitur
               <div class="o-grid__item col-sm-8 col-xs-9">
                 <strong>Owner:</strong> VP Digital
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-3 u-align-right">
+              <div class="o-grid__item col-sm-4 col-xs-3">
                 <div class="c-thumb__cta">
                   2012
                 </div>

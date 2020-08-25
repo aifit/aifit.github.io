@@ -7,7 +7,7 @@ description: 'Berikut beberapa proyek pribadi:'
 
 <div class="o-grid">
   <div class="o-grid__item col-sm-12 col-xs-12 u-mrgn-bottom--5">
-    <div class="c-thumb">
+    <div class="c-thumb c-thumb--for-project">
       <div class="c-thumb__item">
         <div class="c-thumb__head">
           <img src="{{ site.url }}/img/project/bukapotensi.jpg" alt="" class="c-thumb__img">
@@ -18,9 +18,9 @@ description: 'Berikut beberapa proyek pribadi:'
               <div class="o-grid__item col-sm-8 col-xs-8">
                 BukaPotensi
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-4 u-align-right u-fg--code">
+              <div class="o-grid__item col-sm-4 col-xs-4">
                 <div class="c-thumb__cta">
-                  <a href="https://bukapotensi.bukalapak.com" target="_blank" class="u-txt--small u-txt--upcase">
+                  <a href="https://bukapotensi.bukalapak.com" target="_blank">
                     Kunjungi
                   </a>
                 </div>
@@ -35,7 +35,7 @@ description: 'Berikut beberapa proyek pribadi:'
     </div>
   </div>
   <div class="o-grid__item col-sm-12 col-xs-12 u-mrgn-bottom--5">
-    <div class="c-thumb">
+    <div class="c-thumb c-thumb--for-project">
       <div class="c-thumb__item">
         <div class="c-thumb__head">
           <img src="{{ site.url }}/img/project/netizen.jpg" alt="" class="c-thumb__img">
@@ -46,9 +46,9 @@ description: 'Berikut beberapa proyek pribadi:'
               <div class="o-grid__item col-sm-8 col-xs-8">
                 Netizen LOL
               </div>
-              <div class="o-grid__item col-sm-4 col-xs-4 u-align-right u-fg--code">
+              <div class="o-grid__item col-sm-4 col-xs-4">
                 <div class="c-thumb__cta">
-                  <a href="https://netizen.lol" target="_blank" class="u-txt--small u-txt--upcase">
+                  <a href="https://netizen.lol" target="_blank">
                     Kunjungi
                   </a>
                 </div>

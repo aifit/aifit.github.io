@@ -8,26 +8,24 @@
 
 
   &__item {
-    @include margin(0 3);
+    @include margin(0 3 0 0);
     list-style: none;
 
     &:last-child {
       margin-right: 0;
     }
-
-    &.is-active {
-      .c-blocklink__link {
-        color: $global-color-gold;
-      }
-    }
   }
 
   &__link {
-    @include txt-size("medium");
+    @include txt-size("fair");
     color: $global-color-grey;
     display: block;
     transition: $global-transition;
     font-family: $global-primary-font;
+
+    @include breakpoint(phone-up) {
+      @include txt-size("medium");
+    }
 
     &:hover {
       color: $global-color-white;
@@ -61,10 +59,23 @@
 // ================
 @if ($mod-for-mainmenu == true) {
   .c-blocklink--for-mainmenu {
-    display: none;
 
-    @include breakpoint(tablet-up) {
+    @include breakpoint(phone-old) {
+      display: none;
+    }
+
+    @include breakpoint(phone-up) {
       display: flex;
+    }
+
+    .c-blocklink__item {
+      @include breakpoint(phone-up) {
+        @include margin(0 5 0 0);
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
 }

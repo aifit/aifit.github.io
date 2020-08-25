@@ -47,16 +47,32 @@
   &__cta {
     color: $global-color-code;
     letter-spacing: .008em;
-
-    a {
-      color: $global-color-gold;
-      transition: $global-transition;
-      text-decoration: none;
-
-      &:hover {
-        color: $global-color-khaki
-      }
-    }
+    text-align: right;
   }
 
+}
+
+
+// FOR PROJECT
+// ================
+@if ($mod-for-project == true) {
+  .c-thumb--for-project {
+
+    .c-thumb__cta {
+      @include txt-size("small");
+      color: $global-color-gold;
+      text-transform: uppercase;
+
+      a {
+        // color: $global-color-gold;
+        transition: $global-transition;
+        text-decoration: none;
+
+        &:hover {
+          color: $global-color-khaki
+        }
+      }
+    }
+
+  }
 }

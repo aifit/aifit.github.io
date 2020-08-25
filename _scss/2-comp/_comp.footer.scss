@@ -6,27 +6,35 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-top: 1px solid $global-color-dark-grey;
   max-width: $global-container-tiny;
 
   &__body {
-    @include padding(6 3 6 3);
+    @include padding(6 0 6 3);
     @include txt-size("medium");
-    max-width: $global-container-tiny;
     display: flex;
-    align-items: center;
-    justify-content: center;
     font-family: $global-secondary-font;
     color: $global-color-grey;
+
+    @include breakpoint(phone-up) {
+      @include padding(6 3 6 3);
+    }
 
     a {
       @include margin(5, "right");
 
       &:last-child {
         margin-right: 0;
+        color: $global-color-code;
+
+        @include breakpoint(tablet-up) {
+          width: 100%;
+          text-align: right;
+        }
+
+        &:hover {
+          color: $global-color-white;
+        }
       }
     }
   }
