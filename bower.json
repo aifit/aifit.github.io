@@ -8,7 +8,6 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "jquery": "latest",
     "css-hamburgers": "latest"
   },
   "dependencies": {}

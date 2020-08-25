@@ -23,7 +23,7 @@ function browserSyncReload(done) {
 
 function jekyll_js() {
   return src([
-    '_javascript/vendor/jquery/dist/jquery.min.js',
+    '_javascript/jquerySlim/jquery-slim-3.5.1.js',
     '_javascript/script.js',
     ])
     .pipe(concat('script.js'))
@@ -57,7 +57,7 @@ function browser_sync() {
   });
   watch(['_scss/*.scss', '_scss/**/*.scss'], series(jekyll_scss, jekyll_build));
   watch([
-    '_javascript/vendor/jquery/dist/jquery.min.js',
+    '_javascript/jquerySlim/jquery-slim-3.5.1.js',
     '_javascript/script.js',
   ], series(jekyll_js, jekyll_build, browserSyncReload));
   watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*', 'pages/*'], series(jekyll_build, browserSyncReload));
