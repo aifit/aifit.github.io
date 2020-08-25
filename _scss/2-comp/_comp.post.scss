@@ -121,11 +121,6 @@
     @include margin(0, "top");
     @include margin(6, "bottom");
     color: $global-color-grey;
-
-    //@include breakpoint(tablet-up) {
-    //  @include txt-size("medium");
-    //  @include margin(7, "bottom");
-    //}
   }
 
   ul,
@@ -158,13 +153,10 @@
   }
 
   a {
-    display: inline-block;
     transition: $global-transition;
     color: $global-color-gold;
     border-bottom: 1px solid $global-color-gold;
 
-    //&:active,
-    //&:focus,
     &:hover {
       color: $global-color-white;
     }
