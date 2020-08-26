@@ -96,11 +96,12 @@ function accordion(accorParent, accorHeader) {
 }
 
 function scrollToId(target) {
-  $(target).click(function(e) {
-    e.preventDefault();
-    var position = $($(this).attr("href")).offset().top;
-    $("body, html").animate({
-      scrollTop: position
+  $(target).click(function() {
+    var elem = document.getElementById("wrapper");
+    window.scroll({
+      top: elem.offsetTop,
+      left: 0,
+      behavior: 'smooth'
     });
   });
 }
@@ -119,7 +120,6 @@ function hideHeader() {
   $(document).on('scroll', function(e) {
     var newPos = $(document).scrollTop(),
         pos = newPos-lastPos,
-        // tableFilter = $('.js-table-filter'),
         headerHeight = header.height();
 
     if (offset + pos > headerHeight) {
@@ -133,14 +133,8 @@ function hideHeader() {
 
     if (offset < 0) {
       offset = 0;
-      // tableFilter.css({
-      //   'top' : headerHeight
-      // });
     } else {
       offset = offset;
-      // tableFilter.css({
-      //   'top' : 0,
-      // });
     };
     header.css('top', -(offset) + 'px');
     lastPos = newPos;
@@ -172,15 +166,15 @@ function gotopButton(gotopClass, gotopState) {
 $(document).ready(function() {
   // checkModalInitialStatus();
   // bindModalTrigger();
+  // accordion(".js-accor", ".js-accor-header");
   $('a').has('img').css('border', '0');
   toggleTrigerMenu();
   bindMenuTrigger();
   stickyFooter();
-  scrollToId(".js-gotop, .js-faqlist");
   preventive(".js-prevent");
   hideHeader();
+  scrollToId(".js-gotop");
   gotopButton(".js-gotop", "is-active");
-  // accordion(".js-accor", ".js-accor-header");
 });
 
 

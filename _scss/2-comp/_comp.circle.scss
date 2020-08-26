@@ -36,10 +36,15 @@
     transform: translate(-50%, -50%);
     line-height: 1;
     letter-spacing: .008em;
+    color: $global-color-gold;
   }
 
   &:hover {
     border-color: $global-color-grey;
+
+    .c-circle__text {
+      color: $global-color-white;
+    }
   }
 
   &.is-active {
