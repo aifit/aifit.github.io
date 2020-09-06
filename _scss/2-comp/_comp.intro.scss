@@ -20,13 +20,9 @@
     }
 
     @include breakpoint(phone-up) {
-      font-size: 45px;
+      font-size: 46px;
       margin-bottom: 50px;
       padding-left: 50px;
-    }
-
-    @include breakpoint(tablet-up) {
-      font-size: 55px;
     }
 
     span {
