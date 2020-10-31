@@ -27,15 +27,3 @@ Seorang UI / UX Engineer & WordPress Developer yang saat ini tinggal dan bekerja
     </a>
   </div>
 </div>
-
-___
-
-### Tentang Website
-
-Setelah sebelumnya menggunakan WordPress, saya memutuskan untuk beralih ke Jekyll. Alasannya, karena output dari Jekyll ini merupakan website statis sehingga bisa memanfaatkan Github Pages sebagai storage-nya.
-
-___
-
-### Kontak
-
-Saya sering melakukan side project juga, jika kalian ingin berkolaborasi silakan hubungi via email di `yahya@yja.me`.
