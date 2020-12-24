@@ -25,7 +25,8 @@ layout: default
       </a>
     </div>
     <div class="c-blocklist__tag">
-      {{ post.date | date: '%B, %d' }}
+      <!-- {{ post.date | date: '%b %d, %Y' }} -->
+      {{ post.date | date: '%b, %d' }}
     </div>
   </div>
   {% endfor %}
