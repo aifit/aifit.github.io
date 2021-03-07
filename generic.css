@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-size: 100%;
+  font-kerning: normal;
+  background: slategrey;
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-input-placeholder {
+  color: #adadad;
+}
+::-moz-placeholder {
+  color: #adadad;
+}
+:-ms-input-placeholder {
+  color: #adadad;
+}
+:-moz-placeholder {
+  color: #adadad;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body.popup-max .folderpop__body {
+  position: relative;
+  padding-top: 44px;
+  top: 44px !important;
+  left: 0 !important;
+  width: 100%;
+  height: calc(100% - 44px);
+}
