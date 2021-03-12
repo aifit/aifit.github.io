@@ -1,7 +1,2 @@
-_site
-.idea
-node_modules
-_javascript/vendor/*
-!_javascript/vendor/.gitkeep
-_config_dev.yml
 .DS_Store
+node_modules
