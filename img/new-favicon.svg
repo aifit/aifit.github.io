@@ -5,7 +5,7 @@
     }
     @media (prefers-color-scheme: dark) {
       .style0 {
-        fill: #656565;
+        fill: #757575;
         stroke: #aaa;
         stroke-width: 1px;
       }
