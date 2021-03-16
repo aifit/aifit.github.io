@@ -1,6 +1,5 @@
 User-agent: *
-Disallow: /img/por
-Disallow: /img/pro
+Disallow: /img
 User-agent: Yahoo Pipes 1.0
 Disallow: /
 User-agent: 008
@@ -9,8 +8,5 @@ User-agent: voltron
 Disallow: /
 User-agent: Bytespider
 Disallow: /
-User-agent: Googlebot-Image
-Disallow: /img/por
-Disallow: /img/pro
 User-agent: ia_archiver
 Disallow: /
