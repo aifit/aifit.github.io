@@ -11,7 +11,11 @@ body {
 body {
   font-size: 100%;
   font-kerning: normal;
-  background: slategrey;
+  background-color: slategrey;
+  background-image: url(https://yja.me/img/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
   font-family: 'IBM Plex Sans', Arial, sans-serif;
   height: 100%;
   overflow: hidden;
