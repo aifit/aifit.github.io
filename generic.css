@@ -11,8 +11,9 @@ body {
 body {
   font-size: 100%;
   font-kerning: normal;
+  background-image: url("img/wallpaper.jpg");
+  background-image: url("img/wallpaper.webp");
   background-color: slategrey;
-  background-image: url(https://yja.me/img/wallpaper.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -30,19 +31,6 @@ img {
 
 a {
   text-decoration: none;
-}
-
-::-webkit-input-placeholder {
-  color: #adadad;
-}
-::-moz-placeholder {
-  color: #adadad;
-}
-:-ms-input-placeholder {
-  color: #adadad;
-}
-:-moz-placeholder {
-  color: #adadad;
 }
 
 ul {
