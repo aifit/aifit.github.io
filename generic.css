@@ -11,7 +11,7 @@ body {
 body {
   font-size: 100%;
   font-kerning: normal;
-  background-image: url("../images/wallpaper.jpg");
+  background-image: url("../img/wallpaper.jpg");
   background-color: slategrey;
   background-repeat: repeat-y;
   background-position: top center;
@@ -24,7 +24,7 @@ body {
   body {
     background-attachment: unset;
     background-size: cover;
-    background-image: url("../images/wallpaper.webp");
+    background-image: url("../img/wallpaper.webp");
   }
 }
 
