@@ -16,10 +16,9 @@ body {
   background-color: slategrey;
   background-repeat: no-repeat;
   background-position: top center;
+  background-attachment: fixed;
   background-size: cover;
   font-family: 'IBM Plex Sans', Arial, sans-serif;
-  height: 100%;
-  overflow: hidden;
   color: #fff;
 }
 
