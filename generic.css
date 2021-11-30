@@ -13,7 +13,7 @@ body {
   font-kerning: normal;
   background-image: url("../img/wallpaper.jpg");
   background-image: url("../img/wallpaper.webp");
-  background-color: slategrey;
+  background-color: #252525;
   background-repeat: repeat-y;
   background-position: top center;
   background-attachment: fixed;
@@ -23,6 +23,7 @@ body {
 
 @media only screen and (min-width: 1025px) {
   body {
+    background-color: slategrey;
     background-attachment: unset;
     background-size: cover;
   }
