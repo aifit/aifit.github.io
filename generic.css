@@ -12,9 +12,8 @@ body {
   font-size: 100%;
   font-kerning: normal;
   background-image: url("../images/wallpaper.jpg");
-  background-image: url("../images/wallpaper.webp");
   background-color: slategrey;
-  background-repeat: repeat;
+  background-repeat: repeat-y;
   background-position: top center;
   background-attachment: fixed;
   font-family: 'IBM Plex Sans', Arial, sans-serif;
@@ -23,7 +22,9 @@ body {
 
 @media only screen and (min-width: 1025px) {
   body {
+    background-attachment: unset;
     background-size: cover;
+    background-image: url("../images/wallpaper.webp");
   }
 }
 
