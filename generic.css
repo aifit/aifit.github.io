@@ -9,26 +9,11 @@ body {
 }
 
 body {
-  /* background-repeat: repeat-y;
-  background-position: top center;
-  background-attachment: fixed;
-  background-image: url("../images/wallpaper.jpg"); */
   font-size: 100%;
   font-kerning: normal;
-  background-color: #252525;
-  background-image: url(../img/slategrey.png);
-  background-repeat: repeat;
-  background-position: top left;
+  background: slategrey;
   font-family: 'IBM Plex Sans', Arial, sans-serif;
   color: #fff;
-}
-
-@media only screen and (min-width: 1025px) {
-  body {
-    background-color: slategrey;
-    background-repeat: unset;
-    background-image: none;
-  }
 }
 
 img {
