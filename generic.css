@@ -3,10 +3,10 @@
   user-select: none;
 }
 
-html,
+/* html,
 body {
   min-height: 100%;
-}
+} */
 
 body {
   font-size: 100%;
@@ -14,6 +14,8 @@ body {
   background: #252525;
   font-family: 'IBM Plex Sans', Arial, sans-serif;
   color: #fff;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 @media only screen and (min-width: 1025px) {
