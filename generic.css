@@ -18,18 +18,18 @@ body {
   background-color: #252525;
   background-image: url(../img/slategrey.png);
   background-repeat: repeat;
+  background-position: top left;
   font-family: 'IBM Plex Sans', Arial, sans-serif;
   color: #fff;
 }
 
-/* @media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1025px) {
   body {
     background-color: slategrey;
-    background-attachment: unset;
-    background-size: cover;
-    background-image: url("../images/wallpaper.webp");
+    background-repeat: unset;
+    background-image: none;
   }
-} */
+}
 
 img {
   width: 100%;
