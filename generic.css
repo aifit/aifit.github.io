@@ -11,15 +11,9 @@ body {
 body {
   font-size: 100%;
   font-kerning: normal;
-  background: #252525;
+  background: slategrey;
   font-family: 'IBM Plex Sans', Arial, sans-serif;
   color: #fff;
-}
-
-@media only screen and (min-width: 1025px) {
-  body {
-    background-color: slategrey;
-  }
 }
 
 img {
