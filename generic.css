@@ -3,6 +3,11 @@
   user-select: none;
 }
 
+html {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
 html,
 body {
   min-height: 100%;
