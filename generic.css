@@ -7,6 +7,10 @@
 html {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
+}
+
+html,
+body {
   height: 100vh;
 }
 
