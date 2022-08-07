@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "link": "http://pinterest.com/aifit",
+      "iconName": "pinterest",
+      "text": "Pinterest"
+    },
+    {
+      "id": 2,
+      "link": "https://twitter.com/omipit",
+      "iconName": "twitter",
+      "text": "Twitter"
+    },
+    {
+      "id": 3,
+      "link": "https://youtube.com/efeksamping",
+      "iconName": "youtube",
+      "text": "Youtube"
+    },
+    {
+      "id": 4,
+      "link": "https://codepen.io/yja",
+      "iconName": "codepen",
+      "text": "CodePen"
+    },
+    {
+      "id": 5,
+      "link": "https://github.com/aifit",
+      "iconName": "github",
+      "text": "GitHub"
+    },
+    {
+      "id": 6,
+      "link": "https://linkedin.com/in/yja",
+      "iconName": "linkedin",
+      "text": "LinkedIn"
+    }
+  ]
+}

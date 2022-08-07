@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "group": "Bukalapak",
+      "title": "BukaPotensi",
+      "description": "Website for Bukalapak talent team to show their programs. Built with WordPress, and use custom Gutenberg Blocks.",
+      "role": "WordPress theme developer",
+      "task": "Create custom WordPress theme",
+      "active": false,
+      "link": "https://bukapotensi.bukalapak.com",
+      "webp": "https://yja.me/img/pro/bukapotensi.webp",
+      "image": "https://yja.me/img/pro/bukapotensi.jpg",
+      "type": "Website",
+      "year": "2019"
+    },
+    {
+      "id": 2,
+      "group": "Personal",
+      "title": "Netizen LOL",
+      "description": "Build with WordPress. This is my personal blog that discusses daily activities such as holidays, taking care of administration, photo galleries, and several other topics.",
+      "role": "WordPress theme developer",
+      "task": "Create custom WordPress theme",
+      "active": true,
+      "link": "https://netizen.lol",
+      "webp": "https://yja.me/img/pro/netizen.webp",
+      "image": "https://yja.me/img/pro/netizen.jpg",
+      "type": "Website",
+      "year": "2018"
+    },
+    {
+      "id": 3,
+      "group": "Bukalapak",
+      "title": "Bukalapak Compony Profile",
+      "description": "Colaborate with Designer and Front-end Engineer to build a company profile website for Bukalapak.",
+      "role": "UI/UX Engineer",
+      "task": "Create custom Vue.js component",
+      "active": true,
+      "link": "https://about.bukalapak.com",
+      "webp": "https://yja.me/img/pro/aboutbl.webp",
+      "image": "https://yja.me/img/pro/aboutbl.jpg",
+      "type": "Website",
+      "year": "2021"
+    }
+  ]
+}
