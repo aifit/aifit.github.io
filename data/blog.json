@@ -1,0 +1,48 @@
+{
+  "tumblr": [
+    {
+      "title": "Snapshot",
+      "description": "Tumblr photoblog, taken with a cell phone.",
+      "shortcut": [
+        {
+          "id": 1,
+          "iconName": "camera",
+          "link": "https://pxlfckr.tumblr.com/",
+          "text": "Latest"
+        },
+        {
+          "id": 2,
+          "iconName": "camera",
+          "link": "https://pxlfckr.tumblr.com/archive",
+          "text": "Archive"
+        }        
+      ]
+    }
+  ],
+  "wordpress": [
+    {
+      "title": "Netizen LOL",
+      "description": "My other blog about daily activity, photo gallery, and notes about WebDev.",
+      "shortcut": [
+        {
+          "id": 1,
+          "iconName": "link",
+          "link": "https://netizen.lol/jurnal",
+          "text": "Journal"          
+        },
+        {
+          "id": 2,
+          "iconName": "link",
+          "link": "https://netizen.lol/galeri",
+          "text": "Gallery"          
+        },
+        {
+          "id": 3,
+          "iconName": "link",
+          "link": "https://netizen.lol/webdev",
+          "text": "WebDev"          
+        }                
+      ]
+    }
+  ]
+}
