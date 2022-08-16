@@ -1,4 +1,26 @@
 {
+  "intro": [
+    {
+      "title": "Long Ago",
+      "task": "Front-end Web Developer",
+      "role": "Convert design to HTML, CSS and jQuery",
+      "featured": {
+        "title": "Some work has been featured on:",
+        "place": [
+          {
+            "iconName": "link",
+            "link": "https://www.awwwards.com/sites/festival-mantap-kopi-abc",
+            "text": "Awwwards"
+          },
+          {
+            "iconName": "link",
+            "link": "http://archive.citrapariwara.org/penghargaan/2016/digital?id=764",
+            "text": "Citra Pariwara 2016"
+          }
+        ]
+      }
+    }
+  ],
   "latest": [
     {
       "id": 1,
