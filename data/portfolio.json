@@ -8,11 +8,13 @@
         "title": "Some work has been featured on:",
         "place": [
           {
+            "id": 1,
             "iconName": "link",
             "link": "https://www.awwwards.com/sites/festival-mantap-kopi-abc",
             "text": "Awwwards"
           },
           {
+            "id": 2,
             "iconName": "link",
             "link": "http://archive.citrapariwara.org/penghargaan/2016/digital?id=764",
             "text": "Citra Pariwara 2016"
