@@ -1,169 +1,178 @@
 {
-  "intro": [
-    {
-      "title": "Long Ago",
-      "task": "Front-end Web Developer",
-      "role": "Convert design to HTML, CSS and jQuery",
-      "featured": {
-        "title": "Some work has been featured on:",
-        "place": [
-          {
-            "id": 1,
-            "iconName": "link",
-            "link": "https://www.awwwards.com/sites/festival-mantap-kopi-abc",
-            "text": "Awwwards"
-          },
-          {
-            "id": 2,
-            "iconName": "link",
-            "link": "http://archive.citrapariwara.org/penghargaan/2016/digital?id=764",
-            "text": "Citra Pariwara 2016"
-          }
-        ]
-      }
-    }
-  ],
   "latest": [
     {
-      "id": 1,
-      "title": "Go Rental Indonesia",
-      "description": "Online booking airport transfer and car rental",
-      "role": "UI/UX Engineer",
-      "task": "Create custom React.js component",
-      "active": true,
-      "link": "https://gorental.id",
-      "webp": "https://yja.me/img/por/gorental.webp",
-      "image": "https://yja.me/img/por/gorental.jpg",
-      "type": "Website",
-      "year": "2020"
+      "title": "Recently",
+      "data": [
+        {
+          "id": 1,
+          "title": "Go Rental Indonesia",
+          "description": "Online booking airport transfer and car rental",
+          "role": "UI/UX Engineer",
+          "task": "Create custom React.js component",
+          "active": true,
+          "link": "https://gorental.id",
+          "webp": "https://yja.me/img/por/gorental.webp",
+          "image": "https://yja.me/img/por/gorental.jpg",
+          "type": "Website",
+          "year": "2020"
+        }
+      ]
     }
   ],
   "old": [
     {
-      "id": 1,
-      "title": "Gatsby Indonesia",
-      "description": "VP Digital",
-      "webp": "https://yja.me/img/por/gatsby.webp",
-      "image": "https://yja.me/img/por/gatsby.jpg",
-      "type": "Website",
-      "year": "2012"
-    },
-    {
-      "id": 2,
-      "title": "Kopi ABC - Festival Mantap",
-      "description": "VP Digital",
-      "webp": "https://yja.me/img/por/festival.webp",
-      "image": "https://yja.me/img/por/festival.jpg",
-      "type": "Microsite",
-      "year": "2012"
-    },
-    {
-      "id": 3,
-      "title": "Nissan - Fun Family MPV",
-      "description": "VP Digital",
-      "webp": "https://yja.me/img/por/funfamilympv.webp",
-      "image": "https://yja.me/img/por/funfamilympv.jpg",
-      "type": "Microsite",
-      "year": "2012"
-    },
-    {
-      "id": 4,
-      "title": "Mamypoko - Junior Night Pants",
-      "description": "Dentsu Digital",
-      "webp": "https://yja.me/img/por/mamypoko.webp",
-      "image": "https://yja.me/img/por/mamypoko.jpg",
-      "type": "Microsite",
-      "year": "2013"
-    },
-    {
-      "id": 5,
-      "title": "HokBen Website",
-      "description": "Dentsu Digital",
-      "webp": "https://yja.me/img/por/hokben.webp",
-      "image": "https://yja.me/img/por/hokben.jpg",
-      "type": "Website",
-      "year": "2013"
-    },
-    {
-      "id": 6,
-      "title": "UNIQLO - Email Template",
-      "description": "Dentsu Digital",
-      "webp": "https://yja.me/img/por/uniqlo.webp",
-      "image": "https://yja.me/img/por/uniqlo.jpg",
-      "type": "Microsite",
-      "year": "2013"
-    },
-    {
-      "id": 7,
-      "title": "Nestle - Interactive Infographic",
-      "description": "J. Walter Thompson",
-      "webp": "https://yja.me/img/por/infografik.webp",
-      "image": "https://yja.me/img/por/infografik.jpg",
-      "type": "Microsite",
-      "year": "2014"
-    },
-    {
-      "id": 8,
-      "title": "Charm - Rescue Team",
-      "description": "J. Walter Thompson",
-      "webp": "https://yja.me/img/por/bebaslembab.webp",
-      "image": "https://yja.me/img/por/bebaslembab.jpg",
-      "type": "Microsite",
-      "year": "2014"
-    },
-    {
-      "id": 9,
-      "title": "Hijab of The Day",
-      "description": "Clozette Indonesia",
-      "webp": "https://yja.me/img/por/hijaboftheday.webp",
-      "image": "https://yja.me/img/por/hijaboftheday.jpg",
-      "type": "Microsite",
-      "year": "2014"
-    },
-    {
-      "id": 10,
-      "title": "SAMSUNG - Generasi Sabi",
-      "description": "",
-      "webp": "https://yja.me/img/por/generasisabi.webp",
-      "image": "https://yja.me/img/por/generasisabi.jpg",
-      "type": "Microsite",
-      "year": "2016"
-    },
-    {
-      "id": 11,
-      "title": "Changi Yuk!",
-      "description": "J. Walter Thompson",
-      "webp": "https://yja.me/img/por/changiyuk.webp",
-      "image": "https://yja.me/img/por/changiyuk.jpg",
-      "type": "Microsite",
-      "year": "2016"
-    },
-    {
-      "id": 12,
-      "title": "Keds - Solemate",
-      "description": "J. Walter Thompson",
-      "webp": "https://yja.me/img/por/solemate.webp",
-      "image": "https://yja.me/img/por/solemate.jpg",
-      "type": "Microsite",
-      "year": "2016"
-    },
-    {
-      "id": 13,
-      "title": "Indomilk - Epic Banana Milk Challenge",
-      "description": "I-DAC ASIA",
-      "webp": "https://yja.me/img/por/epicbanana.webp",
-      "image": "https://yja.me/img/por/epicbanana.jpg",
-      "type": "Microsite",
-      "year": "2016"
-    },
-    {
-      "id": 14,
-      "title": "Aku Anak SGM",
-      "description": "MullenLowe Indonesia",
-      "webp": "https://yja.me/img/por/sgm.webp",
-      "image": "https://yja.me/img/por/sgm.jpg",
-      "type": "Website",
-      "year": "2018"
+      "intro": [
+        {
+          "title": "Long Ago",
+          "task": "Front-end Web Developer",
+          "role": "Convert design to HTML, CSS and jQuery",
+          "featured": {
+            "title": "Some work has been featured on:",
+            "place": [
+              {
+                "id": 1,
+                "iconName": "link",
+                "link": "https://www.awwwards.com/sites/festival-mantap-kopi-abc",
+                "text": "Awwwards"
+              },
+              {
+                "id": 2,
+                "iconName": "link",
+                "link": "http://archive.citrapariwara.org/penghargaan/2016/digital?id=764",
+                "text": "Citra Pariwara 2016"
+              }
+            ]
+          }
+        }
+      ],
+      "data": [
+        {
+          "id": 1,
+          "title": "Gatsby Indonesia",
+          "description": "VP Digital",
+          "webp": "https://yja.me/img/por/gatsby.webp",
+          "image": "https://yja.me/img/por/gatsby.jpg",
+          "type": "Website",
+          "year": "2012"
+        },
+        {
+          "id": 2,
+          "title": "Kopi ABC - Festival Mantap",
+          "description": "VP Digital",
+          "webp": "https://yja.me/img/por/festival.webp",
+          "image": "https://yja.me/img/por/festival.jpg",
+          "type": "Microsite",
+          "year": "2012"
+        },
+        {
+          "id": 3,
+          "title": "Nissan - Fun Family MPV",
+          "description": "VP Digital",
+          "webp": "https://yja.me/img/por/funfamilympv.webp",
+          "image": "https://yja.me/img/por/funfamilympv.jpg",
+          "type": "Microsite",
+          "year": "2012"
+        },
+        {
+          "id": 4,
+          "title": "Mamypoko - Junior Night Pants",
+          "description": "Dentsu Digital",
+          "webp": "https://yja.me/img/por/mamypoko.webp",
+          "image": "https://yja.me/img/por/mamypoko.jpg",
+          "type": "Microsite",
+          "year": "2013"
+        },
+        {
+          "id": 5,
+          "title": "HokBen Website",
+          "description": "Dentsu Digital",
+          "webp": "https://yja.me/img/por/hokben.webp",
+          "image": "https://yja.me/img/por/hokben.jpg",
+          "type": "Website",
+          "year": "2013"
+        },
+        {
+          "id": 6,
+          "title": "UNIQLO - Email Template",
+          "description": "Dentsu Digital",
+          "webp": "https://yja.me/img/por/uniqlo.webp",
+          "image": "https://yja.me/img/por/uniqlo.jpg",
+          "type": "Microsite",
+          "year": "2013"
+        },
+        {
+          "id": 7,
+          "title": "Nestle - Interactive Infographic",
+          "description": "J. Walter Thompson",
+          "webp": "https://yja.me/img/por/infografik.webp",
+          "image": "https://yja.me/img/por/infografik.jpg",
+          "type": "Microsite",
+          "year": "2014"
+        },
+        {
+          "id": 8,
+          "title": "Charm - Rescue Team",
+          "description": "J. Walter Thompson",
+          "webp": "https://yja.me/img/por/bebaslembab.webp",
+          "image": "https://yja.me/img/por/bebaslembab.jpg",
+          "type": "Microsite",
+          "year": "2014"
+        },
+        {
+          "id": 9,
+          "title": "Hijab of The Day",
+          "description": "Clozette Indonesia",
+          "webp": "https://yja.me/img/por/hijaboftheday.webp",
+          "image": "https://yja.me/img/por/hijaboftheday.jpg",
+          "type": "Microsite",
+          "year": "2014"
+        },
+        {
+          "id": 10,
+          "title": "SAMSUNG - Generasi Sabi",
+          "description": "",
+          "webp": "https://yja.me/img/por/generasisabi.webp",
+          "image": "https://yja.me/img/por/generasisabi.jpg",
+          "type": "Microsite",
+          "year": "2016"
+        },
+        {
+          "id": 11,
+          "title": "Changi Yuk!",
+          "description": "J. Walter Thompson",
+          "webp": "https://yja.me/img/por/changiyuk.webp",
+          "image": "https://yja.me/img/por/changiyuk.jpg",
+          "type": "Microsite",
+          "year": "2016"
+        },
+        {
+          "id": 12,
+          "title": "Keds - Solemate",
+          "description": "J. Walter Thompson",
+          "webp": "https://yja.me/img/por/solemate.webp",
+          "image": "https://yja.me/img/por/solemate.jpg",
+          "type": "Microsite",
+          "year": "2016"
+        },
+        {
+          "id": 13,
+          "title": "Indomilk - Epic Banana Milk Challenge",
+          "description": "I-DAC ASIA",
+          "webp": "https://yja.me/img/por/epicbanana.webp",
+          "image": "https://yja.me/img/por/epicbanana.jpg",
+          "type": "Microsite",
+          "year": "2016"
+        },
+        {
+          "id": 14,
+          "title": "Aku Anak SGM",
+          "description": "MullenLowe Indonesia",
+          "webp": "https://yja.me/img/por/sgm.webp",
+          "image": "https://yja.me/img/por/sgm.jpg",
+          "type": "Website",
+          "year": "2018"
+        }
+      ]
     }
   ]
 }
