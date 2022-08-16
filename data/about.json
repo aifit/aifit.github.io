@@ -10,28 +10,7 @@
   "job": [
     {
       "intro": "Day-to-day responsibilities at the company where I work:",
-      "content": [
-        {
-          "id": 1,
-          "title": "Maintain the Design System",
-          "content": "<ul><li>Create/update component based on design specification</li><li>Audit components to deliver good performance and quality</li><li>Provide guidance to engineers who wish to contribute</li></ul>"
-        },
-        {
-          "id": 2,
-          "title": "Build Internal Tools",
-          "content": "<ul><li>Build and maintain internal tools for UX Researcher</li><li>Brainstorming with <i>project-owner</i> to create new feature/improvement</li><li>Prioritize tasks and make development timeline</li></ul>"
-        },
-        {
-          "id": 3,
-          "title": "Contribute to Other Project",
-          "content": "<ul><li>Collaborate with other teams to build <i>cross-team</i> projects, eg: company websites, email newsletter and microsite campaign</li></ul>"
-        },
-        {
-          "id": 5,
-          "title": null,
-          "content": "<i>The main thing is about working together with team, give each other feedback and discuss to find the best solution to solve problem.</i>"
-        }
-      ]
+      "content": "<p>Day-to-day responsibilities at the company where I work:</p><h4>Maintain the Design System</h4><ul><li>Create/update component based on design specification</li><li>Audit components to deliver good performance and quality</li><li>Provide guidance to engineers who wish to contribute</li></ul><h4>Build Internal Tools</h4><ul><li>Build and maintain internal tools for UX Researcher</li><li>Brainstorming with <i>project-owner</i> to create new feature/improvement</li><li>Prioritize tasks and make development timeline</li></ul><h4>Contribute to Other Project</h4><ul><li>Collaborate with other teams to build <i>cross-team</i> projects, eg: company websites, email newsletter and microsite campaign</li></ul><p style=\"border-top: 1px solid #eaeaea; margin-top: 15px; padding-top: 15px; color: #757575\"><i>The main thing is about working together with team, give each other feedback and discuss to find the best solution to solve problem.</i></p>"
     }
   ],
   "elsewhere": [
