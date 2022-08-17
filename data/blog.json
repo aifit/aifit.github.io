@@ -6,13 +6,13 @@
       "shortcut": [
         {
           "id": 1,
-          "iconName": "camera",
+          "iconName": "link",
           "link": "https://pxlfckr.tumblr.com/",
           "text": "Posts"
         },
         {
           "id": 2,
-          "iconName": "camera",
+          "iconName": "link",
           "link": "https://pxlfckr.tumblr.com/archive",
           "text": "Archive"
         }        
