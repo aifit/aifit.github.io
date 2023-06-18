@@ -10,6 +10,7 @@
           "role": "UI/UX Engineer",
           "task": "Create custom React.js component",
           "active": true,
+          "actionText": "View",          
           "link": "https://gorental.id",
           "webp": "https://yja.me/img/por/gorental.webp",
           "image": "https://yja.me/img/por/gorental.jpg",
