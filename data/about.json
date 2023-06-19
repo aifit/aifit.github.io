@@ -5,12 +5,14 @@
       "webp": "https://yja.me/img/pic.webp",
       "image": "https://yja.me/img/pic.png",
       "name": "Yahya J. Aifit",
-      "description": "Front-end web developer, currently living and working in Indonesia.",
-      "contactDescription": "For project collaboration, please feel free to reach out to me via email at:",
-      "contactButtonText": "yahya@yja.me",
-      "contactLink": "mailto:yahya@yja.me"
+      "description": "Front-end web developer, currently living and working in Indonesia."
     }
   ],
+  "contact": {
+    "description": "For project collaboration, please feel free to reach out to me via email at:",
+    "actionText": "yahya@yja.me",
+    "actionLink": "mailto:yahya@yja.me"    
+  },
   "elsewhere": [
     {
       "title": "Elsewhere",
