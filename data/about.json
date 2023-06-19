@@ -9,6 +9,7 @@
     }
   ],
   "contact": {
+    "title": "Contact",
     "description": "For project collaboration, please feel free to reach out to me via email at:",
     "actionText": "yahya@yja.me",
     "actionLink": "mailto:yahya@yja.me"    
