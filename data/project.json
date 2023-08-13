@@ -49,7 +49,7 @@
       "id": 4,
       "group": "Bukalapak",
       "title": "Admin Dashboard for Bukalapak Insight",
-      "description": "",
+      "description": "An interactive online repository platform employed by the UX research team for the purpose of aggregating and managing research findings. Build with NuxtJS and powered by the real-time capabilities of the Firebase database",
       "role": "UI/UX Engineer",
       "task": "Develop Nuxt & Firebase app",
       "active": false,
