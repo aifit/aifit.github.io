@@ -82,6 +82,21 @@
       "image": "https://yja.me/img/pro/yid-weton.jpg",
       "type": "Microsite",
       "year": "2023"
-    }
+    },
+    {
+      "id": 6,
+      "group": "Yes I Do",
+      "title": "Store",
+      "description": "",
+      "role": "Front-end Engineer",
+      "task": "Create custom Wix page",
+      "active": true,
+      "actionText": "View",
+      "link": "https://sayyesido.com/store",
+      "webp": "https://yja.me/img/pro/yid-store.webp",
+      "image": "https://yja.me/img/pro/yid-store.jpg",
+      "type": "Microsite",
+      "year": "2023"
+    }    
   ]
 }
