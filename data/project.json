@@ -49,7 +49,7 @@
       "id": 4,
       "group": "Bukalapak",
       "title": "Admin Dashboard for Bukalapak Insight",
-      "description": "An online repository platform employed by the UX research team for the purpose of aggregating research findings. Build with <a href='https://nuxt.com/' target='_blank' rel='nofollow'>NuxtJS</a> and powered by the real-time capabilities of the Firebase database.",
+      "description": "Online repository platform employed by the UX research team for the purpose of aggregating research findings. Build with <a href='https://nuxt.com/' target='_blank' rel='nofollow'>NuxtJS</a> and powered by the real-time capabilities of the Firebase database.",
       "role": "UI/UX Engineer",
       "task": "Develop Nuxt & Firebase app",
       "active": false,
@@ -71,7 +71,7 @@
     {
       "id": 5,
       "group": "Yes I Do",
-      "title": "Store Page",
+      "title": "Marketplace Page",
       "description": "Utilizes the <a href='https://www.wix.com/velo/feature/database' target='_blank' rel='nofollow'>Wix Database</a> to create interactive store pages that contain data from several marketplaces in Indonesia. Additionally, users can search for products and filter them by rating and price",
       "role": "Front-end Engineer",
       "task": "Create custom Wix page",
@@ -86,8 +86,8 @@
     {
       "id": 6,
       "group": "Yes I Do",
-      "title": "Ramalan Jodoh Weton",
-      "description": "A matchmaking prediction tool based on Weton calculations from the Javanese calendar, designed with the goal of enhancing user engagement. Developed within the Wix environment and powered by the <a href='https://www.wix.com/velo' target='_blank' rel='nofollow'>Velo platform.</a>",
+      "title": "Javanese Weton Calculation Tools",
+      "description": "Matchmaking prediction tool based on Weton calculations from the Javanese calendar, designed with the goal of enhancing user engagement. Developed within the Wix environment and powered by the <a href='https://www.wix.com/velo' target='_blank' rel='nofollow'>Velo.</a>",
       "role": "Front-end Engineer",
       "task": "Create custom Wix page",
       "active": true,
