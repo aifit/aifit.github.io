@@ -94,11 +94,20 @@
         },
         {
           "id": 6,
+          "title": "UNIQLO - USJ Fit Model",
+          "description": "Dentsu Digital",
+          "webp": "https://yja.me/img/por/uniqlo-usj.webp",
+          "image": "https://yja.me/img/por/uniqlo-usj.jpg",
+          "type": "Microsite",
+          "year": "2013"
+        },        
+        {
+          "id": 6,
           "title": "UNIQLO - Email Template",
           "description": "Dentsu Digital",
           "webp": "https://yja.me/img/por/uniqlo.webp",
           "image": "https://yja.me/img/por/uniqlo.jpg",
-          "type": "Microsite",
+          "type": "Template",
           "year": "2013"
         },
         {
