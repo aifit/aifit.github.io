@@ -71,8 +71,8 @@
     {
       "id": 5,
       "group": "Yes I Do",
-      "title": "Store",
-      "description": "",
+      "title": "Store Page",
+      "description": "Utilizes the <a href='https://www.wix.com/velo/feature/database' target='_blank' rel='nofollow'>Wix Database</a> to create interactive store pages that contain data from several marketplaces in Indonesia. Additionally, users can search for products and filter them by rating and price",
       "role": "Front-end Engineer",
       "task": "Create custom Wix page",
       "active": true,
