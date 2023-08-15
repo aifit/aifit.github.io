@@ -71,21 +71,6 @@
     {
       "id": 5,
       "group": "Yes I Do",
-      "title": "Ramalan Jodoh Weton",
-      "description": "A matchmaking prediction tool based on Weton calculations from the Javanese calendar, designed with the goal of enhancing user engagement. Developed within the Wix environment and powered by the <a href='https://www.wix.com/velo' target='_blank' rel='nofollow'>Velo platform.</a>",
-      "role": "Front-end Engineer",
-      "task": "Create custom Wix page",
-      "active": true,
-      "actionText": "View",
-      "link": "https://sayyesido.com/weton",
-      "webp": "https://yja.me/img/pro/yid-weton.webp",
-      "image": "https://yja.me/img/pro/yid-weton.jpg",
-      "type": "Microsite",
-      "year": "2023"
-    },
-    {
-      "id": 6,
-      "group": "Yes I Do",
       "title": "Store",
       "description": "",
       "role": "Front-end Engineer",
@@ -97,6 +82,21 @@
       "image": "https://yja.me/img/pro/yid-store.jpg",
       "type": "Microsite",
       "year": "2023"
-    }    
+    },
+    {
+      "id": 6,
+      "group": "Yes I Do",
+      "title": "Ramalan Jodoh Weton",
+      "description": "A matchmaking prediction tool based on Weton calculations from the Javanese calendar, designed with the goal of enhancing user engagement. Developed within the Wix environment and powered by the <a href='https://www.wix.com/velo' target='_blank' rel='nofollow'>Velo platform.</a>",
+      "role": "Front-end Engineer",
+      "task": "Create custom Wix page",
+      "active": true,
+      "actionText": "View",
+      "link": "https://sayyesido.com/weton",
+      "webp": "https://yja.me/img/pro/yid-weton.webp",
+      "image": "https://yja.me/img/pro/yid-weton.jpg",
+      "type": "Microsite",
+      "year": "2023"
+    }        
   ]
 }
