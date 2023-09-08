@@ -6,7 +6,7 @@
         {
           "id": 1,
           "title": "Go Rental Indonesia",
-          "description": "Medan-based online booking platform for airport transfers and car rentals, developed using ReactJS.",
+          "description": "Medan-based online booking platform for airport transfers and car rentals, developed using React.js.",
           "role": "UI/UX Engineer",
           "task": "Create custom React.js component",
           "active": true,
