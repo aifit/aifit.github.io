@@ -1,0 +1,29 @@
+{
+    "intro": {
+      "title": "",
+      "description": ""
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "For project collaboration, please feel free to reach me out by email at:",
+      "actionText": "yahya@yja.me",
+      "actionLink": "mailto:yahya@yja.me"
+    },
+    "flow": {
+      "title": "",
+      "description": ""
+    },
+    "hire": {
+      "title": "",
+      "description": "",
+      "form": {
+        "text": "",
+        "link": ""
+      }
+    },
+    "list": {
+      "title": "",
+      "data": []
+    }
+  }
+  
