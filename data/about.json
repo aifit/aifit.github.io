@@ -1,86 +1,141 @@
 {
-  "crafter": [
-    {
-      "title": "Crafter",
-      "webp": "https://yja.me/img/pic.webp",
-      "image": "https://yja.me/img/pic.png",
-      "name": "Yahya J. Aifit",
-      "description": "A Web developer, currently living and working in Indonesia."
-    }
-  ],
+  "crafter": {
+    "title": "Crafter",
+    "webp": "https://yja.me/img/pic.webp",
+    "image": "https://yja.me/img/pic.png",
+    "name": "Yahya J. Aifit",
+    "description": "A Web developer, currently living and working in Indonesia."
+  },
+  "experience": {
+    "title": "Experience",
+    "data": [
+      {
+        "id": 1,
+        "title": "VP Digital",
+        "link": "https://www.linkedin.com/company/vp-digital/",
+        "period": "2012 - 2013",
+        "role": []
+      },
+      {
+        "id": 2,
+        "title": "Dentsu Digital",
+        "link": "https://www.linkedin.com/company/dentsu/",
+        "period": "2013 - 2014",
+        "role": []
+      },
+      {
+        "id": 3,
+        "title": "Mirum Agency",
+        "link": "https://www.linkedin.com/company/mirum-agency/",
+        "period": "2014 - 2015",
+        "role": []
+      },
+      {
+        "id": 4,
+        "title": "VP Digital",
+        "link": "https://www.linkedin.com/company/vp-digital/",
+        "period": "2015 - 2016",
+        "role": []
+      },
+      {
+        "id": 5,
+        "title": "Bridestory",
+        "link": "https://www.linkedin.com/company/bridestory/",
+        "period": "2016 - 2017",
+        "role": []
+      },
+      {
+        "id": 6,
+        "title": "Bukalapak",
+        "link": "https://www.linkedin.com/company/pt-bukalapak-com/",
+        "period": "2017 - Present",
+        "role": [
+          {
+            "id": 1,
+            "title": "UI Engineer",
+            "period": "2017 - 2020"
+          },
+          {
+            "id": 2,
+            "title": "UX Engineer",
+            "period": "2020 - 2022"
+          },
+          {
+            "id": 3,
+            "title": "Front-end Engineer",
+            "period": "2022 - Present"
+          }
+        ]
+      }
+    ]
+  },
   "contact": {
     "title": "Contact",
     "description": "For project collaboration, please feel free to reach me out by email at:",
     "actionText": "yahya@yja.me",
     "actionLink": "mailto:yahya@yja.me"
-  },  
-  "elsewhere": [
-    {
-      "title": "Elsewhere",
-      "data": [
-        {
-          "id": 1,
-          "link": "http://pinterest.com/aifit",
-          "iconName": "pinterest",
-          "text": "Pinterest"
-        },
-        {
-          "id": 2,
-          "link": "https://twitter.com/omipit",
-          "iconName": "twitter",
-          "text": "Twitter"
-        },
-        {
-          "id": 3,
-          "link": "https://youtube.com/efeksamping",
-          "iconName": "youtube",
-          "text": "Youtube"
-        },
-        {
-          "id": 4,
-          "link": "https://www.strava.com/athletes/6310795",
-          "iconName": "strava",
-          "text": "Strava"
-        },
-        {
-          "id": 5,
-          "link": "https://github.com/aifit",
-          "iconName": "github",
-          "text": "GitHub"
-        },
-        {
-          "id": 6,
-          "link": "https://linkedin.com/in/yja",
-          "iconName": "linkedin",
-          "text": "LinkedIn"
-        }
-      ]
-    }
-  ],
-  "website": [
-    {
-      "title": "Website",
-      "intro": "<p>Built with <strong>Vue.js</strong>, using <a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> font, using icon from <a href=\"https://teenyicons.com/\" target=\"_blank\" rel=\"nofollow\">Teenyicons</a>.</p><p>Inspired by <a href=\"https://en.wikipedia.org/wiki/Web_desktop\" target=\"_blank\" rel=\"nofollow\">Web Desktop</a> and here some curated list of it:</p>",
-      "curated": [
-        {
-          "id": 1,
-          "iconName": "link",
-          "link": "https://github.com/syxanash/awesome-web-desktops",
-          "text": "Awesome Web Desktops"
-        },
-        {
-          "id": 2,
-          "iconName": "link",
-          "link": "https://github.com/zriyans/awesome-OS",
-          "text": "Awesome OS"
-        }
-      ]
-    }
-  ],
-  "changelog": [
-    {
-      "title": "Changelog",
-      "content": "<p style=\"margin-bottom:5px\"><strong>v1.9.0</strong></p> <ul> <li>Visitor able to change theme</li> <li>Create new <code>Folder</code> variant for highlighted menu</li> <li>Implement dynamic <code>z-index</code> between active <code>Popup</code></li> <li> Component improvement: <ul> <li><code>Post</code></li> <li><code>Folder</code></li> <li><code>Popup</code></li> <li><code>BottomBar</code></li> </ul> </li> </ul> <p style=\"margin-bottom:5px\"><strong>v1.8.1</strong></p> <ul> <li>Replace the blog thumbnail using image from WordPress CDN</li> <li> Component improvement: <ul> <li><code>Thumbnail</code></li> </ul> </li> </ul> <p style=\"margin-bottom:5px\"><strong>v1.8.0</strong></p> <ul> <li>Handle multiple project image using slideshow</li> <li>Double click inside the <code>Popup</code> head to maximize</li> <li> New component: <ul> <li><code>Slideshow</code></li> </ul> </li> <li> Component improvements: <ul> <li><code>Popup</code> <li><code>Knob</code></li> <li><code>Icon</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.7.0</strong></p> <ul> <li>Fetching Tumblr and WordPress API for mobile version</li> <li> Component improvements: <ul> <li><code>Box</code></li> <li><code>Thumbnail</code></li> </ul> </li> <li> New components: <ul> <li><code>Shimmer</code></li> <li><code>ShimmerGroup</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.6.2</strong></p> <ul> <li> Component improvements: <ul> <li> <code>Knob</code>: <ul> <li>Icon position adjustment</li> </ul> </li> <li> <code>Popup</code>: <ul> <li>Enhance inactive style</li> <li>Adding overlay when dragged to prevent unexpected hover</li> </ul> </li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.6.1</strong></p> <ul> <li> Layout improvement: <ul> <li>Prevent dragging the whole <code>Popup</code> container out of <code>Wrapper</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.6.0</strong></p> <ul> <li>Different behaviour on small screen</li> <li> New components: <ul> <li><code>Knob</code></li> <li><code>Expand</code></li> <li><code>BottomBar</code></li> <li><code>Thumbnail</code></li> <li><code>BottomMenu</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.5.0</strong></p> <ul> <li> Bug fixing: <ul> <li>Can't back to initial position if <code>Popup</code> closed</li> </ul> </li> <li> Layout improvements: <ul> <li>Different CSS style for active and inactive <code>Popup</code></li> <li>Show warning message in small screen</li> </ul> </li> <li> New component: <ul> <li><code>Announcement</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.4.1</strong></p> <ul> <li>Improve drag performance</li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.4.0</strong></p> <ul> <li>Show notification when the network goes offline</li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.3.0</strong></p> <ul> <li>Visitor can change wallpaper</li> <li> New component: <ul> <li><code>Color</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.2.1</strong></p> <ul> <li> Bug fixing: <ul> <li><code>z-index</code> between <code>Popup</code> not working properly</li> <li><code>Popup</code> can't back to previous position after click minimize icon.</li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.2.0</strong></p> <ul> <li>Ability to set <code>Popup</code> position manually</li> <li> Component improvements: <ul> <li><code>Popup</code></li> <li><code>Post</code></li> </ul> </li> <li> New component: <ul> <li><code>Box</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.1.0</strong></p> <ul> <li>Adding realtime clock</li> <li> Component improvements: <ul> <li><code>TopBar</code></li> <li><code>Popup</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.0.0</strong></p> <ul> <li>Stable release</li> </ul>"
-    }
-  ]
+  },
+  "elsewhere": {
+    "title": "Elsewhere",
+    "data": [
+      {
+        "id": 1,
+        "link": "http://pinterest.com/aifit",
+        "iconName": "pinterest",
+        "text": "Pinterest"
+      },
+      {
+        "id": 2,
+        "link": "https://twitter.com/omipit",
+        "iconName": "twitter",
+        "text": "Twitter"
+      },
+      {
+        "id": 3,
+        "link": "https://youtube.com/efeksamping",
+        "iconName": "youtube",
+        "text": "Youtube"
+      },
+      {
+        "id": 4,
+        "link": "https://www.strava.com/athletes/6310795",
+        "iconName": "strava",
+        "text": "Strava"
+      },
+      {
+        "id": 5,
+        "link": "https://github.com/aifit",
+        "iconName": "github",
+        "text": "GitHub"
+      },
+      {
+        "id": 6,
+        "link": "https://linkedin.com/in/yja",
+        "iconName": "linkedin",
+        "text": "LinkedIn"
+      }
+    ]
+  },
+  "website": {
+    "title": "Website",
+    "intro": "<p>Built with <strong>Vue.js</strong>, using <a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> font, using icon from <a href=\"https://teenyicons.com/\" target=\"_blank\" rel=\"nofollow\">Teenyicons</a>.</p><p>Inspired by <a href=\"https://en.wikipedia.org/wiki/Web_desktop\" target=\"_blank\" rel=\"nofollow\">Web Desktop</a> and here some curated list of it:</p>",
+    "curated": [
+      {
+        "id": 1,
+        "iconName": "link",
+        "link": "https://github.com/syxanash/awesome-web-desktops",
+        "text": "Awesome Web Desktops"
+      },
+      {
+        "id": 2,
+        "iconName": "link",
+        "link": "https://github.com/zriyans/awesome-OS",
+        "text": "Awesome OS"
+      }
+    ]
+  },
+  "changelog": {
+    "title": "Changelog",
+    "content": "<p style=\"margin-bottom:5px\"><strong>v1.9.0</strong></p> <ul> <li>Visitor able to change theme</li> <li>Create new <code>Folder</code> variant for highlighted menu</li> <li>Implement dynamic <code>z-index</code> between active <code>Popup</code></li> <li> Component improvement: <ul> <li><code>Post</code></li> <li><code>Folder</code></li> <li><code>Popup</code></li> <li><code>BottomBar</code></li> </ul> </li> </ul> <p style=\"margin-bottom:5px\"><strong>v1.8.1</strong></p> <ul> <li>Replace the blog thumbnail using image from WordPress CDN</li> <li> Component improvement: <ul> <li><code>Thumbnail</code></li> </ul> </li> </ul> <p style=\"margin-bottom:5px\"><strong>v1.8.0</strong></p> <ul> <li>Handle multiple project image using slideshow</li> <li>Double click inside the <code>Popup</code> head to maximize</li> <li> New component: <ul> <li><code>Slideshow</code></li> </ul> </li> <li> Component improvements: <ul> <li><code>Popup</code> <li><code>Knob</code></li> <li><code>Icon</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.7.0</strong></p> <ul> <li>Fetching Tumblr and WordPress API for mobile version</li> <li> Component improvements: <ul> <li><code>Box</code></li> <li><code>Thumbnail</code></li> </ul> </li> <li> New components: <ul> <li><code>Shimmer</code></li> <li><code>ShimmerGroup</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.6.2</strong></p> <ul> <li> Component improvements: <ul> <li> <code>Knob</code>: <ul> <li>Icon position adjustment</li> </ul> </li> <li> <code>Popup</code>: <ul> <li>Enhance inactive style</li> <li>Adding overlay when dragged to prevent unexpected hover</li> </ul> </li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.6.1</strong></p> <ul> <li> Layout improvement: <ul> <li>Prevent dragging the whole <code>Popup</code> container out of <code>Wrapper</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.6.0</strong></p> <ul> <li>Different behaviour on small screen</li> <li> New components: <ul> <li><code>Knob</code></li> <li><code>Expand</code></li> <li><code>BottomBar</code></li> <li><code>Thumbnail</code></li> <li><code>BottomMenu</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.5.0</strong></p> <ul> <li> Bug fixing: <ul> <li>Can't back to initial position if <code>Popup</code> closed</li> </ul> </li> <li> Layout improvements: <ul> <li>Different CSS style for active and inactive <code>Popup</code></li> <li>Show warning message in small screen</li> </ul> </li> <li> New component: <ul> <li><code>Announcement</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.4.1</strong></p> <ul> <li>Improve drag performance</li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.4.0</strong></p> <ul> <li>Show notification when the network goes offline</li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.3.0</strong></p> <ul> <li>Visitor can change wallpaper</li> <li> New component: <ul> <li><code>Color</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.2.1</strong></p> <ul> <li> Bug fixing: <ul> <li><code>z-index</code> between <code>Popup</code> not working properly</li> <li><code>Popup</code> can't back to previous position after click minimize icon.</li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.2.0</strong></p> <ul> <li>Ability to set <code>Popup</code> position manually</li> <li> Component improvements: <ul> <li><code>Popup</code></li> <li><code>Post</code></li> </ul> </li> <li> New component: <ul> <li><code>Box</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.1.0</strong></p> <ul> <li>Adding realtime clock</li> <li> Component improvements: <ul> <li><code>TopBar</code></li> <li><code>Popup</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.0.0</strong></p> <ul> <li>Stable release</li> </ul>"
+  }
 }
