@@ -48,42 +48,42 @@
     "data": [
       {
         "id": 1,
-        "title": "1️⃣ Getting brief from client",
+        "title": "➡️ Getting brief from client",
         "description": "Clients share project details and requirements."
       },
       {
         "id": 2,
-        "title": "2️⃣ Task Breakdown",
+        "title": "➡️ Task Breakdown",
         "description": "The project is divided into clear tasks and features."
       },
       {
         "id": 3,
-        "title": "3️⃣ Start Development",
+        "title": "➡️ Start Development",
         "description": "Development begins, and tasks are executed based on priorities."
       },
       {
         "id": 4,
-        "title": "4️⃣ Minimum Viable Product (MVP)",
+        "title": "➡️ Minimum Viable Product (MVP)",
         "description": "An MVP is created, focusing on essential features."
       },
       {
         "id": 5,
-        "title": "5️⃣ Development Phase 2",
+        "title": "➡️ Development Phase 2",
         "description": "We are doing improvements based on client feedback."
       },
       {
         "id": 6,
-        "title": "6️⃣ User Acceptance Testing (UAT)",
+        "title": "➡️ User Acceptance Testing (UAT)",
         "description": "The product is tested internally and by the client."
       },
       {
         "id": 7,
-        "title": "7️⃣ Deployed to Production",
+        "title": "➡️ Deployed to Production",
         "description": "Once the client approves, the website is deployed to production."
       },
       {
         "id": 8,
-        "title": "8️⃣ Done",
+        "title": "➡️ Done",
         "description": ""
       }
     ]
