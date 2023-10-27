@@ -1,29 +1,91 @@
 {
-    "intro": {
-      "title": "",
-      "description": ""
-    },
-    "contact": {
-      "title": "Contact",
-      "description": "If you have any <strong>questions</strong> or want to <strong>collaborate</strong> with me on a project, feel free to reach out to me by email at:",
-      "actionText": "yahya@yja.me",
-      "actionLink": "mailto:yahya@yja.me"
-    },
-    "flow": {
-      "title": "",
-      "description": ""
-    },
-    "hire": {
-      "title": "",
-      "description": "",
-      "form": {
-        "text": "",
-        "link": ""
-      }
-    },
-    "list": {
-      "title": "",
-      "data": []
+  "intro": {
+    "title": "Who We Are",
+    "description": "My team and I specialize in crafting websites using <a href=\"https://vuejs.org/\" target=\"_blank\" rel=\"nofollow\">VueJS</a>, <a href=\"https://wordpress.org/\" target=\"_blank\" rel=\"nofollow\">WordPress</a>, <a href=\"https://codeigniter.com/\" target=\"_blank\" rel=\"nofollow\">CodeIgniter</a>, <a href=\"https://reactnative.dev/\" target=\"_blank\" rel=\"nofollow\">React Native</a>, and web builder such as <a href=\"https://www.wix.com/studio\" target=\"_blank\" rel=\"nofollow\">Wix</a> or <a href=\"https://webflow.com/\" target=\"_blank\" rel=\"nofollow\">Webflow</a>."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "For project collaboration, please feel free to reach me out by email at:",
+    "actionText": "yahya@yja.me",
+    "actionLink": "mailto:yahya@yja.me"
+  },
+  "hire": {
+    "title": "Hire Us",
+    "description": "Tell us about your project by filling out our web development <i>Project Inquiry Form</i>, by clicking the button below:",
+    "form": {
+      "text": "Open Project Inquiry Form",
+      "link": "https://5iiha2noaj6.typeform.com/to/EeTDySsR"
     }
+  },
+  "list": {
+    "title": "What We Do",
+    "data": [
+      {
+        "id": 1,
+        "title": "Microsite for digital campaign",
+        "description": "We build a small, focused website dedicated to a specific marketing or promotional purpose. It's ideal for <u>short-term campaigns</u>, <u>product launches</u>, <u>events or promotions</u>."
+      },
+      {
+        "id": 2,
+        "title": "WordPress theme development",
+        "description": "We create customized designs and layouts for WordPress websites. It's ideal for <u>company profile</u>, <u>blogs</u>, <u>educational websites</u>, <u>magazines/news websites</u>."
+      },
+      {
+        "id": 3,
+        "title": "Web development using web builder",
+        "description": "If you prefer hassle-free website maintenance without worrying about managing servers and databases, this service is perfect for you. It's ideal for <u>small bussiness</u>, <u>personal blogs</u>, <u>restaurant/cafe</u>, <u>non profit websites</u>."
+      },
+      {
+        "id": 4,
+        "title": "Web application development",
+        "description": "We create tools or services on the web platform based on your needs. It's ideal for <u>online shop</u>, <u>online booking platform</u>, <u>inventory management tools</u>."
+      }
+    ]
+  },
+  "flow": {
+    "title": "Workflow",
+    "intro": "In general, here is the development workflow we will use:",
+    "data": [
+      {
+        "id": 1,
+        "title": "Getting brief from client",
+        "description": "Clients share project details and requirements. Through discussions, a clear understanding of the project scope and goals is established."
+      },
+      {
+        "id": 2,
+        "title": "Task Breakdown",
+        "description": "The project is divided into clear tasks and features, each with defined goals and priorities according to client requirements."
+      },
+      {
+        "id": 3,
+        "title": "Start Development",
+        "description": "Development starts with Agile, which involves continuous feedback and adjustments through 1-4 week sprints."
+      },
+      {
+        "id": 4,
+        "title": "Minimum Viable Product (MVP)",
+        "description": "An MVP is created, focusing on essential features that represent the core functionality of the project and for early testing."
+      },
+      {
+        "id": 5,
+        "title": "Development Phase 2",
+        "description": "We are doing improvements based on client feedback and changing needs, keeping the development process flexible."
+      },
+      {
+        "id": 6,
+        "title": "User Acceptance Testing (UAT)",
+        "description": "The product is tested internally and by the client, to meet their expectations and ensure it's issue-free before launch."
+      },
+      {
+        "id": 7,
+        "title": "Deployed to Production",
+        "description": "Once the client approves the final version during UAT, the website goes live. It is deployed to the designated server, making it accessible to users."
+      },
+      {
+        "id": 8,
+        "title": "Done",
+        "description": ""
+      }
+    ]
   }
-  
+}
