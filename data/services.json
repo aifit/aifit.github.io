@@ -22,22 +22,22 @@
     "data": [
       {
         "id": 1,
-        "title": "Microsite for digital campaign",
+        "title": "➡️ Microsite for digital campaign",
         "description": "We build a small, focused website dedicated to a specific marketing or promotional purpose. It's ideal for <u>short-term campaigns</u>, <u>product launches</u>, <u>events or promotions</u>."
       },
       {
         "id": 2,
-        "title": "WordPress theme development",
+        "title": "➡️ WordPress theme development",
         "description": "We create customized designs and layouts for WordPress websites. It's ideal for <u>company profile</u>, <u>blogs</u>, <u>educational websites</u>, <u>magazines/news websites</u>."
       },
       {
         "id": 3,
-        "title": "Web development using web builder",
+        "title": "➡️ Web development using web builder",
         "description": "If you prefer hassle-free website maintenance without worrying about managing servers and databases, this service is perfect for you. It's ideal for <u>small bussiness</u>, <u>personal blogs</u>, <u>restaurant/cafe</u>, <u>non profit websites</u>."
       },
       {
         "id": 4,
-        "title": "Web application development",
+        "title": "➡️ Web application development",
         "description": "We create tools or services on the web platform based on your needs. It's ideal for <u>online shop</u>, <u>online booking platform</u>, <u>inventory management tools</u>."
       }
     ]
@@ -48,42 +48,42 @@
     "data": [
       {
         "id": 1,
-        "title": "Getting brief from client",
-        "description": "Clients share project details and requirements. Through discussions, a clear understanding of the project scope and goals is established."
+        "title": "1️⃣ Getting brief from client",
+        "description": "Clients share project details and requirements."
       },
       {
         "id": 2,
-        "title": "Task Breakdown",
-        "description": "The project is divided into clear tasks and features, each with defined goals and priorities according to client requirements."
+        "title": "2️⃣ Task Breakdown",
+        "description": "The project is divided into clear tasks and features."
       },
       {
         "id": 3,
-        "title": "Start Development",
-        "description": "Development starts with Agile, which involves continuous feedback and adjustments through 1-4 week sprints."
+        "title": "3️⃣ Start Development",
+        "description": "Development begins, and tasks are executed based on priorities."
       },
       {
         "id": 4,
-        "title": "Minimum Viable Product (MVP)",
-        "description": "An MVP is created, focusing on essential features that represent the core functionality of the project and for early testing."
+        "title": "4️⃣ Minimum Viable Product (MVP)",
+        "description": "An MVP is created, focusing on essential features."
       },
       {
         "id": 5,
-        "title": "Development Phase 2",
-        "description": "We are doing improvements based on client feedback and changing needs, keeping the development process flexible."
+        "title": "5️⃣ Development Phase 2",
+        "description": "We are doing improvements based on client feedback."
       },
       {
         "id": 6,
-        "title": "User Acceptance Testing (UAT)",
-        "description": "The product is tested internally and by the client, to meet their expectations and ensure it's issue-free before launch."
+        "title": "6️⃣ User Acceptance Testing (UAT)",
+        "description": "The product is tested internally and by the client."
       },
       {
         "id": 7,
-        "title": "Deployed to Production",
-        "description": "Once the client approves the final version during UAT, the website goes live. It is deployed to the designated server, making it accessible to users."
+        "title": "7️⃣ Deployed to Production",
+        "description": "Once the client approves, the website is deployed to production."
       },
       {
         "id": 8,
-        "title": "Done",
+        "title": "8️⃣ Done",
         "description": ""
       }
     ]
