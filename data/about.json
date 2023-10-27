@@ -48,7 +48,7 @@
         "id": 6,
         "title": "Bukalapak",
         "link": "https://www.linkedin.com/company/pt-bukalapak-com/",
-        "period": "2017 - Present",
+        "period": "2017 - present",
         "role": [
           {
             "id": 1,
@@ -63,17 +63,16 @@
           {
             "id": 3,
             "title": "Front-end Engineer",
-            "period": "2022 - Now"
+            "period": "2022 - present"
           }
         ]
       }
     ]
   },
   "contact": {
-    "title": "Contact",
-    "description": "For project collaboration, please feel free to reach me out by email at:",
-    "actionText": "yahya@yja.me",
-    "actionLink": "mailto:yahya@yja.me"
+    "title": "Services",
+    "description": "For project collaboration, you can learn about my <strong>Web Development Services</strong> by clicking the button below:",
+    "actionText": "View Services"
   },
   "elsewhere": {
     "title": "Elsewhere",
