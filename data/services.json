@@ -32,7 +32,7 @@
       },
       {
         "id": 3,
-        "title": "Web development using web builder",
+        "title": "Development from web builder",
         "description": "If you prefer hassle-free website maintenance without worrying about managing servers and databases, this service is perfect for you. It's ideal for <i>small bussiness</i>, <i>personal blogs</i>, <i>restaurant/cafe</i>, <i>non profit websites</i>."
       },
       {
@@ -44,47 +44,42 @@
   },
   "flow": {
     "title": "Workflow",
-    "intro": "In general, here is the development workflow we will use",
+    "intro": "In general, here is the development workflow we will follow",
     "data": [
       {
         "id": 1,
         "title": "Getting brief from client",
-        "description": "Clients share project details and requirements."
+        "description": "Clients share project details and requirements. Through discussions, a clear understanding of the project scope and goals is established."
       },
       {
         "id": 2,
         "title": "Task Breakdown",
-        "description": "The project is divided into clear tasks and features."
+        "description": "The project is divided into clear tasks and features, each with defined goals and priorities according to client requirements."
       },
       {
         "id": 3,
         "title": "Start Development",
-        "description": "Development begins, and tasks are executed based on priorities."
+        "description": "Development begins, and tasks are executed based on priorities. Work is divided into sprints, usually lasting 1 - 4 weeks."
       },
       {
         "id": 4,
         "title": "Minimum Viable Product (MVP)",
-        "description": "An MVP is created, focusing on essential features."
+        "description": "An MVP is created, focusing on essential features that represent the core functionality of the project and for early testing."
       },
       {
         "id": 5,
         "title": "Development Phase 2",
-        "description": "We are doing improvements based on client feedback."
+        "description": "We are doing improvements based on client feedback and changing needs, keeping the development process flexible."
       },
       {
         "id": 6,
         "title": "User Acceptance Testing (UAT)",
-        "description": "The product is tested internally and by the client."
+        "description": "The product is tested internally and by the client, to meet their expectations and ensure it's issue-free before launch."
       },
       {
         "id": 7,
         "title": "Deployed to Production",
-        "description": "Once the client approves, the website is deployed to production."
-      },
-      {
-        "id": 8,
-        "title": "Done",
-        "description": ""
+        "description": "Once the client approves the final version during UAT, the website goes live. It is deployed to the designated server, making it accessible to users."
       }
     ]
   }
