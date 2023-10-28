@@ -79,7 +79,7 @@
       {
         "id": 7,
         "title": "Deployed to Production",
-        "description": "Once the client approves the final version during UAT, the website goes live. It is deployed to the designated server, making it accessible to users."
+        "description": "Once the client approves the final version during UAT, the website will be deployed to the production, making it accessible to users."
       }
     ]
   }
