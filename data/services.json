@@ -44,7 +44,7 @@
   },
   "flow": {
     "title": "Workflow",
-    "intro": "In general, here is the development workflow we will follow",
+    "intro": "In general, here is our development workflow",
     "data": [
       {
         "id": 1,
