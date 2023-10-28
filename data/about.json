@@ -117,7 +117,7 @@
   },
   "website": {
     "title": "Website",
-    "intro": "<p>Built with <strong>Vue.js</strong>, using <a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> font, using icon from <a href=\"https://teenyicons.com/\" target=\"_blank\" rel=\"nofollow\">Teenyicons</a>.</p><p>Inspired by <a href=\"https://en.wikipedia.org/wiki/Web_desktop\" target=\"_blank\" rel=\"nofollow\">Web Desktop</a> and here some curated list of it:</p>",
+    "intro": "<p>Built with <strong>Vue.js</strong>, using <a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> font, using icon from <a href=\"https://teenyicons.com/\" target=\"_blank\" rel=\"nofollow\">Teenyicons</a>.</p><p>Inspired by <a href=\"https://en.wikipedia.org/wiki/Web_desktop\" target=\"_blank\" rel=\"nofollow\">Web Desktop</a> and here some curated list of it</p>",
     "curated": [
       {
         "id": 1,
