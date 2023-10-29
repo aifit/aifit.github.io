@@ -49,37 +49,37 @@
       {
         "id": 1,
         "title": "Getting brief from client",
-        "description": "Clients share project details and requirements. Through discussions, a clear understanding of the project scope and goals is established."
+        "description": "Clients share project details and requirements."
       },
       {
         "id": 2,
         "title": "Task Breakdown",
-        "description": "The project is divided into clear tasks and features, each with defined goals and priorities according to client requirements."
+        "description": "The project is divided into clear tasks and features."
       },
       {
         "id": 3,
         "title": "Start Development",
-        "description": "Development begins, and tasks are executed based on priorities. Work is divided into sprints, usually lasting 1 - 4 weeks."
+        "description": "Development begins, and tasks are executed based on priorities."
       },
       {
         "id": 4,
         "title": "Minimum Viable Product (MVP)",
-        "description": "An MVP is created, focusing on essential features that represent the core functionality of the project and for early testing."
+        "description": "An MVP is created, focusing on essential features."
       },
       {
         "id": 5,
         "title": "Development Phase 2",
-        "description": "We are doing improvements based on client feedback and changing needs, keeping the development process flexible."
+        "description": "We are doing improvements based on client feedback."
       },
       {
         "id": 6,
         "title": "User Acceptance Testing (UAT)",
-        "description": "The product is tested internally and by the client, to meet their expectations and ensure it's issue-free before launch."
+        "description": "The product is tested internally and by the client."
       },
       {
         "id": 7,
         "title": "Deployed to Production",
-        "description": "Once the client approves the final version during UAT, the website will be deployed to the production, making it accessible to users."
+        "description": "Once the client approves, the website is deployed to production."
       }
     ]
   }
