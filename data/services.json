@@ -58,7 +58,7 @@
       },
       {
         "id": 3,
-        "title": "Start Development",
+        "title": "Start Development (Phase 1)",
         "description": "Tasks are assigned into sprints and executed based on priorities."
       },
       {
@@ -68,7 +68,7 @@
       },
       {
         "id": 5,
-        "title": "Development Phase 2",
+        "title": "Continuing the Development (Phase 2)",
         "description": "We are doing improvements based on client feedback."
       },
       {
