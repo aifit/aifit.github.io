@@ -74,6 +74,12 @@
     "description": "For project collaboration, you can learn about my <strong>Web Development Services</strong> by clicking this button",
     "actionText": "View Services"
   },
+  "email": {
+    "title": "Contact",
+    "description": "For project collaboration, please feel free to reach me out by email at",
+    "actionText": "yahya@yja.me",
+    "actionLink": "mailto:yahya@yja.me"
+  },  
   "elsewhere": {
     "title": "Elsewhere",
     "data": [
