@@ -1,7 +1,7 @@
 {
   "intro": {
-    "title": "Who We Are",
-    "description": "My team and I experienced in creating websites using <a href=\"https://vuejs.org/\" target=\"_blank\" rel=\"nofollow\">VueJS</a>, <a href=\"https://wordpress.org/\" target=\"_blank\" rel=\"nofollow\">WordPress</a>, <a href=\"https://codeigniter.com/\" target=\"_blank\" rel=\"nofollow\">CodeIgniter</a>, <a href=\"https://reactnative.dev/\" target=\"_blank\" rel=\"nofollow\">React Native</a>, and web builder such as <a href=\"https://www.wix.com/studio\" target=\"_blank\" rel=\"nofollow\">Wix</a> or <a href=\"https://webflow.com/\" target=\"_blank\" rel=\"nofollow\">Webflow</a>."
+    "title": "Who Am I",
+    "description": "<strong>Front-end Web Developer</strong> with over 10 years of professional experience. Specialize in creating websites using <a href=\"https://vuejs.org/\" target=\"_blank\" rel=\"nofollow\">Vue.js</a>. Have experience in creating <a href=\"https://wordpress.org/\" target=\"_blank\" rel=\"nofollow\">WordPress</a> themes and utilizing web builder platforms like <a href=\"https://www.wix.com/studio\" target=\"_blank\" rel=\"nofollow\">Wix</a> or <a href=\"https://webflow.com/\" target=\"_blank\" rel=\"nofollow\">Webflow</a>."
   },
   "contact": {
     "title": "Contact",
@@ -9,42 +9,34 @@
     "actionText": "yahya@yja.me",
     "actionLink": "mailto:yahya@yja.me"
   },
-  "hire": {
-    "title": "Hire Us",
-    "description": "Tell us about your project by filling out our web development <i>Project Inquiry Form</i>, by clicking this button",
-    "form": {
-      "text": "Open Project Inquiry Form",
-      "link": "https://forms.gle/Qe53m8Hm951JNp5R8"
-    }
-  },
   "list": {
-    "title": "What We Do",
+    "title": "What I Do",
     "data": [
       {
         "id": 1,
         "title": "Microsite for digital campaign",
-        "description": "We build a small, focused website dedicated to a specific marketing or promotional purpose. It's ideal for <i>short-term campaigns</i>, <i>product launches</i>, <i>events or promotions</i>."
+        "description": "Develop websites for short-term marketing goals, such as campaigns, product launches, events, and promotions."
       },
       {
         "id": 2,
         "title": "WordPress theme development",
-        "description": "We create customized designs and layouts for WordPress websites. It's ideal for <i>company profile</i>, <i>blogs</i>, <i>educational websites</i>, <i>magazines/news websites</i>."
+        "description": "Develop custom themes for WordPress, suitable for company profiles, blogs, educational platforms, and news websites."
       },
       {
         "id": 3,
         "title": "Development from web builder",
-        "description": "If you prefer hassle-free website maintenance without worrying about managing servers and databases, this service is perfect for you. It's ideal for <i>small bussiness</i>, <i>personal blogs</i>, <i>restaurant/cafe</i>, <i>non profit websites</i>."
+        "description": "Help you create a website using a web builder. This service is ideal for small businesses and nonprofit websites."
       },
       {
         "id": 4,
         "title": "Web application development",
-        "description": "We create tools or services on the web platform based on your needs. It's ideal for <i>online shop</i>, <i>online booking platform</i>, <i>inventory management tools</i>."
+        "description": "Develop web tools and services based on your needs, suitable for online shops, booking or inventory management."
       }
     ]
   },
   "flow": {
-    "title": "How We Work",
-    "intro": "In general, here is our development workflow",
+    "title": "How I Work",
+    "intro": "In general, here is my development workflow",
     "data": [
       {
         "id": 1,
@@ -82,5 +74,12 @@
         "description": "Once the client approves, the website is deployed to production."
       }
     ]
+  },
+  "hire": {
+    "description": "Tell me about your project by filling out my <i>Project Inquiry Form</i>",
+    "form": {
+      "text": "Open Project Inquiry Form",
+      "link": "https://forms.gle/Qe53m8Hm951JNp5R8"
+    }
   }
 }
