@@ -14,17 +14,12 @@
       {
         "id": 2,
         "title": "WordPress theme development",
-        "description": "Develop custom themes for WordPress, suitable for company profiles, blogs, educational platforms, and news websites."
+        "description": "Develop custom themes for WordPress, suitable for company profiles, blogs, educational, and news websites."
       },
       {
         "id": 3,
         "title": "Development from web builder",
         "description": "Help you create a website using a web builder. This service is ideal for small businesses, and nonprofit websites."
-      },
-      {
-        "id": 4,
-        "title": "Web application development",
-        "description": "Develop web tools or services based on your needs, suitable for content management systems."
       }
     ]
   },
