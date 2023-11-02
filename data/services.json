@@ -1,7 +1,7 @@
 {
   "intro": {
     "title": "Who Am I",
-    "description": "With over 10 years of professional experience, I specialize in crafting websites using <a href=\"https://vuejs.org/\" target=\"_blank\" rel=\"nofollow\">Vue.js</a>, have experience in creating custom themes for <a href=\"https://wordpress.org/\" target=\"_blank\" rel=\"nofollow\">WordPress</a> and utilizing web builder platforms like <a href=\"https://www.wix.com/studio\" target=\"_blank\" rel=\"nofollow\">Wix</a> or <a href=\"https://webflow.com/\" target=\"_blank\" rel=\"nofollow\">Webflow</a>."
+    "description": "With over 10 years of professional experience, specialize in crafting websites using <a href=\"https://vuejs.org/\" target=\"_blank\" rel=\"nofollow\">Vue.js</a>, have experience in creating custom themes for <a href=\"https://wordpress.org/\" target=\"_blank\" rel=\"nofollow\">WordPress</a> and utilizing web builder platforms like <a href=\"https://www.wix.com/studio\" target=\"_blank\" rel=\"nofollow\">Wix</a> or <a href=\"https://webflow.com/\" target=\"_blank\" rel=\"nofollow\">Webflow</a>."
   },
   "list": {
     "title": "What I Do",
@@ -30,7 +30,7 @@
   },
   "flow": {
     "title": "How I Work",
-    "intro": "In general, here is my development workflow",
+    "intro": "In general here is the development workflow",
     "data": [
       {
         "id": 1,
