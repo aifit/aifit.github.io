@@ -29,9 +29,31 @@
       "image": "https://yja.me/img/pro/bukapotensi.jpg",
       "type": "Website",
       "year": "2019"
-    },    
+    },
     {
       "id": 3,
+      "group": "Bukalapak",
+      "title": "Bazaar Design System",
+      "description": "One of my responsibilities as a UX Engineer was maintaining a design system called Bazaar, which involved bug fixing, creating new components, and documenting their usage. This design system was utilized across almost every department in my workplace.",
+      "role": "UX Engineer",
+      "task": "Design system maintainer",
+      "active": false,
+      "actionText": "Internal",
+      "slide": [
+        {
+          "webp": "https://yja.me/img/pro/bazaar-dweb.webp",
+          "image": "https://yja.me/img/pro/bazaar-dweb.jpg"
+        },
+        {
+          "webp": "https://yja.me/img/pro/bazaar-mweb.webp",
+          "image": "https://yja.me/img/pro/bazaar-mweb.jpg"
+        }
+      ],
+      "type": "Library",
+      "year": "2020"
+    },
+    {
+      "id": 4,
       "group": "Bukalapak",
       "title": "Bukalapak Company Profile",
       "description": "Colaborate with Designer and Front-end Engineer to built a company profile website for Bukalapak.",
@@ -46,7 +68,7 @@
       "year": "2021"
     },
     {
-      "id": 4,
+      "id": 5,
       "group": "Bukalapak",
       "title": "Admin Dashboard for Bukalapak Insight",
       "description": "Online repository platform employed by the UX research team for the purpose of aggregating research findings. Built with <a href='https://nuxt.com/' target='_blank' rel='nofollow'>NuxtJS</a> and powered by the real-time capabilities of the Firebase database.",
@@ -54,7 +76,6 @@
       "task": "Develop Nuxt & Firebase app",
       "active": false,
       "actionText": "Internal",
-      "link": "https://about.bukalapak.com",
       "slide": [
         {
           "webp": "https://yja.me/img/pro/bi-dashboard-1.webp",
@@ -69,7 +90,7 @@
       "year": "2021"
     },
     {
-      "id": 5,
+      "id": 6,
       "group": "Yes I Do",
       "title": "Marketplace Page",
       "description": "Utilizes the <a href='https://www.wix.com/velo/feature/database' target='_blank' rel='nofollow'>Wix Database</a> to create interactive store pages that contain data from several marketplaces in Indonesia. Additionally, users can search for products and filter them by rating and price.",
@@ -84,7 +105,7 @@
       "year": "2023"
     },
     {
-      "id": 6,
+      "id": 7,
       "group": "Yes I Do",
       "title": "Weton Calculation Tools",
       "description": "Matchmaking prediction tool based on Weton calculations from the Javanese calendar, designed with the goal of enhancing user engagement. Developed within the Wix environment and powered by the <a href='https://www.wix.com/velo' target='_blank' rel='nofollow'>Velo</a> platform.",
@@ -97,6 +118,6 @@
       "image": "https://yja.me/img/pro/yid-weton.jpg",
       "type": "Microsite",
       "year": "2023"
-    }        
+    }
   ]
 }
