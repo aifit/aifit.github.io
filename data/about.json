@@ -8,7 +8,7 @@
   },
   "experience": {
     "title": "Experience",
-    "note": "For further details, you can visit my LinkedIn profile.",    
+    "note": "For further details, you can visit my LinkedIn profile.",
     "data": [
       {
         "id": 1,
@@ -19,7 +19,7 @@
       },
       {
         "id": 2,
-        "title": "Dentsu Digital",
+        "title": "Dentsu Digital Division",
         "link": "https://www.linkedin.com/company/dentsu/",
         "period": "2013 - 2014",
         "role": []
@@ -64,7 +64,7 @@
           {
             "id": 3,
             "title": "Software Engineer II (Front-end)",
-            "period": "2022 - Present"
+            "period": "2022 - 2023"
           }
         ]
       }
