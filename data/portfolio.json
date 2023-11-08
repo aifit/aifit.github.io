@@ -10,12 +10,14 @@
           "role": "UI/UX Engineer",
           "task": "Create custom React.js component",
           "active": true,
-          "actionText": "View",          
+          "actionText": "View",
           "link": "https://gorental.id",
-          "webp": "https://yja.me/img/por/gorental.webp",
-          "image": "https://yja.me/img/por/gorental.jpg",
+          "webp": "https://yja.me/img/gorental.webp",
+          "image": "https://yja.me/img/gorental.jpg",
           "type": "Website",
-          "year": "2020"
+          "year": "2020",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         }
       ]
     }
@@ -51,136 +53,166 @@
           "id": 1,
           "title": "Gatsby Indonesia",
           "description": "VP Digital",
-          "webp": "https://yja.me/img/por/gatsby.webp",
-          "image": "https://yja.me/img/por/gatsby.jpg",
+          "webp": "https://yja.me/img/gatsby.webp",
+          "image": "https://yja.me/img/gatsby.jpg",
           "type": "Website",
-          "year": "2012"
+          "year": "2012",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 2,
           "title": "Kopi ABC - Festival Mantap",
           "description": "VP Digital",
-          "webp": "https://yja.me/img/por/festival.webp",
-          "image": "https://yja.me/img/por/festival.jpg",
+          "webp": "https://yja.me/img/festival.webp",
+          "image": "https://yja.me/img/festival.jpg",
           "type": "Microsite",
-          "year": "2012"
+          "year": "2012",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 3,
           "title": "Nissan - Fun Family MPV",
           "description": "VP Digital",
-          "webp": "https://yja.me/img/por/funfamilympv.webp",
-          "image": "https://yja.me/img/por/funfamilympv.jpg",
+          "webp": "https://yja.me/img/funfamilympv.webp",
+          "image": "https://yja.me/img/funfamilympv.jpg",
           "type": "Microsite",
-          "year": "2012"
+          "year": "2012",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 4,
           "title": "Mamypoko - Junior Night Pants",
           "description": "Dentsu Digital",
-          "webp": "https://yja.me/img/por/mamypoko.webp",
-          "image": "https://yja.me/img/por/mamypoko.jpg",
+          "webp": "https://yja.me/img/mamypoko.webp",
+          "image": "https://yja.me/img/mamypoko.jpg",
           "type": "Microsite",
-          "year": "2013"
+          "year": "2013",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 5,
           "title": "HokBen Website",
           "description": "Dentsu Digital",
-          "webp": "https://yja.me/img/por/hokben.webp",
-          "image": "https://yja.me/img/por/hokben.jpg",
+          "webp": "https://yja.me/img/hokben.webp",
+          "image": "https://yja.me/img/hokben.jpg",
           "type": "Website",
-          "year": "2013"
+          "year": "2013",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 6,
           "title": "UNIQLO - USJ Fit Model",
           "description": "Dentsu Digital",
-          "webp": "https://yja.me/img/por/uniqlo-usj.webp",
-          "image": "https://yja.me/img/por/uniqlo-usj.jpg",
+          "webp": "https://yja.me/img/uniqlo-usj.webp",
+          "image": "https://yja.me/img/uniqlo-usj.jpg",
           "type": "Microsite",
-          "year": "2013"
-        },        
+          "year": "2013",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
+        },
         {
           "id": 6,
           "title": "UNIQLO - Email Template",
           "description": "Dentsu Digital",
-          "webp": "https://yja.me/img/por/uniqlo.webp",
-          "image": "https://yja.me/img/por/uniqlo.jpg",
+          "webp": "https://yja.me/img/uniqlo.webp",
+          "image": "https://yja.me/img/uniqlo.jpg",
           "type": "Template",
-          "year": "2013"
+          "year": "2013",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 7,
           "title": "Nestle - Interactive Infographic",
           "description": "J. Walter Thompson",
-          "webp": "https://yja.me/img/por/infografik.webp",
-          "image": "https://yja.me/img/por/infografik.jpg",
+          "webp": "https://yja.me/img/infografik.webp",
+          "image": "https://yja.me/img/infografik.jpg",
           "type": "Microsite",
-          "year": "2014"
+          "year": "2014",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 8,
           "title": "Charm - Rescue Team",
           "description": "J. Walter Thompson",
-          "webp": "https://yja.me/img/por/bebaslembab.webp",
-          "image": "https://yja.me/img/por/bebaslembab.jpg",
+          "webp": "https://yja.me/img/bebaslembab.webp",
+          "image": "https://yja.me/img/bebaslembab.jpg",
           "type": "Microsite",
-          "year": "2014"
+          "year": "2014",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 9,
           "title": "Hijab of The Day",
           "description": "Clozette Indonesia",
-          "webp": "https://yja.me/img/por/hijaboftheday.webp",
-          "image": "https://yja.me/img/por/hijaboftheday.jpg",
+          "webp": "https://yja.me/img/hijaboftheday.webp",
+          "image": "https://yja.me/img/hijaboftheday.jpg",
           "type": "Microsite",
-          "year": "2014"
+          "year": "2014",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 10,
           "title": "SAMSUNG - Generasi Sabi",
           "description": "",
-          "webp": "https://yja.me/img/por/generasisabi.webp",
-          "image": "https://yja.me/img/por/generasisabi.jpg",
+          "webp": "https://yja.me/img/generasisabi.webp",
+          "image": "https://yja.me/img/generasisabi.jpg",
           "type": "Microsite",
-          "year": "2016"
+          "year": "2016",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 11,
           "title": "Changi Yuk!",
           "description": "J. Walter Thompson",
-          "webp": "https://yja.me/img/por/changiyuk.webp",
-          "image": "https://yja.me/img/por/changiyuk.jpg",
+          "webp": "https://yja.me/img/changiyuk.webp",
+          "image": "https://yja.me/img/changiyuk.jpg",
           "type": "Microsite",
-          "year": "2016"
+          "year": "2016",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 12,
           "title": "Keds - Solemate",
           "description": "J. Walter Thompson",
-          "webp": "https://yja.me/img/por/solemate.webp",
-          "image": "https://yja.me/img/por/solemate.jpg",
+          "webp": "https://yja.me/img/solemate.webp",
+          "image": "https://yja.me/img/solemate.jpg",
           "type": "Microsite",
-          "year": "2016"
+          "year": "2016",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 13,
           "title": "Indomilk - Epic Banana Milk Challenge",
           "description": "I-DAC ASIA",
-          "webp": "https://yja.me/img/por/epicbanana.webp",
-          "image": "https://yja.me/img/por/epicbanana.jpg",
+          "webp": "https://yja.me/img/epicbanana.webp",
+          "image": "https://yja.me/img/epicbanana.jpg",
           "type": "Microsite",
-          "year": "2016"
+          "year": "2016",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         },
         {
           "id": 14,
           "title": "Aku Anak SGM",
           "description": "MullenLowe Indonesia",
-          "webp": "https://yja.me/img/por/sgm.webp",
-          "image": "https://yja.me/img/por/sgm.jpg",
+          "webp": "https://yja.me/img/sgm.webp",
+          "image": "https://yja.me/img/sgm.jpg",
           "type": "Website",
-          "year": "2018"
+          "year": "2018",
+          "uploadedYear": "2023",
+          "uploadedMonth": "11"
         }
       ]
     }

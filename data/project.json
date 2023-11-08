@@ -10,10 +10,12 @@
       "active": true,
       "actionText": "View",
       "link": "https://netizen.lol",
-      "webp": "https://yja.me/img/pro/netizen.webp",
-      "image": "https://yja.me/img/pro/netizen.jpg",
+      "webp": "https://yja.me/img/netizen.webp",
+      "image": "https://yja.me/img/netizen.jpg",
       "type": "Website",
-      "year": "2018"
+      "year": "2018",
+      "uploadedYear": "2023",
+      "uploadedMonth": "11"
     },
     {
       "id": 2,
@@ -25,32 +27,36 @@
       "active": false,
       "actionText": "Deprecated",
       "link": "https://bukapotensi.bukalapak.com",
-      "webp": "https://yja.me/img/pro/bukapotensi.webp",
-      "image": "https://yja.me/img/pro/bukapotensi.jpg",
+      "webp": "https://yja.me/img/bukapotensi.webp",
+      "image": "https://yja.me/img/bukapotensi.jpg",
       "type": "Website",
-      "year": "2019"
+      "year": "2019",
+      "uploadedYear": "2023",
+      "uploadedMonth": "11"
     },
     {
       "id": 3,
       "group": "Bukalapak",
       "title": "Bazaar Design System",
-      "description": "One of my responsibilities as a UI/UX Engineer was maintaining a design system called <i>Bazaar</i>, which involved bug fixing, creating new components, and documenting their usage. This design system was used in the entire <a href='https://www.bukalapak.com/' target='_blank' rel='nofollow'>Bukalapak</a> marketplace.",
-      "role": "UI/UX Engineer",
+      "description": "One of my responsibilities as a UX Engineer was maintaining a design system called Bazaar, which involved bug fixing, creating new components, and documenting their usage. This design system was utilized across almost every department in my workplace.",
+      "role": "UX Engineer",
       "task": "Design system maintainer",
       "active": false,
       "actionText": "Internal",
       "slide": [
         {
-          "webp": "https://yja.me/img/pro/bazaar-dweb.webp",
-          "image": "https://yja.me/img/pro/bazaar-dweb.jpg"
+          "webp": "https://yja.me/img/bazaar-dweb.webp",
+          "image": "https://yja.me/img/bazaar-dweb.jpg"
         },
         {
-          "webp": "https://yja.me/img/pro/bazaar-mweb.webp",
-          "image": "https://yja.me/img/pro/bazaar-mweb.jpg"
+          "webp": "https://yja.me/img/bazaar-mweb.webp",
+          "image": "https://yja.me/img/bazaar-mweb.jpg"
         }
       ],
       "type": "Library",
-      "year": "2020"
+      "year": "2020",
+      "uploadedYear": "2023",
+      "uploadedMonth": "11"
     },
     {
       "id": 4,
@@ -62,10 +68,12 @@
       "active": true,
       "actionText": "View",
       "link": "https://about.bukalapak.com",
-      "webp": "https://yja.me/img/pro/aboutbl.webp",
-      "image": "https://yja.me/img/pro/aboutbl.jpg",
+      "webp": "https://yja.me/img/aboutbl.webp",
+      "image": "https://yja.me/img/aboutbl.jpg",
       "type": "Website",
-      "year": "2021"
+      "year": "2021",
+      "uploadedYear": "2023",
+      "uploadedMonth": "11"
     },
     {
       "id": 5,
@@ -78,16 +86,18 @@
       "actionText": "Internal",
       "slide": [
         {
-          "webp": "https://yja.me/img/pro/bi-dashboard-1.webp",
-          "image": "https://yja.me/img/pro/bi-dashboard-1.jpg"
+          "webp": "https://yja.me/img/bi-dashboard-1.webp",
+          "image": "https://yja.me/img/bi-dashboard-1.jpg"
         },
         {
-          "webp": "https://yja.me/img/pro/bi-dashboard-2.webp",
-          "image": "https://yja.me/img/pro/bi-dashboard-2.jpg"
+          "webp": "https://yja.me/img/bi-dashboard-2.webp",
+          "image": "https://yja.me/img/bi-dashboard-2.jpg"
         }
       ],
       "type": "Website",
-      "year": "2021"
+      "year": "2021",
+      "uploadedYear": "2023",
+      "uploadedMonth": "11"
     },
     {
       "id": 6,
@@ -99,10 +109,12 @@
       "active": true,
       "actionText": "View",
       "link": "https://sayyesido.com/store",
-      "webp": "https://yja.me/img/pro/yid-store.webp",
-      "image": "https://yja.me/img/pro/yid-store.jpg",
+      "webp": "https://yja.me/img/yid-store.webp",
+      "image": "https://yja.me/img/yid-store.jpg",
       "type": "Microsite",
-      "year": "2023"
+      "year": "2023",
+      "uploadedYear": "2023",
+      "uploadedMonth": "11"
     },
     {
       "id": 7,
@@ -114,10 +126,12 @@
       "active": true,
       "actionText": "View",
       "link": "https://sayyesido.com/weton",
-      "webp": "https://yja.me/img/pro/yid-weton.webp",
-      "image": "https://yja.me/img/pro/yid-weton.jpg",
+      "webp": "https://yja.me/img/yid-weton.webp",
+      "image": "https://yja.me/img/yid-weton.jpg",
       "type": "Microsite",
-      "year": "2023"
+      "year": "2023",
+      "uploadedYear": "2023",
+      "uploadedMonth": "11"
     }
   ]
 }
