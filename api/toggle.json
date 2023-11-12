@@ -2,7 +2,7 @@
     "data": [
       {
         "name": "wordpress-cdn",
-        "status": true
+        "active": true
       }
     ]
   }
