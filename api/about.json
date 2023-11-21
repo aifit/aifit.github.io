@@ -126,7 +126,7 @@
   },
   "website": {
     "title": "Website",
-    "intro": "<p>Made with <a href=\"https://vuejs.org\" target=\"_blank\" rel=\"nofollow\">Vue.js</a>, using <a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> font, and icons from <a href=\"https://teenyicons.com\" target=\"_blank\" rel=\"nofollow\">Teenyicons</a> and <a href=\"https://tabler-icons.io\" target=\"_blank\" rel=\"nofollow\">TablerIcons</a>.</p><p>This is an experimental website that inspired by <a href=\"https://en.wikipedia.org/wiki/Web_desktop\" target=\"_blank\" rel=\"nofollow\">Web Desktop</a>, and here's a curated list of it</p>",
+    "intro": "<p>Made with <a href=\"https://vuejs.org\" target=\"_blank\" rel=\"nofollow\">Vue.js</a>, using <a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> font, icons from <a href=\"https://teenyicons.com\" target=\"_blank\" rel=\"nofollow\">Teenyicons</a> &amp; <a href=\"https://tabler-icons.io\" target=\"_blank\" rel=\"nofollow\">TablerIcons</a>.</p><p>This is an experimental website that inspired by <a href=\"https://en.wikipedia.org/wiki/Web_desktop\" target=\"_blank\" rel=\"nofollow\">Web Desktop</a>, here's a curated list of it</p>",
     "curated": [
       {
         "id": 1,
