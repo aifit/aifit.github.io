@@ -38,7 +38,7 @@
       "id": 3,
       "group": "Personal",
       "title": "YJA.me",
-      "description": "This is my portfolio page, inspired by the appearance of desktop operating system. Follows the <a href='https://atomicdesign.bradfrost.com/chapter-2/' target='_blank' rel='nofollow'>Atomic Design</a> methodology to create components and also earned an <a href='https://www.awwwards.com/sites/yahya-j-aifits-portfolio' target='_blank' rel='nofollow'>Honorable Mention</a> on <strong>Awwwards</strong>.",
+      "description": "This is my portfolio page, inspired by the appearance of desktop operating system. Follows the <a href='https://atomicdesign.bradfrost.com/chapter-2/' target='_blank' rel='nofollow'>Atomic Design Methodology</a> to create components and also earned an <a href='https://www.awwwards.com/sites/yahya-j-aifits-portfolio' target='_blank' rel='nofollow'>Honorable Mention</a> on <strong>Awwwards</strong>.",
       "role": "Front-end Engineer",
       "task": "Create Vue.js static site",
       "active": false,
