@@ -2,23 +2,6 @@
   "data": [
     {
       "id": 1,
-      "group": "Personal",
-      "title": "Netizen LOL",
-      "description": "Built with WordPress. This is my personal blog that discusses daily activities such as holidays, taking care of administration, photo galleries, and several other topics.",
-      "role": "WordPress theme developer",
-      "task": "Create custom WordPress theme",
-      "active": true,
-      "actionText": "View",
-      "link": "https://netizen.lol",
-      "webp": "https://yja.me/img/netizen.webp",
-      "image": "https://yja.me/img/netizen.jpg",
-      "type": "Website",
-      "year": "2018",
-      "uploadedYear": "2023",
-      "uploadedMonth": "11"
-    },
-    {
-      "id": 2,
       "group": "Bukalapak",
       "title": "BukaPotensi",
       "description": "Website for Bukalapak talent team to show their programs. Built with WordPress, and use custom <a href='https://wordpress.org/gutenberg/' target='_blank' rel='nofollow'> Gutenberg Blocks</a>.",
@@ -35,7 +18,7 @@
       "uploadedMonth": "11"
     },
     {
-      "id": 3,
+      "id": 2,
       "group": "Bukalapak",
       "title": "Bazaar Design System",
       "description": "One of my responsibilities as a UX Engineer was maintaining a design system called Bazaar, which involved bug fixing, creating new components, and documenting their usage. This design system was used across <a href='https://www.bukalapak.com/' target='_blank' rel='nofollow'>Bukalapak</a> marketplace.",
@@ -59,7 +42,7 @@
       "uploadedMonth": "11"
     },
     {
-      "id": 4,
+      "id": 3,
       "group": "Bukalapak",
       "title": "Bukalapak Company Profile",
       "description": "Colaborate with Designer and Front-end Engineer to built a company profile website for Bukalapak.",
@@ -76,7 +59,7 @@
       "uploadedMonth": "11"
     },
     {
-      "id": 5,
+      "id": 4,
       "group": "Bukalapak",
       "title": "Admin Dashboard for Bukalapak Insight",
       "description": "Online repository platform employed by the UX research team for the purpose of aggregating research findings. Built with <a href='https://nuxt.com/' target='_blank' rel='nofollow'>NuxtJS</a> and powered by the real-time capabilities of the Firebase database.",
@@ -100,7 +83,7 @@
       "uploadedMonth": "11"
     },
     {
-      "id": 6,
+      "id": 5,
       "group": "Yes I Do",
       "title": "Marketplace Page",
       "description": "Utilizes the <a href='https://www.wix.com/velo/feature/database' target='_blank' rel='nofollow'>Wix Database</a> to create interactive store pages that contain data from several marketplaces in Indonesia. Additionally, users can search for products and filter them by rating and price.",
@@ -117,7 +100,7 @@
       "uploadedMonth": "11"
     },
     {
-      "id": 7,
+      "id": 6,
       "group": "Yes I Do",
       "title": "Weton Calculation Tools",
       "description": "Matchmaking prediction tool based on Weton calculations from the Javanese calendar, designed with the goal of enhancing user engagement. Developed within the Wix environment and powered by the <a href='https://www.wix.com/velo' target='_blank' rel='nofollow'>Velo</a> platform.",

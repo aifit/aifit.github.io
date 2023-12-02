@@ -1,25 +1,67 @@
 {
   "latest": [
     {
-      "title": "Recently",
-      "data": [
+      "id": 1,
+      "group": "Personal",
+      "title": "Netizen LOL",
+      "description": "Built with WordPress. This is my personal blog that discusses daily activities such as holidays, taking care of administration, photo galleries, and several other topics.",
+      "role": "WordPress theme developer",
+      "task": "Create custom WordPress theme",
+      "active": true,
+      "actionText": "View",
+      "link": "https://netizen.lol",
+      "webp": "https://yja.me/img/netizen.webp",
+      "image": "https://yja.me/img/netizen.jpg",
+      "type": "Website",
+      "year": "2018",
+      "uploadedYear": "2023",
+      "uploadedMonth": "11"
+    },
+    {
+      "id": 2,
+      "group": "Commercial",
+      "title": "Go Rental Indonesia",
+      "description": "Medan-based online booking platform for airport transfers and car rentals, developed using React.js.",
+      "role": "UI/UX Engineer",
+      "task": "Create custom React.js component",
+      "active": true,
+      "actionText": "View",
+      "link": "https://gorental.id",
+      "webp": "https://yja.me/img/gorental.webp",
+      "image": "https://yja.me/img/gorental.jpg",
+      "type": "Website",
+      "year": "2020",
+      "uploadedYear": "2023",
+      "uploadedMonth": "11"
+    },
+    {
+      "id": 3,
+      "group": "Personal",
+      "title": "My Portfolio Page",
+      "description": "This is my portfolio page, inspired by the appearance of operating system's GUI. It follows the <a href='https://atomicdesign.bradfrost.com/chapter-2/' target='_blank' rel='nofollow'>Atomic Design</a> methodology to create components and also earned an <a href='https://www.awwwards.com/sites/yahya-j-aifits-portfolio' target='_blank' rel='nofollow'>Honorable Mention</a> on <strong>Awwwards</strong>.",
+      "role": "Front-end Engineer",
+      "task": "Create Vue.js static site",
+      "active": false,
+      "actionText": "Current Website",
+      "link": "https://yja.me",
+      "slide": [
         {
-          "id": 1,
-          "title": "Go Rental Indonesia",
-          "description": "Medan-based online booking platform for airport transfers and car rentals, developed using React.js.",
-          "role": "UI/UX Engineer",
-          "task": "Create custom React.js component",
-          "active": true,
-          "actionText": "View",
-          "link": "https://gorental.id",
-          "webp": "https://yja.me/img/gorental.webp",
-          "image": "https://yja.me/img/gorental.jpg",
-          "type": "Website",
-          "year": "2020",
-          "uploadedYear": "2023",
-          "uploadedMonth": "11"
+          "webp": "https://yja.me/img/yjame-clear.webp",
+          "image": "https://yja.me/img/yjame-clear.jpg"
+        },
+        {
+          "webp": "https://yja.me/img/yjame-windowp.webp",
+          "image": "https://yja.me/img/yjame-windowp.jpg"
+        },
+        {
+          "webp": "https://yja.me/img/yjame-window.webp",
+          "image": "https://yja.me/img/yjame-window.jpg"
         }
-      ]
+      ],
+      "type": "Microsite",
+      "year": "2021",
+      "uploadedYear": "2023",
+      "uploadedMonth": "12"
     }
   ],
   "old": [
