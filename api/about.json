@@ -126,7 +126,7 @@
   },
   "website": {
     "title": "Website",
-    "intro": "<div style=\" text-align: left; margin-bottom: -5px;\"><p>Made with <a href=\"https://vuejs.org\" target=\"_blank\" rel=\"nofollow\">Vue.js</a>, using <a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> font, icons from <a href=\"https://teenyicons.com\" target=\"_blank\" rel=\"nofollow\">Teenyicons</a> &amp; <a href=\"https://tabler-icons.io\" target=\"_blank\" rel=\"nofollow\">TablerIcons</a>.</p> <p>This is an experimental website that inspired by Web Desktop, and here's a curated list of it <a href=\"https://github.com/syxanash/awesome-web-desktops\" target=\"_blank\" rel=\"nofollow\">Awesome Web Desktops</a> &amp; <a href=\"https://github.com/zriyans/awesome-OS\" target=\"_blank\" rel=\"nofollow\">Awesome OS</a>.</p>",
+    "intro": "<div style=\" text-align: center; margin-bottom: -5px;\"><p>Made with <a href=\"https://vuejs.org\" target=\"_blank\" rel=\"nofollow\">Vue.js</a>, using <a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> font, icons from <a href=\"https://teenyicons.com\" target=\"_blank\" rel=\"nofollow\">Teenyicons</a> &amp; <a href=\"https://tabler-icons.io\" target=\"_blank\" rel=\"nofollow\">TablerIcons</a>.</p> <p>This is an experimental website that inspired by Web Desktop, and here's a curated list of it <a href=\"https://github.com/syxanash/awesome-web-desktops\" target=\"_blank\" rel=\"nofollow\">Awesome Web Desktops</a> &amp; <a href=\"https://github.com/zriyans/awesome-OS\" target=\"_blank\" rel=\"nofollow\">Awesome OS</a>.</p>",
     "curated": [
       {
         "id": 1,
