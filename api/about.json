@@ -65,8 +65,8 @@
           },
           {
             "id": 3,
-            "title": "Software Engineer - Front-end",
-            "period": "2022 - Present"
+            "title": "Software Engineer </br> Front-end",
+            "period": "2022 - 2023"
           }
         ]
       }
@@ -74,7 +74,7 @@
   },
   "contact": {
     "title": "Services",
-    "description": "<p>For project collaboration, you can learn about my <strong>Web Development Services</strong></p>",
+    "description": "<p style=\"text-align: center\">For project collaboration, you can learn about my <strong>Web Development Services</strong></p>",
     "actionText": "View Services"
   },
   "email": {
@@ -126,7 +126,7 @@
   },
   "website": {
     "title": "Website",
-    "intro": "<p>Made with <a href=\"https://vuejs.org\" target=\"_blank\" rel=\"nofollow\">Vue.js</a>, using <a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> font, icons from <a href=\"https://teenyicons.com\" target=\"_blank\" rel=\"nofollow\">Teenyicons</a> &amp; <a href=\"https://tabler-icons.io\" target=\"_blank\" rel=\"nofollow\">TablerIcons</a>.</p><p>This is an experimental website that inspired by <a href=\"https://en.wikipedia.org/wiki/Web_desktop\" target=\"_blank\" rel=\"nofollow\">Web Desktop</a>, and here's a curated list of it</p>",
+    "intro": "<div style=\" text-align: left\"><p>Made with <a href=\"https://vuejs.org\" target=\"_blank\" rel=\"nofollow\">Vue.js</a>, using <a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> font, icons from <a href=\"https://teenyicons.com\" target=\"_blank\" rel=\"nofollow\">Teenyicons</a> &amp; <a href=\"https://tabler-icons.io\" target=\"_blank\" rel=\"nofollow\">TablerIcons</a>.</p> <p>This is an experimental website that inspired by Web Desktop, and here's a curated list of it <a href=\"https://github.com/syxanash/awesome-web-desktops\" target=\"_blank\" rel=\"nofollow\">Awesome Web Desktops</a> &amp; <a href=\"https://github.com/zriyans/awesome-OS\" target=\"_blank\" rel=\"nofollow\">Awesome OS</a></p>",
     "curated": [
       {
         "id": 1,
