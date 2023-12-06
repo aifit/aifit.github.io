@@ -15,7 +15,8 @@
       "type": "Website",
       "year": "2019",
       "uploadedYear": "2023",
-      "uploadedMonth": "11"
+      "uploadedMonth": "11",
+      "isCommercial": false
     },
     {
       "id": 2,
@@ -39,7 +40,8 @@
       "type": "Library",
       "year": "2020",
       "uploadedYear": "2023",
-      "uploadedMonth": "11"
+      "uploadedMonth": "11",
+      "isCommercial": false
     },
     {
       "id": 3,
@@ -56,7 +58,8 @@
       "type": "Website",
       "year": "2021",
       "uploadedYear": "2023",
-      "uploadedMonth": "11"
+      "uploadedMonth": "11",
+      "isCommercial": false
     },
     {
       "id": 4,
@@ -80,7 +83,8 @@
       "type": "Website",
       "year": "2021",
       "uploadedYear": "2023",
-      "uploadedMonth": "11"
+      "uploadedMonth": "11",
+      "isCommercial": false
     },
     {
       "id": 5,
@@ -97,7 +101,8 @@
       "type": "Microsite",
       "year": "2023",
       "uploadedYear": "2023",
-      "uploadedMonth": "11"
+      "uploadedMonth": "11",
+      "isCommercial": false
     },
     {
       "id": 6,
@@ -114,7 +119,8 @@
       "type": "Microsite",
       "year": "2023",
       "uploadedYear": "2023",
-      "uploadedMonth": "11"
+      "uploadedMonth": "11",
+      "isCommercial": false
     }
   ]
 }

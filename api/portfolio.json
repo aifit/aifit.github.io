@@ -15,7 +15,8 @@
       "type": "Website",
       "year": "2018",
       "uploadedYear": "2023",
-      "uploadedMonth": "11"
+      "uploadedMonth": "11",
+      "isCommercial": false
     },
     {
       "id": 2,
@@ -32,7 +33,8 @@
       "type": "Microsite",
       "year": "2020",
       "uploadedYear": "2023",
-      "uploadedMonth": "11"
+      "uploadedMonth": "11",
+      "isCommercial": true
     },
     {
       "id": 3,
@@ -57,7 +59,8 @@
       "type": "Microsite",
       "year": "2021",
       "uploadedYear": "2023",
-      "uploadedMonth": "12"
+      "uploadedMonth": "12",
+      "isCommercial": false
     }
   ],
   "old": [
