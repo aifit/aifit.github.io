@@ -10,12 +10,14 @@
       "active": false,
       "actionText": "Deprecated",
       "link": "https://bukapotensi.bukalapak.com",
-      "webp": "https://yja.me/img/bukapotensi.webp",
-      "image": "https://yja.me/img/bukapotensi.jpg",
-      "type": "Website",
-      "year": "2019",
-      "uploadedYear": "2023",
-      "uploadedMonth": "11",
+      "images": {
+        "webp": "https://yja.me/img/bukapotensi.webp",
+        "image": "https://yja.me/img/bukapotensi.jpg",
+        "type": "Website",
+        "year": "2019",
+        "uploadedYear": "2023",
+        "uploadedMonth": "11"
+      },
       "isCommercial": false
     },
     {
@@ -27,20 +29,22 @@
       "task": "Design system maintainer",
       "active": false,
       "actionText": "Internal",
-      "slide": [
-        {
-          "webp": "https://yja.me/img/bazaar-dweb.webp",
-          "image": "https://yja.me/img/bazaar-dweb.jpg"
-        },
-        {
-          "webp": "https://yja.me/img/bazaar-mweb.webp",
-          "image": "https://yja.me/img/bazaar-mweb.jpg"
-        }
-      ],
-      "type": "Library",
-      "year": "2020",
-      "uploadedYear": "2023",
-      "uploadedMonth": "11",
+      "slideshow": {
+        "images": [
+          {
+            "webp": "https://yja.me/img/bazaar-dweb.webp",
+            "image": "https://yja.me/img/bazaar-dweb.jpg"
+          },
+          {
+            "webp": "https://yja.me/img/bazaar-mweb.webp",
+            "image": "https://yja.me/img/bazaar-mweb.jpg"
+          }
+        ],
+        "type": "Library",
+        "year": "2020",
+        "uploadedYear": "2023",
+        "uploadedMonth": "11"
+      },
       "isCommercial": false
     },
     {
@@ -53,12 +57,14 @@
       "active": true,
       "actionText": "View",
       "link": "https://about.bukalapak.com",
-      "webp": "https://yja.me/img/aboutbl.webp",
-      "image": "https://yja.me/img/aboutbl.jpg",
-      "type": "Website",
-      "year": "2021",
-      "uploadedYear": "2023",
-      "uploadedMonth": "11",
+      "images": {
+        "webp": "https://yja.me/img/aboutbl.webp",
+        "image": "https://yja.me/img/aboutbl.jpg",
+        "type": "Website",
+        "year": "2021",
+        "uploadedYear": "2023",
+        "uploadedMonth": "11"
+      },
       "isCommercial": false
     },
     {
@@ -70,20 +76,22 @@
       "task": "Develop Nuxt & Firebase app",
       "active": false,
       "actionText": "Internal",
-      "slide": [
-        {
-          "webp": "https://yja.me/img/bi-dashboard-1.webp",
-          "image": "https://yja.me/img/bi-dashboard-1.jpg"
-        },
-        {
-          "webp": "https://yja.me/img/bi-dashboard-2.webp",
-          "image": "https://yja.me/img/bi-dashboard-2.jpg"
-        }
-      ],
-      "type": "Website",
-      "year": "2021",
-      "uploadedYear": "2023",
-      "uploadedMonth": "11",
+      "slideshow": {
+        "images": [
+          {
+            "webp": "https://yja.me/img/bi-dashboard-1.webp",
+            "image": "https://yja.me/img/bi-dashboard-1.jpg"
+          },
+          {
+            "webp": "https://yja.me/img/bi-dashboard-2.webp",
+            "image": "https://yja.me/img/bi-dashboard-2.jpg"
+          }
+        ],
+        "type": "Website",
+        "year": "2021",
+        "uploadedYear": "2023",
+        "uploadedMonth": "11"
+      },
       "isCommercial": false
     },
     {
@@ -96,12 +104,14 @@
       "active": true,
       "actionText": "View",
       "link": "https://sayyesido.com/store",
-      "webp": "https://yja.me/img/yid-store.webp",
-      "image": "https://yja.me/img/yid-store.jpg",
-      "type": "Microsite",
-      "year": "2023",
-      "uploadedYear": "2023",
-      "uploadedMonth": "11",
+      "images": {
+        "webp": "https://yja.me/img/yid-store.webp",
+        "image": "https://yja.me/img/yid-store.jpg",
+        "type": "Microsite",
+        "year": "2023",
+        "uploadedYear": "2023",
+        "uploadedMonth": "11"
+      },
       "isCommercial": false
     },
     {
@@ -114,12 +124,14 @@
       "active": true,
       "actionText": "View",
       "link": "https://sayyesido.com/weton",
-      "webp": "https://yja.me/img/yid-weton.webp",
-      "image": "https://yja.me/img/yid-weton.jpg",
-      "type": "Microsite",
-      "year": "2023",
-      "uploadedYear": "2023",
-      "uploadedMonth": "11",
+      "images": {
+        "webp": "https://yja.me/img/yid-weton.webp",
+        "image": "https://yja.me/img/yid-weton.jpg",
+        "type": "Microsite",
+        "year": "2023",
+        "uploadedYear": "2023",
+        "uploadedMonth": "11"
+      },
       "isCommercial": false
     }
   ]

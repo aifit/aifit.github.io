@@ -10,13 +10,15 @@
       "active": true,
       "actionText": "View",
       "link": "https://netizen.lol",
-      "webp": "https://yja.me/img/netizen.webp",
-      "image": "https://yja.me/img/netizen.jpg",
-      "type": "Website",
-      "year": "2018",
-      "uploadedYear": "2023",
-      "uploadedMonth": "11",
-      "isCommercial": false
+      "isHighlighted": false,
+      "images": {
+        "webp": "https://yja.me/img/netizen.webp",
+        "image": "https://yja.me/img/netizen.jpg",
+        "type": "Website",
+        "year": "2018",
+        "uploadedYear": "2023",
+        "uploadedMonth": "11"
+      }
     },
     {
       "id": 2,
@@ -28,13 +30,15 @@
       "active": true,
       "actionText": "View",
       "link": "https://gorental.id",
-      "webp": "https://yja.me/img/gorental.webp",
-      "image": "https://yja.me/img/gorental.jpg",
-      "type": "Microsite",
-      "year": "2020",
-      "uploadedYear": "2023",
-      "uploadedMonth": "11",
-      "isCommercial": true
+      "isHighlighted": true,
+      "images": {
+        "webp": "https://yja.me/img/gorental.webp",
+        "image": "https://yja.me/img/gorental.jpg",
+        "type": "Microsite",
+        "year": "2020",
+        "uploadedYear": "2023",
+        "uploadedMonth": "11"
+      }
     },
     {
       "id": 3,
@@ -46,21 +50,23 @@
       "active": false,
       "actionText": "Current Website",
       "link": "https://yja.me",
-      "slide": [
-        {
-          "webp": "https://yja.me/img/yjame-clear.webp",
-          "image": "https://yja.me/img/yjame-clear.jpg"
-        },
-        {
-          "webp": "https://yja.me/img/yjame-windowp.webp",
-          "image": "https://yja.me/img/yjame-windowp.jpg"
-        }
-      ],
-      "type": "Microsite",
-      "year": "2021",
-      "uploadedYear": "2023",
-      "uploadedMonth": "12",
-      "isCommercial": false
+      "slideshow": {
+        "images": [
+          {
+            "webp": "https://yja.me/img/yjame-clear.webp",
+            "image": "https://yja.me/img/yjame-clear.jpg"
+          },
+          {
+            "webp": "https://yja.me/img/yjame-windowp.webp",
+            "image": "https://yja.me/img/yjame-windowp.jpg"
+          }
+        ],
+        "type": "Microsite",
+        "year": "2021",
+        "uploadedYear": "2023",
+        "uploadedMonth": "12"
+      },
+      "isHighlighted": false
     }
   ],
   "old": [
