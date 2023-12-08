@@ -125,7 +125,7 @@
   },
   "website": {
     "title": "Website",
-    "intro": "<div style=\" text-align: center; margin-bottom: -5px;\"><p>This is an experimental website that inspired by Web Desktop, and here's a curated list of it <a href=\"https://github.com/syxanash/awesome-web-desktops\" target=\"_blank\" rel=\"nofollow\">Awesome Web Desktops</a> &amp; <a href=\"https://github.com/zriyans/awesome-OS\" target=\"_blank\" rel=\"nofollow\">Awesome OS</a>.</p> <p style=\"padding-top: 7px; border-top: 1px solid transparent; display: inline-block; \"><i style=\"color: #757575\">font</i>&nbsp;<a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> &nbsp;&nbsp; <i style=\"color: #757575\">icon</i>&nbsp;<a href=\"https://tabler-icons.io\" target=\"_blank\" rel=\"nofollow\">TablerIcons</a></p> ",
+    "intro": "<div style=\" text-align: center; margin-bottom: -8px;\"><p style=\"margin-bottom: 0\">This is an experimental website that inspired by Web Desktop, and here's a curated list of it <a href=\"https://github.com/syxanash/awesome-web-desktops\" target=\"_blank\" rel=\"nofollow\">Awesome Web Desktops</a> &amp; <a href=\"https://github.com/zriyans/awesome-OS\" target=\"_blank\" rel=\"nofollow\">Awesome OS</a>.</p> <p style=\"margin-top: 15px; padding-top: 8px; border-top: 1px solid #e8e8e8; display: block; \"><i style=\"color: #757575\">Font</i>&nbsp;<a href=\"https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom\" target=\"_blank\" rel=\"nofollow\">IBM Plex</a> &nbsp;&nbsp; <i style=\"color: #757575\">Icon</i>&nbsp;<a href=\"https://tabler-icons.io\" target=\"_blank\" rel=\"nofollow\">TablerIcons</a></p> ",
     "curated": [
       {
         "id": 1,
