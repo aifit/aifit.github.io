@@ -75,13 +75,13 @@
         {
           "title": "Long Ago",
           "featured": {
-            "title": "<p style=\"margin-bottom: 10px\">I have worked for several years in various local and multinational digital agencies as a <strong>UI Developer</strong>, responsible for slicing from Photoshop to HTML, CSS, and jQuery. Some of the work has been featured on:</p>",
+            "title": "<p style=\"margin-bottom: 5px\">I have worked for several years in various local and multinational digital agencies as a UI Developer, responsible for slicing from Photoshop to HTML, CSS, and jQuery.</p> <p style=\"margin-bottom: 5px\"><strong>Some of the work has been featured on:</strong></p>",
             "place": [
               {
                 "id": 1,
                 "iconName": "link",
                 "link": "https://www.awwwards.com/sites/festival-mantap-kopi-abc",
-                "text": "Awwwards - SOTD June 10, 2012"
+                "text": "Awwwards - SOTD 2012"
               },
               {
                 "id": 2,
