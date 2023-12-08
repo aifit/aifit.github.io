@@ -74,10 +74,8 @@
       "intro": [
         {
           "title": "Long Ago",
-          "role": "Front-end Web Developer",
-          "task": "Convert PSD to HTML",
           "featured": {
-            "title": "Some work has been featured on",
+            "title": "<p style=\"margin-bottom: 10px\">I have worked for several years in various local and multinational digital agencies as a <strong>UI Developer</strong>, responsible for slicing from Photoshop to HTML, CSS, and jQuery. Some of the work has been featured on:</p>",
             "place": [
               {
                 "id": 1,
