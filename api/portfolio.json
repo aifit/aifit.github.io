@@ -75,7 +75,7 @@
         {
           "title": "Long Ago",
           "featured": {
-            "title": "<p style=\"margin-bottom: 15px\">I have worked for several years in various local and multinational digital agencies as a <i>UI Developer</i>, responsible for slicing Photoshop files into HTML.</p> <p style=\"margin-bottom: 3px\"><strong>Some work has been featured on</strong></p>",
+            "title": "<p style=\"margin-bottom: 15px\">I have worked for several years in various local and multinational digital agencies as a <i>UI Developer</i>, responsible for slicing Photoshop files into HTML.</p> <p style=\"margin-bottom: 1px\"><strong>Some work has been featured on</strong></p>",
             "place": [
               {
                 "id": 1,
