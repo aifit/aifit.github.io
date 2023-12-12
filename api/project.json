@@ -18,7 +18,7 @@
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isCommercial": false
+      "isHighlighted": false
     },
     {
       "id": 2,
@@ -45,7 +45,7 @@
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isCommercial": false
+      "isHighlighted": true
     },
     {
       "id": 3,
@@ -65,7 +65,7 @@
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isCommercial": false
+      "isHighlighted": false
     },
     {
       "id": 4,
@@ -92,7 +92,7 @@
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isCommercial": false
+      "isHighlighted": false
     },
     {
       "id": 5,
@@ -112,7 +112,7 @@
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isCommercial": false
+      "isHighlighted": false
     },
     {
       "id": 6,
@@ -132,7 +132,7 @@
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isCommercial": false
+      "isHighlighted": false
     }
   ]
 }
