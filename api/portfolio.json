@@ -53,12 +53,16 @@
       "slideshow": {
         "images": [
           {
-            "webp": "https://yja.me/img/yjame-clear.webp",
-            "image": "https://yja.me/img/yjame-clear.jpg"
+            "webp": "https://yja.me/img/yjamegreen.webp",
+            "image": "https://yja.me/img/yjamegreen.jpg"
           },
           {
-            "webp": "https://yja.me/img/yjame-windowp.webp",
-            "image": "https://yja.me/img/yjame-windowp.jpg"
+            "webp": "https://yja.me/img/yjamepink.webp",
+            "image": "https://yja.me/img/yjamepink.jpg"
+          },
+          {
+            "webp": "https://yja.me/img/yjameyellow.webp",
+            "image": "https://yja.me/img/yjameyellow.jpg"
           }
         ],
         "type": "Microsite",
