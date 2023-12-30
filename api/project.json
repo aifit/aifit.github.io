@@ -15,10 +15,11 @@
         "image": "https://yja.me/img/bukapotensi.jpg",
         "type": "Website",
         "year": "2019",
+        "awarded": false,
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isHighlighted": false
+      "highlighted": false
     },
     {
       "id": 2,
@@ -42,10 +43,11 @@
         ],
         "type": "Library",
         "year": "2020",
+        "awarded": false,
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isHighlighted": true
+      "highlighted": true
     },
     {
       "id": 3,
@@ -62,10 +64,11 @@
         "image": "https://yja.me/img/aboutbl.jpg",
         "type": "Website",
         "year": "2021",
+        "awarded": false,
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isHighlighted": false
+      "highlighted": false
     },
     {
       "id": 4,
@@ -89,10 +92,11 @@
         ],
         "type": "Website",
         "year": "2021",
+        "awarded": false,
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isHighlighted": false
+      "highlighted": false
     },
     {
       "id": 5,
@@ -109,10 +113,11 @@
         "image": "https://yja.me/img/yid-store.jpg",
         "type": "Microsite",
         "year": "2023",
+        "awarded": false,
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isHighlighted": false
+      "highlighted": false
     },
     {
       "id": 6,
@@ -129,10 +134,11 @@
         "image": "https://yja.me/img/yid-weton.jpg",
         "type": "Microsite",
         "year": "2023",
+        "awarded": false,
         "uploadedYear": "2023",
         "uploadedMonth": "11"
       },
-      "isHighlighted": false
+      "highlighted": false
     }
   ]
 }
