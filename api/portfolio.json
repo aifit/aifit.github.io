@@ -105,6 +105,7 @@
           "image": "https://yja.me/img/gatsby.jpg",
           "type": "Website",
           "year": "2012",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -116,6 +117,7 @@
           "image": "https://yja.me/img/festival.jpg",
           "type": "Microsite",
           "year": "2012",
+          "awarded": true,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -127,6 +129,7 @@
           "image": "https://yja.me/img/funfamilympv.jpg",
           "type": "Microsite",
           "year": "2012",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -138,6 +141,7 @@
           "image": "https://yja.me/img/mamypoko.jpg",
           "type": "Microsite",
           "year": "2013",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -149,6 +153,7 @@
           "image": "https://yja.me/img/hokben.jpg",
           "type": "Website",
           "year": "2013",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -160,6 +165,7 @@
           "image": "https://yja.me/img/uniqlo-usj.jpg",
           "type": "Microsite",
           "year": "2013",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -171,6 +177,7 @@
           "image": "https://yja.me/img/uniqlo.jpg",
           "type": "Template",
           "year": "2013",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -182,6 +189,7 @@
           "image": "https://yja.me/img/infografik.jpg",
           "type": "Microsite",
           "year": "2014",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -193,6 +201,7 @@
           "image": "https://yja.me/img/bebaslembab.jpg",
           "type": "Microsite",
           "year": "2014",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -204,6 +213,7 @@
           "image": "https://yja.me/img/hijaboftheday.jpg",
           "type": "Microsite",
           "year": "2014",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -215,6 +225,7 @@
           "image": "https://yja.me/img/generasisabi.jpg",
           "type": "Microsite",
           "year": "2016",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -226,6 +237,7 @@
           "image": "https://yja.me/img/changiyuk.jpg",
           "type": "Microsite",
           "year": "2016",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -237,6 +249,7 @@
           "image": "https://yja.me/img/solemate.jpg",
           "type": "Microsite",
           "year": "2016",
+          "awarded": true,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -248,6 +261,7 @@
           "image": "https://yja.me/img/epicbanana.jpg",
           "type": "Microsite",
           "year": "2016",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         },
@@ -259,6 +273,7 @@
           "image": "https://yja.me/img/sgm.jpg",
           "type": "Website",
           "year": "2018",
+          "awarded": false,
           "uploadedYear": "2023",
           "uploadedMonth": "11"
         }
