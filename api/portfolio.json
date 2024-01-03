@@ -4,7 +4,7 @@
       "id": 1,
       "group": "Personal",
       "title": "ARWAN.me",
-      "description": "Content-focused blog and portfolio built with <a href='https://www.11ty.dev/' target='_blank' rel='nofollow'>Eleventy</a> static site generator, with zero-Javascript output. View the source code on <a href='https://github.com/aifit/arwanmev2' target='_blank' rel='nofollow'>GitHub</a>.",
+      "description": "Content-focused blog and portfolio built with <a href='https://www.11ty.dev/' target='_blank' rel='nofollow'>Eleventy</a> static site generator that previously used Jekyll. The source code is available on <a href='https://github.com/aifit/arwanmev2' target='_blank' rel='nofollow'>GitHub</a>.",
       "role": "Front-end Engineer",
       "task": "Create 11ty static site",
       "active": true,
@@ -15,7 +15,7 @@
         "webp": "https://yja.me/img/arwanmev2.webp",
         "image": "https://yja.me/img/arwanmev2.jpg",
         "type": "Website",
-        "year": "2017",
+        "year": "2015",
         "awarded": false,
         "uploadedYear": "2024",
         "uploadedMonth": "01"
