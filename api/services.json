@@ -31,7 +31,7 @@
       {
         "id": 1,
         "title": "Getting brief from client",
-        "description": "Clients share project details and requirements."
+        "description": "Client shares project details and requirements, if no <i>tech stack</i> is chosen, I'll recommend one based on their needs."
       },
       {
         "id": 2,
