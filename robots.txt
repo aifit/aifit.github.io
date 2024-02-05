@@ -2,6 +2,9 @@ User-agent: *
 Disallow: /img
 Disallow: /data
 Disallow: /dist
+Disallow: /form
+Disallow: /ty
+Disallow: /404
 User-agent: Yahoo Pipes 1.0
 Disallow: /
 User-agent: 008
