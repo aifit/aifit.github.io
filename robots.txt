@@ -1,6 +1,6 @@
 User-agent: *
 Disallow: /img
-Disallow: /data
+Disallow: /api
 Disallow: /dist
 Disallow: /form
 Disallow: /ty
