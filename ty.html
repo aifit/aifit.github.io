@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="favicon-new.png" rel="icon" type="image/png">
-    <title>Page Not Found &bull; Yahya J. Aifit</title>
+    <title>Thank You! &bull; Yahya J. Aifit</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://yja.me/">
     <style>
@@ -13,6 +13,10 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+      }
+
+      a {
+        text-decoration: none;
       }
 
       body {
@@ -33,7 +37,7 @@
         position: relative;
         background: white;
         border-radius: 3px;
-        padding: 40px 15px 30px;
+        padding: 50px 30px 30px;
       }
 
       .logo {
@@ -63,10 +67,24 @@
 
       .subtitle {
         font-size: 17px;
+        margin-bottom: 30px;
         color: #757575;
       }
+
+      .cta {
+        font-size: 14px;
+        padding: 8px 12px;
+        background: #ee5113;
+        color: white;
+        border-radius: 3px;
+        transition: background .2s ease;
+        border: 1px solid #ee5113;
+      }
+
+      .cta:hover {
+        background: #FF7640;
+      }
     </style>
-    <meta http-equiv="refresh" content="3; url = https://yja.me" />
   </head>
   <body>
     <div class="wrapper">
@@ -84,8 +102,11 @@
           </svg>
 
       </div>
-      <div class="title">404 &bull; Page not found</div>
-      <div class="subtitle">Redirect to homepage in 3 second</div>
+      <div class="title">Thank you for submitting your project inquiry!</div>
+      <div class="subtitle">Your information has been successfully received. I will review your requirements and get back to you shortly.</div>
+      <a href="https://yja.me" class="cta">
+        Back to YJA.me
+      </a>
     </div>
   </body>
 </html>
