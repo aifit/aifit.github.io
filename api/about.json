@@ -94,35 +94,42 @@
       },
       {
         "id": 2,
+        "link": "https://id.pinterest.com/aifit/",
+        "iconName": "pinterest",
+        "text": "Pinterest"
+      },
+      {
+        "id": 3,
+        "link": "https://youtube.com/efeksamping",
+        "iconName": "youtube",
+        "text": "Youtube"
+      },
+      {
+        "id": 4,
         "link": "https://steamcommunity.com/id/pxlfckr/",
         "iconName": "steam",
         "text": "Steam"
       },
       {
-        "id": 3,
-        "link": "https://twitter.com/omipit",
-        "iconName": "twitter"
-      },
-      {
-        "id": 4,
-        "link": "https://www.youtube.com/@efeksamping/videos",
-        "iconName": "youtube",
-        "text": "Youtube"
-      },
-      {
         "id": 5,
+        "link": "https://twitter.com/omipit",
+        "iconName": "twitter",
+        "text": "Twitter"
+      },
+      {
+        "id": 6,
         "link": "https://www.strava.com/athletes/6310795",
         "iconName": "strava",
         "text": "Strava"
       },
       {
-        "id": 6,
+        "id": 7,
         "link": "https://github.com/aifit",
         "iconName": "github",
         "text": "GitHub"
       },
       {
-        "id": 7,
+        "id": 8,
         "link": "https://linkedin.com/in/yja",
         "iconName": "linkedin",
         "text": "LinkedIn"
