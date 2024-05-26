@@ -1,147 +1,343 @@
 {
+  "changelog": {
+    "content": [
+      {
+        "changes": [
+          {
+            "description": "Adding a <a href=\"https://en.wikipedia.org/wiki/Feature_toggle\" target=\"_blank\" rel=\"nofollow\">feature toggle</a> to enable or disable the WordPress image CDN & <code>Services</code> menu"
+          },
+          {
+            "description": "Save the chosen theme setting to <code>localStorage</code>"
+          }
+        ],
+        "date": "Dec 08, 2023",
+        "version": "v1.13.0"
+      },
+      {
+        "changes": [
+          {
+            "description": "Implement dynamic active <code>Popup</code> that looks like macOS window behavior"
+          },
+          {
+            "description": "Bug fixing: <ul><li>Clickable element inside <code>Popup</code> blocked by <code>@mousedown</code> event</li></ul>"
+          },
+          {
+            "description": "Component improvements: <ul><li><code>Popup</code></li> <li><code>Color</code></li> <li><code>Knob</code></li></ul>"
+          }
+        ],
+        "date": "Nov 24, 2023",
+        "version": "v1.12.0"
+      },
+      {
+        "changes": [
+          {
+            "description": "Bounce the <code>Popup</code> if it's already open after visitor clicks the <code>Folder</code>"
+          },
+          {
+            "description": "Adding new <code>Thumbnail</code> variant"
+          },
+          {
+            "description": "Component improvements: <ul><li><code>Popup</code></li> <li><code>Notify</code></li> <li><code>Folder</code></li> <li><code>Thumbnail</code></li></ul>"
+          }
+        ],
+        "date": "Nov 16, 2023",
+        "version": "v1.11.0"
+      },
+      {
+        "changes": [
+          {
+            "description": "Use WordPress CDN to serve images"
+          },
+          {
+            "description": "Component improvement: <ul><li><code>Slideshow</code></li></ul>"
+          }
+        ],
+        "date": "Nov 09, 2023",
+        "version": "v1.10.0"
+      },
+      {
+        "changes": [
+          {
+            "description": "Visitor able to change theme"
+          },
+          {
+            "description": "Create new <code>Folder</code> and <code>Popup</code> variant for highlighted menu"
+          },
+          {
+            "description": "Implement dynamic <code>z-index</code> between active <code>Popup</code>"
+          },
+          {
+            "description": "Component improvements: <ul><li><code>Post</code></li> <li><code>Folder</code></li> <li><code>Popup</code></li> <li><code>BottomBar</code></li></ul>"
+          }
+        ],
+        "date": "Oct 29, 2023",
+        "version": "v1.9.0"
+      },
+      {
+        "changes": [
+          {
+            "description": "Replace the blog thumbnail using image from WordPress CDN"
+          },
+          {
+            "description": "Component improvement: <ul><li><code>Thumbnail</code></li></ul>"
+          }
+        ],
+        "date": "Oct 10, 2023",
+        "version": "v1.8.1"
+      },
+      {
+        "changes": [
+          {
+            "description": "Handle multiple project image using slideshow"
+          },
+          {
+            "description": "Double click inside the <code>Popup</code> head to maximize it"
+          },
+          {
+            "description": "New component: <ul><li><code>Slideshow</code></li></ul>"
+          },
+          {
+            "description": "Component improvements: <ul><li><code>Popup</code></li> <li><code>Knob</code></li> <li><code>Icon</code></li></ul>"
+          }
+        ],
+        "date": "Jun 18, 2023",
+        "version": "v1.8.0"
+      },
+      {
+        "changes": [
+          {
+            "description": "Fetching Tumblr and WordPress API for mobile version"
+          },
+          {
+            "description": "Component improvements: <ul><li><code>Box</code></li> <li><code>Thumbnail</code></li></ul>"
+          },
+          {
+            "description": "New components: <ul><li><code>Shimmer</code></li> <li><code>ShimmerGroup</code></li></ul>"
+          }
+        ],
+        "date": "Aug 17, 2022",
+        "version": "v1.7.0"
+      },
+      {
+        "changes": [
+          {
+            "description": "Component improvements: <ul><li><code>Knob</code>:</li> <ul><li>Icon position adjustment</li></ul></ul> <ul><li><code>Popup</code>:</li> <ul><li>Enhance inactive style</li><li>Adding overlay when dragged to prevent unexpected hover</li></ul></ul>"
+          }
+        ],
+        "date": "Jan 16, 2022",
+        "version": "v1.6.2"
+      },
+      {
+        "changes": [
+          {
+            "description": "Improving the layout to prevent dragging the entire <code>Popup</code> container out of the <code>Wrapper</code>."
+          }
+        ],
+        "date": "Dec 24, 2021",
+        "version": "v1.6.1"
+      },
+      {
+        "changes": [
+          {
+            "description": "Different behavior on small screen"
+          },
+          {
+            "description": "New components: <ul><li><code>Knob</code></li> <li><code>Expand</code></li> <li><code>BottomBar</code></li> <li><code>Thumbnail</code></li> <li><code>BottomMenu</code></li>"
+          }
+        ],
+        "date": "Nov 30, 2021",
+        "version": "v1.6.0"
+      },
+      {
+        "changes": [
+          {
+            "description": "Bug fixing: <ul><li>Can't back to initial position if <code>Popup</code> closed</li></ul>"
+          },
+          {
+            "description": "Layout improvements: <ul><li>Different CSS style for active and inactive <code>Popup</code></li><li>Show warning message in small screen</li></ul>"
+          },
+          {
+            "description": "New component: <ul><li><code>Announcement</code></li></ul>"
+          }
+        ],
+        "date": "Nov 27, 2021",
+        "version": "v1.5.0"
+      },
+      {
+        "changes": [
+          {
+            "description": "Visitor can change wallpaper"
+          },
+          {
+            "description": "Improve drag performance"
+          },
+          {
+            "description": "Show notification when the network goes offline"
+          },
+          {
+            "description": "Ability to set <code>Popup</code> position manually"
+          },
+          {
+            "description": "New component: <ul><li><code>Color</code></li></ul>"
+          },
+          {
+            "description": "Bug fixing: <ul><li><code>z-index</code> between <code>Popup</code> not working properly</li><li><code>Popup</code> can't back to previous position after click minimize icon</li></ul>"
+          }
+        ],
+        "date": "Mar 13, 2021",
+        "version": "v1.4.0"
+      },
+      {
+        "changes": [
+          {
+            "description": "Initial release"
+          }
+        ],
+        "date": "Mar 07 - 12, 2021",
+        "version": "v1.0.0, v1.2.0, v1.3.0"
+      }
+    ],
+    "title": "Changelog"
+  },
+  "contact": {
+    "actionText": "View Services",
+    "description": "<p style=\"text-align: center\">For project collaboration, you can learn about my <strong>Web Development Services</strong>.</p>",
+    "title": "Services"
+  },
   "crafter": {
-    "title": "Crafter",
-    "webp": "https://yja.me/img/crafter.webp",
+    "description": "A Web Developer, currently living and working in Indonesia.",
     "image": "https://yja.me/img/crafter.jpg",
     "name": "Yahya J. Aifit",
-    "description": "A Web Developer, currently living and working in Indonesia.",
+    "title": "Crafter",
+    "uploadedMonth": "11",
     "uploadedYear": "2023",
-    "uploadedMonth": "11"
+    "webp": "https://yja.me/img/crafter.webp"
+  },
+  "elsewhere": {
+    "data": [
+      {
+        "iconName": "",
+        "id": 1,
+        "link": "https://www.awwwards.com/yja/",
+        "text": "Awwwards"
+      },
+      {
+        "iconName": "pinterest",
+        "id": 2,
+        "link": "https://id.pinterest.com/aifit/",
+        "text": "Pinterest"
+      },
+      {
+        "iconName": "youtube",
+        "id": 3,
+        "link": "https://youtube.com/efeksamping",
+        "text": "Youtube"
+      },
+      {
+        "iconName": "steam",
+        "id": 4,
+        "link": "https://steamcommunity.com/id/pxlfckr/",
+        "text": "Steam"
+      },
+      {
+        "iconName": "twitter",
+        "id": 5,
+        "link": "https://twitter.com/omipit",
+        "text": "Twitter"
+      },
+      {
+        "iconName": "strava",
+        "id": 6,
+        "link": "https://www.strava.com/athletes/6310795",
+        "text": "Strava"
+      },
+      {
+        "iconName": "github",
+        "id": 7,
+        "link": "https://github.com/aifit",
+        "text": "GitHub"
+      },
+      {
+        "iconName": "linkedin",
+        "id": 8,
+        "link": "https://linkedin.com/in/yja",
+        "text": "LinkedIn"
+      }
+    ],
+    "title": "Elsewhere"
+  },
+  "email": {
+    "actionLink": "mailto:yahya@yja.me",
+    "actionText": "yahya@yja.me",
+    "description": "For project collaboration, please feel free to reach me out by email at",
+    "title": "Contact"
   },
   "experience": {
-    "title": "Experience",
-    "note": "For further details, you can visit my LinkedIn profile.",
     "data": [
       {
         "id": 1,
-        "title": "VP Digital",
         "link": "https://www.linkedin.com/company/vp-digital/",
         "period": "2012 - 2013",
-        "role": []
+        "role": [],
+        "title": "VP Digital"
       },
       {
         "id": 2,
-        "title": "Dentsu <span style=\"font-weight: normal\">Digital Division</span>",
         "link": "https://www.linkedin.com/company/dentsujapan/",
         "period": "2013 - 2014",
-        "role": []
+        "role": [],
+        "title": "Dentsu <span style=\"font-weight: normal\">Digital Division</span>"
       },
       {
         "id": 3,
-        "title": "Mirum Agency",
         "link": "https://www.linkedin.com/company/mirum-agency/",
         "period": "2014 - 2015",
-        "role": []
+        "role": [],
+        "title": "Mirum Agency"
       },
       {
         "id": 4,
-        "title": "VP Digital",
         "link": "https://www.linkedin.com/company/vp-digital/",
         "period": "2015 - 2016",
-        "role": []
+        "role": [],
+        "title": "VP Digital"
       },
       {
         "id": 5,
-        "title": "Bridestory",
         "link": "https://www.linkedin.com/company/bridestory/",
         "period": "2016 - 2017",
-        "role": []
+        "role": [],
+        "title": "Bridestory"
       },
       {
         "id": 6,
-        "title": "Bukalapak",
         "link": "https://www.linkedin.com/company/pt-bukalapak-com/",
         "period": "2017 - 2023",
         "role": [
           {
             "id": 1,
-            "title": "UI Engineer",
-            "period": "2017 - 2020"
+            "period": "2017 - 2020",
+            "title": "UI Engineer"
           },
           {
             "id": 2,
-            "title": "UX Engineer",
-            "period": "2020 - 2022"
+            "period": "2020 - 2022",
+            "title": "UX Engineer"
           },
           {
             "id": 3,
-            "title": "Software Engineer &mdash; Front-end",
-            "period": "2022 - 2023"
+            "period": "2022 - 2023",
+            "title": "Front-end Engineer"
           }
-        ]
+        ],
+        "title": "Bukalapak"
       }
-    ]
-  },
-  "contact": {
-    "title": "Services",
-    "description": "<p style=\"text-align: center\">For project collaboration, you can learn about my <strong>Web Development Services</strong>.</p>",
-    "actionText": "View Services"
-  },
-  "email": {
-    "title": "Contact",
-    "description": "For project collaboration, please feel free to reach me out by email at",
-    "actionText": "yahya@yja.me",
-    "actionLink": "mailto:yahya@yja.me"
-  },
-  "elsewhere": {
-    "title": "Elsewhere",
-    "data": [
-      {
-        "id": 1,
-        "link": "https://www.awwwards.com/yja/",
-        "iconName": "",
-        "text": "Awwwards"
-      },
-      {
-        "id": 2,
-        "link": "https://id.pinterest.com/aifit/",
-        "iconName": "pinterest",
-        "text": "Pinterest"
-      },
-      {
-        "id": 3,
-        "link": "https://youtube.com/efeksamping",
-        "iconName": "youtube",
-        "text": "Youtube"
-      },
-      {
-        "id": 4,
-        "link": "https://steamcommunity.com/id/pxlfckr/",
-        "iconName": "steam",
-        "text": "Steam"
-      },
-      {
-        "id": 5,
-        "link": "https://twitter.com/omipit",
-        "iconName": "twitter",
-        "text": "Twitter"
-      },
-      {
-        "id": 6,
-        "link": "https://www.strava.com/athletes/6310795",
-        "iconName": "strava",
-        "text": "Strava"
-      },
-      {
-        "id": 7,
-        "link": "https://github.com/aifit",
-        "iconName": "github",
-        "text": "GitHub"
-      },
-      {
-        "id": 8,
-        "link": "https://linkedin.com/in/yja",
-        "iconName": "linkedin",
-        "text": "LinkedIn"
-      }
-    ]
+    ],
+    "note": "For further details, you can visit my LinkedIn profile.",
+    "title": "Experience"
   },
   "website": {
-    "title": "Website",
-    "intro": "<div style='text-align: left; margin-bottom: -8px;'><p style='margin-bottom: 10px'>An experimental website inspired by <i>Web Desktop</i>, and here's a <a href='https://github.com/syxanash/awesome-web-desktops' target='_blank' rel='nofollow'>curated list</a> of it.</p> <p>Earned an <strong>Honorable Mention</strong> on <a href='https://www.awwwards.com/sites/yahya-j-aifits-portfolio' target='_blank' rel='nofollow'>Awwwards</a>, also has been featured on <a href='https://awesome-vue.js.org/projects-using-vue-js/interactive-experiences.html' target='_blank' rel='nofollow'>Awesome Vue</a>, <a href='https://www.webdesignerdepot.com/best-websites-nov-2023/' target='_blank' rel='nofollow'>Webdesigner Depot</a> and <a href='https://indofolio.framer.website/' target='_blank'>Indofolio</a>.</p><p style='margin-top: 17px; padding-top: 12px; border-top: 1px solid #FFB94A; display: block;'><i style='color: #757575'>font</i>&nbsp;<a href='https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom' target='_blank' rel='nofollow'>IBM Plex</a>&nbsp;&nbsp;<i style='color: #757575'>icon</i>&nbsp;<a href='https://tabler-icons.io' target='_blank' rel='nofollow'>TablerIcons</a></p></div>"
-  },
-  "changelog": {
-    "title": "Changelog",
-    "content": "<p style=\"margin-bottom:5px\"><strong>v1.13.0</strong><i>Dec 08, 2023</i></p> <ul><li>Adding a <a href=\"https://en.wikipedia.org/wiki/Feature_toggle\" target=\"_blank\" rel=\"nofollow\">feature toggle</a> to enable or disable the WordPress image CDN &amp; <code>Services</code> menu</li><li>Save the chosen theme setting to <code>localStorage</code></li></ul>     <p style=\"margin-bottom:5px\"><strong>v1.12.0</strong><i>Nov 24, 2023</i></p> <ul><li>Implement dynamic active <code>Popup</code> that looks like macOS window behavior</li><li>Bug fixing: <ul><li>Clickable element inside <code>Popup</code> blocked by <code>@mousedown</code> event</li></ul></li><li>Component improvements: <ul><li><code>Popup</code></li><li><code>Color</code></li><li><code>Knob</code></li></ul> </li></ul>     <p style=\"margin-bottom:5px\"><strong>v1.11.0</strong><i>Nov 16, 2023</i></p><ul><li>Bounce the <code>Popup</code> if it's already open after visitor clicks the <code>Folder</code></li><li>Adding new <code>Thumbnail</code> variant</li><li>Component improvements: <ul><li><code>Popup</code></li><li><code>Notify</code></li><li><code>Folder</code></li><li><code>Thumbnail</code></li></ul></li></ul></p><p style=\"margin-bottom:5px\"><strong>v1.10.0</strong><i>Nov 09, 2023</i></p> <ul> <li>Use WordPress CDN to serve images</li> <li> Component improvement: <ul> <li><code>Slideshow</code></li> </ul> </li> </ul> <p style=\"margin-bottom:5px\"><strong>v1.9.0</strong><i>Oct 29, 2023</i></p> <ul> <li>Visitor able to change theme</li> <li>Create new <code>Folder</code> and <code>Popup</code> variant for highlighted menu</li> <li>Implement dynamic <code>z-index</code> between active <code>Popup</code></li> <li> Component improvements: <ul> <li><code>Post</code></li> <li><code>Folder</code></li> <li><code>Popup</code></li> <li><code>BottomBar</code></li> </ul> </li> </ul> <p style=\"margin-bottom:5px\"><strong>v1.8.1</strong><i>Oct 10, 2023</i></p> <ul> <li>Replace the blog thumbnail using image from WordPress CDN</li> <li> Component improvement: <ul> <li><code>Thumbnail</code></li> </ul> </li> </ul> <p style=\"margin-bottom:5px\"><strong>v1.8.0</strong><i>Jun 18, 2023</i></p> <ul> <li>Handle multiple project image using slideshow</li> <li>Double click inside the <code>Popup</code> head to maximize it</li> <li> New component: <ul> <li><code>Slideshow</code></li> </ul> </li> <li> Component improvements: <ul> <li><code>Popup</code> <li><code>Knob</code></li> <li><code>Icon</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.7.0</strong><i>Aug 17, 2022</i></p> <ul> <li>Fetching Tumblr and WordPress API for mobile version</li> <li> Component improvements: <ul> <li><code>Box</code></li> <li><code>Thumbnail</code></li> </ul> </li> <li> New components: <ul> <li><code>Shimmer</code></li> <li><code>ShimmerGroup</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.6.2</strong><i>Jan 16, 2022</i></p> <ul> <li> Component improvements: <ul> <li> <code>Knob</code>: <ul> <li>Icon position adjustment</li> </ul> </li> <li> <code>Popup</code>: <ul> <li>Enhance inactive style</li> <li>Adding overlay when dragged to prevent unexpected hover</li> </ul> </li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.6.1</strong><i>Dec 24, 2021</i></p> <ul> <li> Layout improvement: <ul> <li>Prevent dragging the whole <code>Popup</code> container out of <code>Wrapper</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.6.0</strong><i>Nov 30, 2021</i></p> <ul> <li>Different behavior on small screen</li> <li> New components: <ul> <li><code>Knob</code></li> <li><code>Expand</code></li> <li><code>BottomBar</code></li> <li><code>Thumbnail</code></li> <li><code>BottomMenu</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.5.0</strong><i>Nov 27, 2021</i></p> <ul> <li> Bug fixing: <ul> <li>Can't back to initial position if <code>Popup</code> closed</li> </ul> </li> <li> Layout improvements: <ul> <li>Different CSS style for active and inactive <code>Popup</code></li> <li>Show warning message in small screen</li> </ul> </li> <li> New component: <ul> <li><code>Announcement</code></li> </ul> </li> </ul> <p style=\"margin-bottom: 5px\"><strong>v1.4.0</strong><i>Mar 13, 2021</i></p> <ul> <li>Visitor can change wallpaper</li> <li>Improve drag performance</li> <li>Show notification when the network goes offline</li> <li>Ability to set <code>Popup</code> position manually</li> <li> New component: <ul> <li><code>Color</code></li> </ul> <li> Bug fixing: <ul> <li><code>z-index</code> between <code>Popup</code> not working properly</li> <li><code>Popup</code> can't back to previous position after click minimize icon</li> </ul> </li></ul> <p style=\"margin-bottom: 5px\"><strong>v1.0.0, v1.2.0, v1.3.0</strong><i>Mar 07 - 12, 2021</i></p> <ul> <li>Initial release</li> </ul> "
+    "intro": "<div style='text-align: left; margin-bottom: -8px;'><p style='margin-bottom: 10px'>An experimental website inspired by <i>Web Desktop</i>, and here's a <a href='https://github.com/syxanash/awesome-web-desktops' target='_blank' rel='nofollow'>curated list</a> of it.</p> <p>Earned an <strong>Honorable Mention</strong> on <a href='https://www.awwwards.com/sites/yahya-j-aifits-portfolio' target='_blank' rel='nofollow'>Awwwards</a>, also has been featured on <a href='https://awesome-vue.js.org/projects-using-vue-js/interactive-experiences.html' target='_blank' rel='nofollow'>Awesome Vue</a>, <a href='https://www.webdesignerdepot.com/best-websites-nov-2023/' target='_blank' rel='nofollow'>Webdesigner Depot</a> and <a href='https://indofolio.framer.website/' target='_blank'>Indofolio</a>.</p><p style='margin-top: 17px; padding-top: 12px; border-top: 1px solid #FFB94A; display: block;'><i style='color: #757575'>font</i>&nbsp;<a href='https://fonts.google.com/specimen/IBM+Plex+Sans?preview.text_type=custom' target='_blank' rel='nofollow'>IBM Plex</a>&nbsp;&nbsp;<i style='color: #757575'>icon</i>&nbsp;<a href='https://tabler-icons.io' target='_blank' rel='nofollow'>TablerIcons</a></p></div>",
+    "title": "Website"
   }
 }
