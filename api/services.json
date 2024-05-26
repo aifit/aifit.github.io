@@ -1,79 +1,79 @@
 {
-  "status": {
-    "title": "Availability",
-    "headline": "I'm currently <strong>not available</strong> for freelance projects. If you have any questions, you can email me at <strong><a href='mailto:yahya@yja.me'>yahya@yja.me</a></strong>, and I'll get back to you ASAP."
-  },
-  "intro": {
-    "title": "Why Me",
-    "headline": "A web developer with over 10 years of professional experience.",
-    "description": "Have expertise in using <a href=\"https://vuejs.org/\" target=\"_blank\" rel=\"nofollow\">Vue.js</a> framework, creating <a href=\"https://wordpress.org/\" target=\"_blank\" rel=\"nofollow\">WordPress</a> themes, and utilizing website builder platforms like <a href=\"https://www.wix.com/studio\" target=\"_blank\" rel=\"nofollow\">Wix</a>, <a href=\"https://webflow.com/\" target=\"_blank\" rel=\"nofollow\">Webflow</a> or <a href=\"https://www.framer.com/\" target=\"_blank\" rel=\"nofollow\">Framer</a>."
-  },
-  "list": {
-    "title": "What I Do",
-    "data": [
-      {
-        "id": 1,
-        "title": "Microsite for digital campaign",
-        "description": "Develop websites for short-term marketing goals, such as campaigns, product launches, events, and promotions."
-      },
-      {
-        "id": 2,
-        "title": "WordPress theme development",
-        "description": "Develop custom themes for WordPress, suitable for company profiles, blogs, educational, and news websites."
-      },
-      {
-        "id": 3,
-        "title": "Development from web builder",
-        "description": "Help you create a website using a web builder. This service is ideal for small businesses, and nonprofit websites."
-      }
-    ]
-  },
   "flow": {
-    "title": "How I Work",
-    "intro": "In general here is the development workflow",
     "data": [
       {
+        "description": "Client shares project details and requirements.",
         "id": 1,
-        "title": "Getting brief from client",
-        "description": "Client shares project details and requirements, if no <i>tech stack</i> is chosen, I'll recommend one based on their needs."
+        "title": "Getting brief from client"
       },
       {
+        "description": "The project is divided into clear tasks and features.",
         "id": 2,
-        "title": "Task Breakdown",
-        "description": "The project is divided into clear tasks and features."
+        "title": "Task Breakdown"
       },
       {
+        "description": "Tasks are assigned into sprints and executed based on priorities.",
         "id": 3,
-        "title": "Start Development (Phase 1)",
-        "description": "Tasks are assigned into sprints and executed based on priorities."
+        "title": "Start Development (Phase 1)"
       },
       {
+        "description": "An MVP is created, focusing on essential features.",
         "id": 4,
-        "title": "Minimum Viable Product (MVP)",
-        "description": "An MVP is created, focusing on essential features."
+        "title": "Minimum Viable Product (MVP)"
       },
       {
+        "description": "Doing improvements based on client feedback.",
         "id": 5,
-        "title": "Start Development (Phase 2)",
-        "description": "Doing improvements based on client feedback."
+        "title": "Start Development (Phase 2)"
       },
       {
+        "description": "The product is tested internally and by the client.",
         "id": 6,
-        "title": "User Acceptance Testing (UAT)",
-        "description": "The product is tested internally and by the client."
+        "title": "User Acceptance Testing (UAT)"
       },
       {
+        "description": "Once the client approves, the website is deployed to production.",
         "id": 7,
-        "title": "Deployed to Production",
-        "description": "Once the client approves, the website is deployed to production."
+        "title": "Deployed to Production"
       }
-    ]
+    ],
+    "intro": "In general here is the development workflow",
+    "title": "How I Work"
   },
   "hire": {
     "description": "Tell me about your project by filling out my <i>Project Inquiry Form</i>",
     "form": {
-      "text": "Open Project Inquiry Form",
-      "link": "https://yja.me/form"
+      "link": "https://yja.me/form",
+      "text": "Open Project Inquiry Form"
     }
+  },
+  "intro": {
+    "description": "Have expertise in using <a href=\"https://vuejs.org/\" target=\"_blank\" rel=\"nofollow\">Vue.js</a> framework, creating <a href=\"https://wordpress.org/\" target=\"_blank\" rel=\"nofollow\">WordPress</a> themes, and utilizing website builder platforms like <a href=\"https://www.wix.com/studio\" target=\"_blank\" rel=\"nofollow\">Wix</a>, <a href=\"https://webflow.com/\" target=\"_blank\" rel=\"nofollow\">Webflow</a> or <a href=\"https://www.framer.com/\" target=\"_blank\" rel=\"nofollow\">Framer</a>.",
+    "headline": "A web developer with over 10 years of professional experience.",
+    "title": "Why Me"
+  },
+  "list": {
+    "data": [
+      {
+        "description": "Develop websites for short-term marketing goals, such as campaigns, product launches, events, and promotions.",
+        "id": 1,
+        "title": "Microsite for digital campaign"
+      },
+      {
+        "description": "Develop custom themes for WordPress, suitable for company profiles, blogs, educational, and news websites.",
+        "id": 2,
+        "title": "WordPress theme development"
+      },
+      {
+        "description": "Help you create a website using a web builder. This service is ideal for small businesses, and nonprofit websites.",
+        "id": 3,
+        "title": "Development from web builder"
+      }
+    ],
+    "title": "What I Do"
+  },
+  "status": {
+    "headline": "I'm currently <strong>not available</strong> for freelance projects. If you have any questions, you can email me at <strong><a href='mailto:yahya@yja.me'>yahya@yja.me</a></strong>, and I'll get back to you ASAP.",
+    "title": "Availability"
   }
 }
