@@ -1,144 +1,144 @@
 {
   "data": [
     {
-      "id": 1,
-      "group": "Bukalapak",
-      "title": "BukaPotensi",
-      "description": "Website for Bukalapak talent team to show their programs. Built with WordPress, and use custom <a href='https://wordpress.org/gutenberg/' target='_blank' rel='nofollow'> Gutenberg Blocks</a>.",
-      "role": "WordPress theme developer",
-      "task": "Create custom WordPress theme",
-      "active": false,
       "actionText": "Deprecated",
-      "link": "https://bukapotensi.bukalapak.com",
+      "active": false,
+      "description": "Website for Bukalapak talent team to show their programs. Built with WordPress, and use custom <a href='https://wordpress.org/gutenberg/' target='_blank' rel='nofollow'> Gutenberg Blocks</a>.",
+      "group": "Bukalapak",
+      "highlighted": false,
+      "id": 1,
       "images": {
-        "webp": "https://yja.me/img/bukapotensi.webp",
+        "awarded": false,
         "image": "https://yja.me/img/bukapotensi.jpg",
         "type": "Website",
-        "year": "2019",
-        "awarded": false,
+        "uploadedMonth": "11",
         "uploadedYear": "2023",
-        "uploadedMonth": "11"
+        "webp": "https://yja.me/img/bukapotensi.webp",
+        "year": "2019"
       },
-      "highlighted": false
+      "link": "https://bukapotensi.bukalapak.com",
+      "role": "WordPress theme developer",
+      "task": "Create custom WordPress theme",
+      "title": "BukaPotensi"
     },
     {
-      "id": 2,
-      "group": "Bukalapak",
-      "title": "Bazaar Design System",
-      "description": "One of my responsibilities as a UX Engineer was maintaining a design system called <i>Bazaar</i>, which involved bug fixing, creating new components, and documenting their usage. This design system was used across <a href='https://www.bukalapak.com/' target='_blank' rel='nofollow'>Bukalapak</a> marketplace.",
-      "role": "UI/UX Engineer",
-      "task": "Design system maintainer",
-      "active": false,
       "actionText": "Internal",
+      "active": false,
+      "description": "One of my responsibilities as a UX Engineer was maintaining a design system called <i>Bazaar</i>, which involved bug fixing, creating new components, and documenting their usage. This design system was used across <a href='https://www.bukalapak.com/' target='_blank' rel='nofollow'>Bukalapak</a> marketplace.",
+      "group": "Bukalapak",
+      "highlighted": true,
+      "id": 2,
+      "role": "UI/UX Engineer",
       "slideshow": {
+        "awarded": false,
         "images": [
           {
-            "webp": "https://yja.me/img/bazaar-dweb.webp",
-            "image": "https://yja.me/img/bazaar-dweb.jpg"
+            "image": "https://yja.me/img/bazaar-dweb.jpg",
+            "webp": "https://yja.me/img/bazaar-dweb.webp"
           },
           {
-            "webp": "https://yja.me/img/bazaar-mweb.webp",
-            "image": "https://yja.me/img/bazaar-mweb.jpg"
+            "image": "https://yja.me/img/bazaar-mweb.jpg",
+            "webp": "https://yja.me/img/bazaar-mweb.webp"
           }
         ],
         "type": "Library",
-        "year": "2020",
-        "awarded": false,
+        "uploadedMonth": "11",
         "uploadedYear": "2023",
-        "uploadedMonth": "11"
+        "year": "2020"
       },
-      "highlighted": true
+      "task": "Design system maintainer",
+      "title": "Bazaar Design System"
     },
     {
-      "id": 3,
-      "group": "Bukalapak",
-      "title": "Bukalapak Company Profile",
-      "description": "Colaborate with Designer and Front-end Engineer to built a company profile website for Bukalapak.",
-      "role": "UI/UX Engineer",
-      "task": "Create custom Vue.js component",
-      "active": true,
       "actionText": "View",
-      "link": "https://about.bukalapak.com",
+      "active": true,
+      "description": "Colaborate with Designer and Front-end Engineer to built a company profile website for Bukalapak.",
+      "group": "Bukalapak",
+      "highlighted": false,
+      "id": 3,
       "images": {
-        "webp": "https://yja.me/img/aboutbl.webp",
+        "awarded": false,
         "image": "https://yja.me/img/aboutbl.jpg",
         "type": "Website",
-        "year": "2021",
-        "awarded": false,
+        "uploadedMonth": "11",
         "uploadedYear": "2023",
-        "uploadedMonth": "11"
+        "webp": "https://yja.me/img/aboutbl.webp",
+        "year": "2021"
       },
-      "highlighted": false
+      "link": "https://about.bukalapak.com",
+      "role": "UI/UX Engineer",
+      "task": "Create custom Vue.js component",
+      "title": "Bukalapak Company Profile"
     },
     {
-      "id": 4,
-      "group": "Bukalapak",
-      "title": "Admin Dashboard for Bukalapak Insight",
-      "description": "Online repository platform employed by the UX research team for the purpose of aggregating research findings. Built with <a href='https://nuxt.com/' target='_blank' rel='nofollow'>NuxtJS</a> and powered by the real-time capabilities of the Firebase database.",
-      "role": "UI/UX Engineer",
-      "task": "Develop Nuxt & Firebase app",
-      "active": false,
       "actionText": "Internal",
+      "active": false,
+      "description": "Online repository platform employed by the UX research team for the purpose of aggregating research findings. Built with <a href='https://nuxt.com/' target='_blank' rel='nofollow'>NuxtJS</a> and powered by the real-time capabilities of the Firebase database.",
+      "group": "Bukalapak",
+      "highlighted": false,
+      "id": 4,
+      "role": "UI/UX Engineer",
       "slideshow": {
+        "awarded": false,
         "images": [
           {
-            "webp": "https://yja.me/img/bi-dashboard-1.webp",
-            "image": "https://yja.me/img/bi-dashboard-1.jpg"
+            "image": "https://yja.me/img/bi-dashboard-1.jpg",
+            "webp": "https://yja.me/img/bi-dashboard-1.webp"
           },
           {
-            "webp": "https://yja.me/img/bi-dashboard-2.webp",
-            "image": "https://yja.me/img/bi-dashboard-2.jpg"
+            "image": "https://yja.me/img/bi-dashboard-2.jpg",
+            "webp": "https://yja.me/img/bi-dashboard-2.webp"
           }
         ],
         "type": "Website",
-        "year": "2021",
-        "awarded": false,
+        "uploadedMonth": "11",
         "uploadedYear": "2023",
-        "uploadedMonth": "11"
+        "year": "2021"
       },
-      "highlighted": false
+      "task": "Develop Nuxt & Firebase app",
+      "title": "Admin Dashboard for Bukalapak Insight"
     },
     {
-      "id": 5,
-      "group": "Yes I Do",
-      "title": "Marketplace Page",
-      "description": "Utilizes the <a href='https://www.wix.com/velo/feature/database' target='_blank' rel='nofollow'>Wix Database</a> to create interactive store pages that contain data from several marketplaces in Indonesia. Additionally, users can search for products and filter them by rating and price.",
-      "role": "Front-end Engineer",
-      "task": "Create custom Wix page",
-      "active": false,
       "actionText": "Deprecated",
-      "link": "https://sayyesido.com/store",
+      "active": false,
+      "description": "Utilizes the <s style='color: #A8A8A8'>Wix Database</s> to create interactive store pages that contain data from several marketplaces in Indonesia. Additionally, users can search for products and filter them by rating and price.",
+      "group": "Yes I Do",
+      "highlighted": false,
+      "id": 5,
       "images": {
-        "webp": "https://yja.me/img/yid-store.webp",
+        "awarded": false,
         "image": "https://yja.me/img/yid-store.jpg",
         "type": "Microsite",
-        "year": "2023",
-        "awarded": false,
+        "uploadedMonth": "11",
         "uploadedYear": "2023",
-        "uploadedMonth": "11"
+        "webp": "https://yja.me/img/yid-store.webp",
+        "year": "2023"
       },
-      "highlighted": false
+      "link": "https://sayyesido.com/store",
+      "role": "Front-end Engineer",
+      "task": "Create custom <s style='color: #A8A8A8'>Wix</s> page",
+      "title": "Marketplace Page"
     },
     {
-      "id": 6,
-      "group": "Yes I Do",
-      "title": "Weton Calculation Tools",
-      "description": "Matchmaking prediction tool based on calculations of <i>Weton</i> from the Javanese calendar, designed with the goal of enhancing user engagement. It was developed within the Wix environment and powered by the <a href='https://www.wix.com/velo' target='_blank' rel='nofollow'>Velo Platform</a>.",
-      "role": "Front-end Engineer",
-      "task": "Create custom Wix page",
-      "active": true,
       "actionText": "View",
-      "link": "https://sayyesido.com/weton",
+      "active": true,
+      "description": "Matchmaking prediction tool based on calculations of <i>Weton</i> from the Javanese calendar, designed with the goal of enhancing user engagement. It was developed within the Wix environment and powered by the <s style='color: #A8A8A8'>Velo Platform</s>.",
+      "group": "Yes I Do",
+      "highlighted": false,
+      "id": 6,
       "images": {
-        "webp": "https://yja.me/img/yid-weton.webp",
+        "awarded": false,
         "image": "https://yja.me/img/yid-weton.jpg",
         "type": "Microsite",
-        "year": "2023",
-        "awarded": false,
+        "uploadedMonth": "11",
         "uploadedYear": "2023",
-        "uploadedMonth": "11"
+        "webp": "https://yja.me/img/yid-weton.webp",
+        "year": "2023"
       },
-      "highlighted": false
+      "link": "https://sayyesido.com/weton",
+      "role": "Front-end Engineer",
+      "task": "Create custom <s style='color: #A8A8A8'>Wix</s> page",
+      "title": "Weton Calculation Tools"
     }
   ]
 }
