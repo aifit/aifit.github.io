@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "name": "wordpress-cdn",
-      "active": true
+      "active": true,
+      "name": "wordpress-cdn"
     },
     {
-      "name": "service-visible",
-      "active": true
+      "active": true,
+      "name": "service-visible"
     },
     {
-      "name": "availability",
-      "active": false
+      "active": false,
+      "name": "availability"
     }
   ]
 }

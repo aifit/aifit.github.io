@@ -1,48 +1,48 @@
 {
   "tumblr": [
     {
-      "title": "Snapshot",
       "description": "Tumblr photoblog, taken with a cell phone.",
       "shortcut": [
         {
-          "id": 1,
           "iconName": "link",
+          "id": 1,
           "link": "https://pxlfckr.tumblr.com/",
           "text": "Posts"
         },
         {
-          "id": 2,
           "iconName": "link",
+          "id": 2,
           "link": "https://pxlfckr.tumblr.com/archive",
           "text": "Archive"
-        }        
-      ]
+        }
+      ],
+      "title": "Snapshot"
     }
   ],
   "wordpress": [
     {
-      "title": "Netizen LOL",
       "description": "My blog about daily activity, photo gallery, and notes about WebDev.",
       "shortcut": [
         {
+          "iconName": "link",
           "id": 1,
-          "iconName": "link",
           "link": "https://netizen.lol/jurnal",
-          "text": "Journal"          
+          "text": "Journal"
         },
         {
+          "iconName": "link",
           "id": 2,
-          "iconName": "link",
           "link": "https://netizen.lol/galeri",
-          "text": "Gallery"          
+          "text": "Gallery"
         },
         {
-          "id": 3,
           "iconName": "link",
+          "id": 3,
           "link": "https://netizen.lol/webdev",
-          "text": "WebDev"          
-        }                
-      ]
+          "text": "WebDev"
+        }
+      ],
+      "title": "Netizen LOL"
     }
   ]
 }
