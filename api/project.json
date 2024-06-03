@@ -101,7 +101,7 @@
     {
       "actionText": "Deprecated",
       "active": false,
-      "description": "Utilizes the <s style='color: #A8A8A8'>Wix Database</s> to create interactive store pages that contain data from several marketplaces in Indonesia. Additionally, users can search for products and filter them by rating and price.",
+      "description": "Utilizes the <span style='color: #A8A8A8'>Wix Database</span> to create interactive store pages that contain data from several marketplaces in Indonesia. Additionally, users can search for products and filter them by rating and price.",
       "group": "Yes I Do",
       "highlighted": false,
       "id": 5,
@@ -116,13 +116,13 @@
       },
       "link": "https://sayyesido.com/store",
       "role": "Front-end Engineer",
-      "task": "Create custom <s style='color: #A8A8A8'>Wix</s> page",
+      "task": "Create custom <span style='color: #A8A8A8'>Wix</span> page",
       "title": "Marketplace Page"
     },
     {
       "actionText": "View",
       "active": true,
-      "description": "Matchmaking prediction tool based on calculations of <i>Weton</i> from the Javanese calendar, designed with the goal of enhancing user engagement. It was developed within the Wix environment and powered by the <s style='color: #A8A8A8'>Velo Platform</s>.",
+      "description": "Matchmaking prediction tool based on calculations of <i>Weton</i> from the Javanese calendar, designed with the goal of enhancing user engagement. It was developed within the Wix environment and powered by the <span style='color: #A8A8A8'>Velo Platform</span>.",
       "group": "Yes I Do",
       "highlighted": false,
       "id": 6,
@@ -137,7 +137,7 @@
       },
       "link": "https://sayyesido.com/weton",
       "role": "Front-end Engineer",
-      "task": "Create custom <s style='color: #A8A8A8'>Wix</s> page",
+      "task": "Create custom <span style='color: #A8A8A8'>Wix</span> page",
       "title": "Weton Calculation Tools"
     }
   ]
