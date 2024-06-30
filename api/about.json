@@ -277,60 +277,74 @@
       {
         "id": 1,
         "link": "https://www.linkedin.com/company/vp-digital/",
-        "period": "2012 - 2013",
+        "period": "2012 → 2013",
         "role": [],
         "title": "VP Digital"
       },
       {
         "id": 2,
         "link": "https://www.linkedin.com/company/dentsujapan/",
-        "period": "2013 - 2014",
+        "period": "2013 → 2014",
         "role": [],
         "title": "Dentsu <span style=\"font-weight: normal\">Digital Division</span>"
       },
       {
         "id": 3,
         "link": "https://www.linkedin.com/company/mirum-agency/",
-        "period": "2014 - 2015",
+        "period": "2014 → 2015",
         "role": [],
         "title": "Mirum Agency"
       },
       {
         "id": 4,
         "link": "https://www.linkedin.com/company/vp-digital/",
-        "period": "2015 - 2016",
+        "period": "2015 → 2016",
         "role": [],
         "title": "VP Digital"
       },
       {
         "id": 5,
         "link": "https://www.linkedin.com/company/bridestory/",
-        "period": "2016 - 2017",
+        "period": "2016 → 2017",
         "role": [],
         "title": "Bridestory"
       },
       {
         "id": 6,
         "link": "https://www.linkedin.com/company/pt-bukalapak-com/",
-        "period": "2017 - 2023",
+        "period": "2017 → 2023",
         "role": [
           {
             "id": 1,
-            "period": "2017 - 2020",
+            "period": "2017 → 2020",
             "title": "UI Engineer"
           },
           {
             "id": 2,
-            "period": "2020 - 2022",
+            "period": "2020 → 2022",
             "title": "UX Engineer"
           },
           {
             "id": 3,
-            "period": "2022 - 2023",
+            "period": "2022 → 2023",
             "title": "Front-end Engineer"
           }
         ],
         "title": "Bukalapak"
+      },
+      {
+        "id": 7,
+        "link": "",
+        "period": "2024",
+        "role": [
+          {
+            "id": 1,
+            "period": "March → Now",
+            "stacks": "As a Front-End Engineer, using Vue.js and Tailwind CSS.",
+            "title": "Independent Contractor"
+          }
+        ],
+        "title": "Self-Employed"
       }
     ],
     "note": "For further details, you can visit my LinkedIn profile.",
