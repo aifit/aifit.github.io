@@ -2,7 +2,7 @@
   "flow": {
     "data": [
       {
-        "description": "Client shares project details and requirements.",
+        "description": "The client shares project details, requirements, and a visual overview.",
         "id": 1,
         "title": "Getting brief from client"
       },
