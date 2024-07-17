@@ -2,12 +2,12 @@
   "flow": {
     "data": [
       {
-        "description": "The client shares project details, requirements, and a visual overview.",
+        "description": "Client shares project details, and a visual overview.",
         "id": 1,
         "title": "Getting brief from client"
       },
       {
-        "description": "The project is divided into clear tasks and features.",
+        "description": "Project is divided into features, then into clear tasks",
         "id": 2,
         "title": "Task Breakdown"
       },
