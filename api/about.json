@@ -222,44 +222,50 @@
         "text": "Awwwards"
       },
       {
-        "iconName": "pinterest",
+        "iconName": "peerlist",
         "id": 2,
+        "link": "https://peerlist.io/aifit",
+        "text": "Peerlist"
+      },
+      {
+        "iconName": "pinterest",
+        "id": 3,
         "link": "https://id.pinterest.com/aifit/",
         "text": "Pinterest"
       },
       {
         "iconName": "youtube",
-        "id": 3,
+        "id": 4,
         "link": "https://youtube.com/efeksamping",
         "text": "Youtube"
       },
       {
         "iconName": "steam",
-        "id": 4,
+        "id": 5,
         "link": "https://steamcommunity.com/id/pxlfckr/",
         "text": "Steam"
       },
       {
         "iconName": "twitter",
-        "id": 5,
+        "id": 6,
         "link": "https://twitter.com/omipit",
         "text": "Twitter"
       },
       {
         "iconName": "strava",
-        "id": 6,
+        "id": 7,
         "link": "https://www.strava.com/athletes/6310795",
         "text": "Strava"
       },
       {
         "iconName": "github",
-        "id": 7,
+        "id": 8,
         "link": "https://github.com/aifit",
         "text": "GitHub"
       },
       {
         "iconName": "linkedin",
-        "id": 8,
+        "id": 9,
         "link": "https://linkedin.com/in/yja",
         "text": "LinkedIn"
       }
